@@ -2,6 +2,9 @@
     "name": "Arturia",
     "about_url": null,
     "license_url": "https://github.com/sandtare/discourse-theme/blob/main/LICENSE",
+     "assets": {
+        "supply-medium": "assets/medium.woff2"
+   }
     "color_schemes": {
         "light": {
           "primary": "222222",
