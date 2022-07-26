@@ -1,1 +1,1 @@
-# discourse-theme
+# forum-theme
