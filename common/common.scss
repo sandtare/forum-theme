@@ -32,6 +32,12 @@
     border: none;
     & .category-box-inner {
       border: none;
-    }   
+      & h3 {
+        text-align: left;
+      }
+      & .description {
+        text-align: left;
+      }
+    } 
   }    
 }  
