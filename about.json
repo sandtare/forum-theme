@@ -4,7 +4,7 @@
     "license_url": "https://github.com/sandtare/discourse-theme/blob/main/LICENSE",
     "color_schemes": {
         "light": {
-          "primary": "333",
+          "primary": "88af8e",
           "secondary": "ffffff",
           "tertiary": "88af8e",
           "quaternary": "88af8e",
