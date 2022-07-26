@@ -26,3 +26,12 @@
     margin-bottom: 1.5rem;
   } 
 }  
+
+.category-boxes {
+  & .category-box {
+    border: none;
+    & .category-box-inner {
+      border: none;
+    }   
+  }    
+}  
