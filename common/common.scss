@@ -70,14 +70,6 @@ html {
     }
 }
 
-//Fix the menu overhidding the content of the page
-.main-content {
-    margin-top: $navbar-height;
-
-    @include media-breakpoint-up(sm) {
-        margin-top: $navbar-md-height;
-    }
-}
 .layout-up-spacer {
     position: absolute;
     top: -4.25rem;
