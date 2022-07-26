@@ -68,9 +68,6 @@ html {
     * {
         scroll-margin: 100px;
     }
-    @media (min-width: map-get($grid-breakpoints, lg)) {
-        font-size: 16px;
-    }
 }
 
 //Fix the menu overhidding the content of the page
