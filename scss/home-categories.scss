@@ -41,10 +41,10 @@ tbody {
     display: none;
  }    
   
-.category-name {
+.parent-category {
   overflow:hidden;
 }
-.category-name:after{
+.parent-category:after{
   content:'';
   display:inline-block;
   width:100%; 
