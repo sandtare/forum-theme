@@ -37,8 +37,12 @@ tbody {
     }
 }    
     
-.value:after {
-    content: ' topics';  
+.value {
+    font-weight: initial;
+    font-size: 0.8rem;
+    :after {
+        content: ' topics';  
+    }     
 }    
 
 .parent-category {
