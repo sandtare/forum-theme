@@ -55,13 +55,16 @@ tbody {
 }
 
 .parent-category {
-    h3 {
-        font-family: supply-light;
-    }
     .category-name {
+        font-family: supply-light;
         font-size: 1.5em;
         margin-top: 30px;
     }
-}    
- 
+}  
+
+.category-text-title {
+    .category-name {
+        font-family: supply-medium;
+    }
+ } 
 
