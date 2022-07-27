@@ -40,7 +40,7 @@ tbody {
 .value {
     font-weight: initial;
     font-size: 0.8rem;
-    :after {
+    &:after {
         content: ' topics';  
     }     
 }    
@@ -57,7 +57,7 @@ tbody {
   }
   .category-name {
       font-family: supply-light;
-      font-size: 1.5em;
+      font-size: 1.8em;
       margin-top: 30px;
   }  
   .value {
