@@ -38,8 +38,8 @@ tbody {
 }    
     
 .value {
-    font-weight: initial;
-    font-size: 0.8rem;
+    font-weight: initial!important;
+    font-size: 0.8rem!important;
     &:after {
         content: ' topics';  
     }     
