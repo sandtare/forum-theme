@@ -1,0 +1,33 @@
+.top-menu {
+    position: relative;
+    height: 72px;
+}
+
+.top-menu .menu-placeholder {
+    margin-top: 15px!important;
+}
+
+.header-submenus {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+  margin-bottom: 5px;
+}
+
+.top-menu:before {
+    background-image: url('https://dev.forum.arturia.team/uploads/default/original/1X/6787e4405f06035b668c21d53618a0ecdc2ac9b6.png');
+    background-size: 210px 72px;
+    display: inline-block;
+    width: 210px; 
+    height: 72px;
+    content:"";
+    position: absolute;
+    top: 0px;
+}
+
+.top-menu .menu-item {
+    font-family: supply-medium;
+    font-size: 14px;
+}  
+
+.top-menu .menu-placeholder {
+    margin: 0 auto;
+}
