@@ -18,7 +18,11 @@ th.topics,
 th.latest,
 th.featured-topic {
     display: none;
-}    
+} 
+
+tr {
+    padding: 20px 10px;
+ }    
     
 .value:after {
     content: ' topics';  
