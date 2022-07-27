@@ -1,5 +1,19 @@
 @import "ranges-colors";
 
+.category-list tbody {
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-list tbody tr {
+    width: 50%;
+    display: flex;
+}
+.category-list tbody .category {
+    flex: 1;
+}
+
+
+
 
 .parent-category {
   h3 {
