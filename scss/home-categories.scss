@@ -10,18 +10,18 @@
 }  
 
 .category-boxes {
-  & .category-box {
+   .category-box {
     border: none;
     width: 100%;
-    & .category-box-inner {
+     .category-box-inner {
       border: none;
       & h3 {
         text-align: left;
       }
-      & .description {
+       .description {
         text-align: left;
       }
-      & .subcategories {
+       .subcategories {
         display: block;
       }
     } 
