@@ -4,7 +4,7 @@
     "license_url": "https://github.com/sandtare/discourse-theme/blob/main/LICENSE",
      "assets": {
         "supply-bold": "assets/supply-bold.woff2",
-         "banner": "banner.png"
+        "supply-regular": "assets/supply-regular.woff2"
    },
     "color_schemes": {
         "light": {
