@@ -32,39 +32,32 @@ thead tr {
 
 tbody {
     border-top : none;
+    .category-name {
+        font-family: supply-medium;
+    }
 }    
     
 .value:after {
     content: ' topics';  
 }    
 
-.parent-category .value {
-    display: none;
- }    
-  
 .parent-category {
   overflow:hidden;
+  &:after{
+      content:'';
+      display:inline-block;
+      width:100%; 
+      height:100%;
+      margin-right:-100%;
+      border-bottom:1px solid #000;
+  }
+  .category-name {
+      font-family: supply-light;
+      font-size: 1.5em;
+      margin-top: 30px;
+  }  
+  .value {
+    display: none;
+  }     
 }
-.parent-category:after{
-  content:'';
-  display:inline-block;
-  width:100%; 
-  height:100%;
-  margin-right:-100%;
-  border-bottom:1px solid #000;
-}
-
-.parent-category {
-    .category-name {
-        font-family: supply-light;
-        font-size: 1.5em;
-        margin-top: 30px;
-    }
-}  
-
-.categories-only-category {
-    .category-name {
-        font-family: supply-medium;
-    }
- } 
 
