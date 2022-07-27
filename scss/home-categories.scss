@@ -22,7 +22,11 @@ th.featured-topic {
 
 tr {
     padding: 20px 10px;
- }    
+ }  
+
+tdbody tr:lastchild {
+    border-bottom: none;
+}
     
 .value:after {
     content: ' topics';  
@@ -32,3 +36,5 @@ tr {
     display: none;
  }    
   
+
+
