@@ -15,14 +15,19 @@
     width: 100%;
      .category-box-inner {
       border: none;
-      & h3 {
+      h3 {
         text-align: left;
       }
-       .description {
+      .description {
         text-align: left;
       }
-       .subcategories {
+      .subcategories {
         display: block;
+        category-name {
+          font-size: 16px;
+          margin-right: 1em;
+          margin-bottom: 0.6em;
+        }    
       }
     } 
   }    
