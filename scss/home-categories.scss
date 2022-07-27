@@ -24,9 +24,13 @@ tr {
     padding: 20px 10px;
  }  
 
-tr:lastchild {
+tr:last-child {
     border-bottom: none;
 }
+
+tbody {
+    border-top : none;
+}    
     
 .value:after {
     content: ' topics';  
