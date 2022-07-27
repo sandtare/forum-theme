@@ -14,9 +14,13 @@
 
 td.latest,
 td.featured-topic,
+th.topics,
 th.latest,
 th.featured-topic {
     display: none;
 }    
     
+.value:after {
+    content: 'topics';  
+}    
 
