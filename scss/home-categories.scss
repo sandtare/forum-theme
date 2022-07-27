@@ -24,7 +24,7 @@ tr {
     padding: 20px 10px;
  }  
 
-tbody:nth-last-child(-n+2) {
+tbody tr:nth-last-child(-n+2) {
     border-bottom: none;
 }
 
