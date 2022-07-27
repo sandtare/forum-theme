@@ -9,7 +9,7 @@
   } 
 }  
 
-.category-boxes {
+.categories-list .category-boxes {
   
    .category-box {
     border: none;
@@ -49,14 +49,16 @@
           }    
       }
     } 
-  }    
-} 
-
-
-.badge-wrapper.bullet .badge-category-bg {
+  } 
+  
+  .badge-wrapper.bullet .badge-category-bg {
   height: 100%;
   position: absolute;
 }
+
+} 
+
+
 
 .subcategory-image-placeholder {
     display: none!important;
