@@ -25,7 +25,7 @@ tr {
  }  
 
 tbody tr:nth-last-child(-n+2),
-thread tr {
+thead tr {
     border-bottom: none;
 }
 
