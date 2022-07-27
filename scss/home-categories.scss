@@ -10,36 +10,48 @@
 }  
 
 .category-boxes {
+  
    .category-box {
     border: none;
     width: 100%;
-     .category-box-inner {
+     
+    .category-box-inner {
       border: none;
+      
       h3 {
         text-align: left;
-        overflow:hidden;
+        overflow: hidden;
+        
         &:after{
-          content:'';
-          display:inline-block;
-          width:100%; height:100%;
-          margin-right:-100%;
-          border-bottom:1px solid #000;
+          content: '';
+          display: inline-block;
+          width: 100%; 
+          height: 100%;
+          margin-right: -100%;
+          border-bottom: 1px solid #000;
         }
+        
       }
+       
       .description {
         text-align: left;
       }
+       
       .subcategories {
-        display: block;
-        .category-name {
-          font-size: 16px;
-          margin-right: 1em;
-          margin-bottom: 0.6em;
-        }    
+          a {
+            width: 50%;
+          }  
+            
+          .category-name {
+            font-size: 16px;
+            margin-right: 1em;
+            margin-bottom: 0.6em;
+          }    
       }
     } 
   }    
 } 
+
 
 .badge-wrapper.bullet .badge-category-bg {
   height: 50px;
