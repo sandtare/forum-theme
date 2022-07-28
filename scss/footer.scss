@@ -23,6 +23,9 @@
       align-items: center !important;
     }
 
+     .help-txt p {
+         padding-right: 50px;
+     }  
       
     .col-12 {
       flex: 0 0 100%;
@@ -58,21 +61,12 @@
           max-width: 1080px;
         }
     }
-
-    .my-3 {
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
      
-     .help-text p {
-         padding-right: 50px;
-     }    
-
     .btn-primary:hover {
-      border-color: #000;
+        border-color: #000;
     }
 
     .btn-primary:hover {
-      background-color: #00b1a9;
+        background-color: #00b1a9;
     }
 }
