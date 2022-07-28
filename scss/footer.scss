@@ -72,4 +72,21 @@
     .btn-primary:hover {
         background-color: #00b1a9;
     }
+     
+    .btn:before {
+          content: '';
+          background-color: black;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 10px;
+          z-index: -1;
+          &:hover {
+            left: 10px;
+            width: calc(100% - 10px);
+            transition: width .3s ease-in-out,left .15s ease-in-out;
+         }
+      }
+
 }
