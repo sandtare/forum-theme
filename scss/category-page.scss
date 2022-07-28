@@ -1,5 +1,13 @@
-body[class*='category-'] .category-list tbody tr { 
-  display: flex;
-  width: 200%;
-  padding: 20px 10px;
+body[class*='category-'] { 
+
+  .category-list tbody tr { 
+    display: flex;
+    width: 200%;
+    padding: 20px 10px;
+  }
+
+  .top-lists { 
+      display: none;
+   }
 }
+  
