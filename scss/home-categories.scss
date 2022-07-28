@@ -1,67 +1,70 @@
 @import "ranges-colors";
 @import "fonts";
 
-.navigation-categories tbody {
-    display: flex;
-    flex-wrap: wrap;
-}
-.navigation-categories tbody tr {
-    width: 48%;
-    display: flex;
-}
-.navigation-categories tbody .category {
-    flex: 1;
-}
-
-td.latest,
-td.featured-topic,
-th.topics,
-th.latest,
-th.featured-topic {
-    display: none;
-} 
-
-tr {
-    padding: 20px 10px;
- }  
-
-tbody tr:nth-last-child(-n+2),
-thead tr {
-    border-bottom: none;
-}
-
-tbody {
-    border-top : none;
-    .category-name {
-        font-family: supply-medium;
-    }
-}    
+.navigation-categories {
     
-.value {
-    font-weight: initial!important;
-    font-size: 1rem!important;
-    &:after {
-        content: ' topics';  
-    }     
-}    
+    tbody {
+        border-top : none;
+        display: flex;
+        flex-wrap: wrap;
+        .category {
+            flex: 1;
+        }
+        .category-name {
+            font-family: supply-medium;
+        }     
+    }
 
-.parent-category {
-  overflow:hidden;
-  &:after{
-      content:'';
-      display:inline-block;
-      width:100%; 
-      height:100%;
-      margin-right:-100%;
-      border-bottom:1px solid #000;
-  }
-  .category-name {
-      font-family: supply-light;
-      font-size: 1.8em;
-      margin-top: 30px;
-  }  
-  .value {
-    display: none;
-  }     
-}
+    tbody tr {
+        width: 48%;
+        display: flex;
+        &:nth-last-child(-n+2) {
+            border-bottom: none;
+        }
+    }
+    
+    td.latest,
+    td.featured-topic,
+    th.topics,
+    th.latest,
+    th.featured-topic {
+        display: none;
+    } 
 
+    tr {
+        padding: 20px 10px;
+     }  
+
+    thead tr {
+        border-bottom: none;
+    }
+
+    .value {
+        font-weight: initial!important;
+        font-size: 1rem!important;
+        &:after {
+            content: ' topics';  
+        }     
+    }    
+
+    .parent-category {
+      overflow:hidden;
+      &:after{
+          content:'';
+          display:inline-block;
+          width:100%; 
+          height:100%;
+          margin-right:-100%;
+          border-bottom:1px solid #000;
+      }
+      .category-name {
+          font-family: supply-light;
+          font-size: 1.8em;
+          margin-top: 30px;
+      }  
+      .value {
+        display: none;
+      }     
+    }
+
+ }
