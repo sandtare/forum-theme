@@ -1,15 +1,15 @@
 @import "ranges-colors";
 @import "fonts";
 
-.category-list tbody {
+.navigation-categories tbody {
     display: flex;
     flex-wrap: wrap;
 }
-.category-list tbody tr {
+.navigation-categories tbody tr {
     width: 48%;
     display: flex;
 }
-.category-list tbody .category {
+.navigation-categories tbody .category {
     flex: 1;
 }
 
