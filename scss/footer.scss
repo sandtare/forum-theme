@@ -98,3 +98,7 @@
        }
     }
 }
+
+body:not(category-technical-discussions) .help { 
+  display: none; 
+}
