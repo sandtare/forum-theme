@@ -25,7 +25,9 @@
 
      .help-txt {
          padding-left: 30px;
-         padding-right: 50px;
+         p {
+            padding-right: 50px;
+         }     
      }  
       
     .col-12 {
