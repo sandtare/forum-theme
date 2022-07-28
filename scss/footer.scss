@@ -72,11 +72,11 @@
        z-index: 2;
        background-color: $base;
        color: $primary;
-       font-size: 16px;
+       font-size: 20px;
        font-family: supply-medium;
        &:before {
           content: '';
-          background-color: black;
+          background-color: $primary;
           position: absolute;
           top: 0;
           left: 0;
