@@ -1,3 +1,24 @@
+<script type="text/javascript">
+ 
+   $('.category-list a').on('click', function() {
+    //selecting the syllabus class
+      $select = $('<div class="title"></div>');
+      $(this).parents('li').each(function(n, li) {
+         //Adding / to each anchor tag of li
+          $select.prepend(' / ',$(li).children('a').clone());
+      });
+    // Displaying the hierarchical order of pages.
+    $('.clearfix').html(
+      $select.prepend('<a href="#title">Forum</a>'));   
+})
+ 
+</script>
+
+
+
+
+
+
 <script type="text/discourse-plugin" version="0.8">
   // This is the plugin outlet, followed by a custom name for the component
   api.registerConnectorClass("below-site-header", "custom-homepage", {
