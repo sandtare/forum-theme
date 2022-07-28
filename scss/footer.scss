@@ -83,15 +83,15 @@
           height: 100%;
           width: 10px;
           z-index: -1;
-          &:hover {
-            left: 10px;
-            width: calc(100% - 10px);
-            transition: width .3s ease-in-out,left .15s ease-in-out;
-            }
-         }
-         &:hover {
-            color: $secondary;
-            transition: .3s ease-in-out;
-        }
+       }    
+       &:hover:before {
+          left: 10px;
+          width: calc(100% - 10px);
+          transition: width .3s ease-in-out,left .15s ease-in-out;
+       }
+       &:hover {
+          color: $secondary;
+          transition: .3s ease-in-out;
+       }
     }
 }
