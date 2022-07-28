@@ -64,16 +64,14 @@
           max-width: 1080px;
         }
     }
-     
-    .btn-primary:hover {
-        border-color: #000;
-    }
-
-    .btn-primary:hover {
-        background-color: #00b1a9;
-    }
-     
-    .btn:before {
+        
+    .btn {
+       border: 1px black solid;
+       padding: 10px 20px 10px 30px;
+       position: relative;
+       z-index: 2;
+       background-color: #fff;
+       :before {
           content: '';
           background-color: black;
           position: absolute;
@@ -86,7 +84,11 @@
             left: 10px;
             width: calc(100% - 10px);
             transition: width .3s ease-in-out,left .15s ease-in-out;
+            }
          }
-      }
-
+         :hover {
+            color: #fff;
+            transition: .3s ease-in-out;
+        }
+    }
 }
