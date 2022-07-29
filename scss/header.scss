@@ -2,8 +2,12 @@
 
 .d-header {
   background-color: $gray;
+  #site-text-logo {
+      font-size: 16px;
+}  
 }  
 
 .d-header-icons .d-icon {
   color: $primary;
 }
+
