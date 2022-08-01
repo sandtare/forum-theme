@@ -276,6 +276,6 @@
   color: $base!important;
 }
 
-.nav-item:active .nav-link {
+.nav-item:nth-child(3) .nav-link {
   color: $active!important;
 }
