@@ -57,3 +57,18 @@ mb-4, .my-4 {
 .img-responsive {
   display: block;
 }
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
