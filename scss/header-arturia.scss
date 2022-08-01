@@ -87,3 +87,49 @@
 .navbar {
   list-style: none;
 }
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse {
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse {
+    flex-grow: initial;
+    background-color: #f6f6f6;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    position: initial;
+    width: auto;
+    z-index: 1;
+  }
+}  
+  
+.navbar-collapse {
+    align-items: center;
+}
+  
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+}
+  
+@media (min-width: 992px) {
+  .navbar-nav {
+  margin-top: 0;
+  margin-left: -2px;
+  background-color: #fff;
+  }
+}
+  
+ .navbar-nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+  
