@@ -1,0 +1,39 @@
+.top {
+  background-color: #ffffff;
+}
+
+.header {
+  position: relative;
+  align-items: center;
+  height: 39px;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+@media (min-width: 576px) {
+  .header {
+    height: 58.5px;
+  }
+}  
+
+@media (min-width: 992px) {
+  .header {
+    height: 72px;
+  }
+}
+
+@media (min-width: 1160px) {
+  .header {
+    padding: 0;
+    height: 72px;
+  }
+}
+
+.btn-primary, .header {
+  font-family: supply-medium;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+  
