@@ -261,3 +261,10 @@
   display: inline-block;
   }
 }
+
+  @media (min-width: 576px)
+.container-fluid {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
