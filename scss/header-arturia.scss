@@ -67,3 +67,23 @@
     justify-content: flex-start;
   }
 }
+
+.container-fluid
+  flex-wrap: nowrap;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.navbar {
+  list-style: none;
+}
