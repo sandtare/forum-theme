@@ -147,3 +147,20 @@
   font-size: 0.9334em;
   }
 }
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.nav-link, .nav-link:focus, .nav-link:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 1.5rem;
+}
+
+nav-link {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
