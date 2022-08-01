@@ -235,11 +235,12 @@ media (min-width: 992px) {
     }
 }
 
-@media (min-width: 992px)
+@media (min-width: 992px) {
 .navbar-brand img {
   height: 48px;
   width: 166px;
 }
+  }
 
 @media (min-width: 992px) {
   .navbar-brand {
