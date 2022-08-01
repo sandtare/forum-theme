@@ -164,3 +164,99 @@
 nav-link {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.prep::before {
+  content: "_";
+}
+
+.navbar-toggler {
+  display: block;
+  height: 15px;
+  padding: 0;
+  position: absolute;
+  top: 13px;
+  margin-left: 17.8px;
+  transform: rotate(0deg);
+  transition: transform .5s ease-in-out;
+  width: 20px;
+  z-index: 1;
+  font-size: 1.17188em;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+}  
+  
+navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+media (min-width: 992px) {
+.navbar-expand-lg .navbar-toggler {
+  display: none;
+  }
+}
+.navbar-brand {
+  font-size: 0;
+  margin: 0 auto;
+    margin-left: auto;
+  outline: none;
+  z-index: 1;
+  display: inline-block;
+  line-height: inherit;
+  white-space: nowrap;
+  margin-left: 0.75rem;
+}
+
+@media (min-width: 576px) {
+.navbar-brand {
+  background-color: #00FFF0;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  padding: 9.5px;
+  }
+}
+
+.navbar-brand::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: -0.75rem;
+  top: 0;
+  transition: width .3s ease-in-out,left .15s ease-in-out;
+  width: .75rem;
+  background: #000;
+}
+
+@media (min-width: 768px) {
+  .logo_container img:last-child {
+  display: none;
+    }
+}
+
+@media (min-width: 992px)
+.navbar-brand img {
+  height: 48px;
+  width: 166px;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+  width: 198px;
+  padding: 0.85rem 1rem;
+  }
+}
+
+ @media (min-width: 992px) {
+.navbar-brand img {
+  height: 48px;
+  width: 166px;
+  }
+}
+
+@media (min-width: 768px) {
+.logo_container img:first-child {
+  display: inline-block;
+  }
+}
