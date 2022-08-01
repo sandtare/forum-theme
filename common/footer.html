@@ -14,62 +14,101 @@
       </div>  
    </div>  
  </section>
+
+
 <footer class="bg-black text-white py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12 col-sm-6 col-lg-3 mb-4">
-        <img src="{{asset 'logo-white.svg'}}" alt="LOGO" class="d-none d-md-inline">
-      </div> 
-      <div class="col col-12 col-sm-6 col-lg-3 mb-4">
-        <h5 class="prep text-uppercase">{{dc 'products'}}</h5> 
-        <ul class="list-unstyled">
-          <li><a href="https://www.arturia.com/products#hardware-synths">{{dc 'hardware_synthesizers'}}</a></li> 
-          <li><a href="https://www.arturia.com/products#hybrid-synths">{{dc 'controllers'}}</a></li> 
-          <li><a href="https://www.arturia.com/products#audio">{{dc 'audio_interfaces'}}</a></li> 
-          <li><a href="https://www.arturia.com/products#analog-classics">{{dc 'software_instruments'}}</a></li> 
-          <li><a href="https://www.arturia.com/products#software-effects">{{dc 'software_effects'}}</a></li> 
-          <li><a href="https://www.arturia.com/products##ipad-synths,drums">{{dc 'other'}}</a></li>
-        </ul>
-      </div> 
-      <div class="col col-12 col-sm-6 col-lg-3 mb-4">
-        <h5 class="prep text-uppercase">{{dc 'store_services'}}</h5> 
-        <ul class="list-unstyled">
-          <li><a href="https://www.arturia.com/store">{{dc 'store'}}</a></li> 
-          <li><a href="https://www.arturia.com/support/downloads&amp;manuals">{{dc 'download_manuals'}}</a></li> 
-          <li><a href="https://www.arturia.com/support">{{dc 'support'}}</a></li> 
-          <li><a href="https://arturiahelp.zendesk.com/hc/en-us">{{dc 'faq'}}</a></li> 
-          <li><a href="https://www.arturia.com/community/distributors">{{dc 'distributors'}}</a></li> 
-          <li><a href="https://www.arturia.com/support/return-and-refund">{{dc 'return_refund_policy'}}</a></li>
-        </ul>
-      </div> 
-      <div class="col col-12 col-sm-6 col-lg-3 mb-4"><h5 class="prep text-uppercase">{{dc 'about_us'}}</h5> 
-        <ul class="list-unstyled">
-          <li><a href="https://www.arturia.com/company">{{dc 'discover_arturia'}}</a></li> 
-          <li><a href="https://jobs.arturia.com">{{dc 'jobs'}}</a></li> 
-          <li><a href="https://www.arturia.com/community/education">{{dc 'education'}}</a></li> 
-          <li><a href="https://www.arturia.com/company/press">{{dc 'press_media'}}</a></li>
-        </ul>
-      </div> 
-      <div class="col col-3 d-none d-lg-block"></div> 
-      <div class="col col-9">
-        <ul class="list-inline mb-0">
-          <li class="list-inline-item"><h5 class="prep text-uppercase">{{dc 'social_network'}}</h5></li> 
-          <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/arturia.instruments"><img height="40px" alt="facebook" src="https://www.arturia.com/images/menu/facebook.png"></a></li>
-          <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/user/Arturiaweb"><img height="40px" alt="facebook" src="https://www.arturia.com/images/menu/youtube.png"></a></li> 
-          <li class="list-inline-item"><a target="_blank" href="https://twitter.com/ArturiaOfficial"><img height="40px" alt="facebook" src="https://www.arturia.com/images/menu/twitter.png"></a></li> 
-          <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/arturia_official"><img height="40px" alt="facebook" src="https://www.arturia.com/images/menu/instagram.png"></a></li> 
-          <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@arturia_official"><img height="40px" alt="facebook" src="https://www.arturia.com/images/menu/tiktok.png"></a></li>
-        </ul>
-      </div>
-    </div> 
-    <hr class="border-dark"> 
-    <div class="row pt-3">
-      <div class="col col-12 text-center">
-        <small class="text-muted copyright">
-            Copyright © 2022 {{dc 'all_rights_reserved'}}/ <a href="https://www.arturia.com/support/terms">{{dc 'legal_notices'}}</a> /
-            <a href="https://www.arturia.com/support/privacypolicy">{{dc 'privacy_policy'}}</a>
-        </small>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-6 col-lg-3 mb-4"><img
+                    src="/templates/arturia-bootstrap/webpack/build/assets/imgs/logo-full.svg" alt="ARTURIA"
+                    class="img-responsive" style="filter: invert(1);">
+                <div>
+                    <form name="newsletter-form" id="newsletter-form" class="">
+                        <fieldset class="form-group" id="__BVID__47">
+                            <!---->
+                            <div>
+                                <div role="group" class="input-group mt-3">
+                                    <!----><input id="user_email_formSubscribe" type="email" placeholder="Email address"
+                                        class="form-control">
+                                    <div class="input-group-append"><button type="submit"
+                                            class="input-group-icon icon icon-arrow-right text-white"></button></div>
+                                    <!---->
+                                </div>
+                                <!---->
+                                <!---->
+                                <!---->
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <p>Get expert sound tips, exclusive offers, and endless inspiration straight to your inbox. </p> <small
+                    class="text-muted">Your email will only be used to send you Arturia’s newsletter. You can
+                    unsubscribe anytime, for more information see our Privacy Policy.</small>
+            </div>
+            <div class="col col-12 col-sm-6 col-lg-3 mb-4">
+                <h5 class="prep text-uppercase">Products</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/products#hardware-synths">Hardware Synthesizers</a></li>
+                    <li><a href="/products#hybrid-synths">Controllers</a></li>
+                    <li><a href="/products#audio">Audio</a></li>
+                    <li><a href="/products#analog-classics,software-instruments">Software Instruments</a></li>
+                    <li><a href="/products#software-effects">Software Effects</a></li>
+                    <li><a href="/products##ipad-synths,drums">Other</a></li>
+                </ul>
+            </div>
+            <div class="col col-12 col-sm-6 col-lg-3 mb-4">
+                <h5 class="prep text-uppercase">Store and Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/store">Store</a></li>
+                    <li><a href="/support/downloads&amp;manuals">Download &amp; manuals</a></li>
+                    <li><a href="/support">Support</a></li>
+                    <li><a href="/support/faq">Faq</a></li>
+                    <li><a href="/community/distributors">Distributors</a></li>
+                    <li><a href="/support/return-and-refund">Return and Refund policy</a></li>
+                </ul>
+            </div>
+            <div class="col col-12 col-sm-6 col-lg-3 mb-4">
+                <h5 class="prep text-uppercase">About Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/company">Discover Arturia</a></li>
+                    <li><a href="/company/environmental-policy">Environmental policy</a></li>
+                    <li><a target="_blank" href="https://jobs.arturia.com">Jobs</a></li>
+                    <li><a href="/community/education">Education</a></li>
+                    <li><a href="/company/press">Press &amp; Media</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col col-3 d-none d-lg-block"></div>
+            <div class="col col-9">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <h5 class="prep text-uppercase">Social Networks</h5>
+                    </li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/arturia.instruments"><img
+                                alt="facebook"
+                                src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/facebook.png"
+                                height="40px"></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/user/Arturiaweb"><img alt="facebook"
+                                src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/youtube.png"
+                                height="40px"></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/ArturiaOfficial"><img alt="facebook"
+                                src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/twitter.png"
+                                height="40px"></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/arturia_official"><img
+                                alt="facebook"
+                                src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/instagram.png"
+                                height="40px"></a></li>
+                    <li class="list-inline-item"><a href="https://www.tiktok.com/@arturia_official"><img alt="facebook"
+                                src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/tiktok.png"
+                                height="40px"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="border-dark">
+        <div class="row pt-3">
+            <div class="col col-12 text-center"><small class="text-muted copyright">
+                    Copyright © 2022 Arturia Tous droits réservés / <a href="/support/terms">Legal notices</a> /
+                    <a href="/support/privacypolicy">Data privacy policy</a></small></div>
+        </div>
     </div>
-  </div>
 </footer>
