@@ -273,9 +273,9 @@
 }
 
 .main-menu .navbar-nav .nav-link:hover {
-  color: $base;
+  color: $base!important;
 }
 
 .main-menu .navbar-nav .nav-link:active {
-  color: $active;
+  color: $active!important;
 }
