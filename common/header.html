@@ -1,1 +1,113 @@
-C'est le header
+<nav class="navbar p-md-0 fixed-top navbar-expand-sm"><button type="button" aria-label="Toggle navigation"
+        class="navbar-toggler collapsed" aria-expanded="false" aria-controls="nav-collapse"
+        style="overflow-anchor: none;"><span></span> <span></span></button> <a href="/" target="_self"
+        class="navbar-brand positon-md-absolute">
+        <div class="the-logo ml-sm-2 ml-md-0">
+            <div class="d-inline d-md-none"><img
+                    src="/templates/arturia-bootstrap/webpack/build/assets/imgs/logo-black.svg" alt="ARTURIA"
+                    class="mobile-logo"></div>
+            <div class="btn btn-primary d-none d-md-block"><img
+                    src="/templates/arturia-bootstrap/webpack/build/assets/imgs/logo-full.svg" alt="ARTURIA"></div>
+        </div>
+    </a>
+    <li aria-placeholder="Profile" right="" class="nav-item d-block d-sm-none mobile-right-icones profile nav-icon"><a
+            href="#" target="_self" class="nav-link"><i class="icon icon-user"></i></a></li>
+    <li right="" class="nav-item d-block d-sm-none mobile-right-icones cart nav-icon"><a href="/buy/cart" target="_self"
+            class="nav-link">
+            <!----><i class="icon icon-cart"></i>
+        </a></li>
+    <div id="nav-collapse" class="mw-100 navbar-collapse collapse" style="display: none;">
+        <ul class="navbar-nav main-items flex-row mw-100 ml-auto mr-auto">
+            <li class="nav-item main-item"><a href="#" target="_self" class="nav-link">
+                    _Products
+                </a></li>
+            <li class="nav-item main-item"><a href="/sounds" target="_self" class="nav-link">
+                    _Sounds
+                </a></li>
+            <li class="nav-item main-item"><a href="/community" target="_self" class="nav-link">
+                    _Community
+                </a></li>
+            <li class="nav-item main-item"><a href="/support" target="_self" class="nav-link">
+                    _Support
+                </a></li>
+        </ul>
+        <ul class="navbar-nav d-none d-sm-flex icones-right"><button aria-placeholder="Profile" right=""
+                class="profile nav-icon">
+                <!----> <i class="icon icon-user"></i>
+            </button>
+            <!---->
+            <li right="" aria-placeholder="Cart" class="nav-item cart nav-icon"><a href="/buy/cart" target="_self"
+                    class="nav-link">
+                    <!----> <i class="icon icon-cart"></i>
+                </a></li>
+            <div class="navbar__search"><button right="" aria-placeholder="Search"
+                    class="navbar__search-btn search nav-icon"><i class="icon icon-search"></i></button> <input
+                    type="text" placeholder="Search..." class="navbar__search-input"></div>
+        </ul>
+        <div class="navbar-mobile__tabs"><input id="tab-1" type="radio" name="tab" checked="checked">
+            <span>Categories</span> <input id="tab-2" type="radio" name="tab"> <span>Collections</span>
+            <div class="line"></div>
+            <div class="line-gray"></div>
+            <div class="navbar-mobile__tabs-content">
+                <section id="tab-item-1" class="navbar-mobile__tabs-section"><a href="/products#hardware-synths"
+                        class="sub-link">Hardware Synthesizers</a> <a href="/products#hybrid-synths"
+                        class="sub-link">Controllers</a> <a href="/products#audio" class="sub-link">Audio</a> <a
+                        href="/products#software-instruments,software-instruments-effects" class="sub-link">Software
+                        Instruments</a> <a href="/products#software-effects,software-instruments-effects"
+                        class="sub-link">Software Effects</a> <a href="/products#ipad-synths,drums"
+                        class="sub-link">Other</a> <a href="/products#" class="sub-link special-link">All Products</a>
+                </section>
+                <section id="tab-item-2" class="navbar-mobile__tabs-section">
+                    <div class="secondary-menu-items"><a href="/ranges/lab" class="secondary-menu-item">
+                            <div class="secondary-menu-item__image-wrapper"><img
+                                    src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/menu5.png"
+                                    alt="lab" class="secondary-menu-item__image">
+                                <div class="secondary-menu-item__color bg-lab"></div>
+                            </div>
+                            <div class="secondary-menu-item__title">Lab</div>
+                            <div class="secondary-menu-item__description">Integrated Software and MIDI Controllers</div>
+                        </a> <a href="/ranges/brute" class="secondary-menu-item">
+                            <div class="secondary-menu-item__image-wrapper"><img
+                                    src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/menu1.png"
+                                    alt="brute" class="secondary-menu-item__image">
+                                <div class="secondary-menu-item__color bg-brute"></div>
+                            </div>
+                            <div class="secondary-menu-item__title">Brute</div>
+                            <div class="secondary-menu-item__description">Raw Analog Synthesizers</div>
+                        </a> <a href="/ranges/freak" class="secondary-menu-item">
+                            <div class="secondary-menu-item__image-wrapper"><img
+                                    src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/menu2.png"
+                                    alt="freak" class="secondary-menu-item__image">
+                                <div class="secondary-menu-item__color bg-freak"></div>
+                            </div>
+                            <div class="secondary-menu-item__title">Freak</div>
+                            <div class="secondary-menu-item__description">Edgy Digital Synthesizers</div>
+                        </a> <a href="/ranges/step" class="secondary-menu-item">
+                            <div class="secondary-menu-item__image-wrapper"><img
+                                    src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/menu3.png"
+                                    alt="step" class="secondary-menu-item__image">
+                                <div class="secondary-menu-item__color bg-step"></div>
+                            </div>
+                            <div class="secondary-menu-item__title">Step</div>
+                            <div class="secondary-menu-item__description">Universal Sequencing Controllers</div>
+                        </a> <a href="/ranges/fuse" class="secondary-menu-item">
+                            <div class="secondary-menu-item__image-wrapper"><img
+                                    src="https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/menu/menu4.png"
+                                    alt="fuse" class="secondary-menu-item__image">
+                                <div class="secondary-menu-item__color bg-fuse"></div>
+                            </div>
+                            <div class="secondary-menu-item__title">Fuse</div>
+                            <div class="secondary-menu-item__description">Audio Interfaces and Effects</div>
+                        </a></div>
+                </section>
+            </div>
+        </div>
+        <div class="navbar-mobile__footer">
+            <div class="navbar-mobile__footer-search"><input type="text" placeholder="Search arturia.com"
+                    class="navbar-mobile__footer-search-input"> <button
+                    class="navbar-mobile__footer-search-btn"></button></div> <button class="navbar-mobile__footer-link">
+                Login or sign-up
+            </button>
+        </div>
+    </div>
+</nav>
