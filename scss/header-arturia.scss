@@ -272,10 +272,10 @@
   margin: 0 auto;
 }
 
-.main-menu .navbar-nav .nav-link:hover {
+.nav-item:hover .nav-link {
   color: $base!important;
 }
 
-.main-menu .navbar-nav .nav-link:active {
+.nav-item:active .nav-link {
   color: $active!important;
 }
