@@ -1,13 +1,23 @@
 @import "fonts";
 
-.arturia-footer * {
+*, ::after, ::before {
   box-sizing: border-box;
 }
 
 /********** FONTS ********/
+@font-face {
+  font-family: supply-light;
+  src: url(fonts/supply-light.woff2); /*Put the good path*/
+}
+
+@font-face {
+  font-family: supply-regular;
+  src: url(fonts/supply-regular.woff2); /*Put the good path*/
+}
+
 .arturia-footer a {
   font-family: supply-light;
-    font-weight: 300;
+  font-weight: 300;
   font-size: 12.1875px;
   line-height: 1.65;
  } 
@@ -80,16 +90,6 @@
 
 .arturia-footer .pt-3 {
   padding-top: 24px;
-}
-
-.arturia-footer .mb-0,
-.arturia-footer .my-0 {
-  margin-bottom: 0px;
-}
-
-.arturia-footer .mt-0,
-.arturia-footer .my-0 {
-  margin-top: 0px;
 }
 
 .arturia-footer .mb-4 {
@@ -233,7 +233,7 @@
 
 
 
-/********** LINKS LIST ********/
+/********** LINKS LIST********/
 .arturia-footer ul {
   margin: 0;
   padding: 0;
@@ -272,4 +272,8 @@
   height: 0;
   overflow: visible;
 }
+
+
+
+
 
