@@ -11,11 +11,12 @@ body:not([class*='category-']) #create-topic {
         background-color: inherit;
         color: inherit;
     }
-    span {
-        font-family: supply-regular;
-   }   
-}
+ }    
 
 .list-controls .combo-box .combo-box-header {
   border: none;
-}  
+} 
+  
+.select-kit .select-kit-header .selected-name .name {
+  font-family: supply-regular;
+}
