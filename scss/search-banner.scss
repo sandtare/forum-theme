@@ -5,6 +5,10 @@
   
 .search-banner {
   background-position: 50% 20%;
+  &:after {
+    backgound-color: $white;
+    height: 50px;
+  }
 }
   
 .global-notice,
