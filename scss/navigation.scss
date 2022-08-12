@@ -5,6 +5,7 @@ body:not([class*='category-']) #create-topic {
 #navigation-bar {
     margin: 10px auto 20px;
     font-family: supply-medium;
+    background-color: $white;	
     > li a.active,
     > li > a:hover {
         text-decoration: underline;
