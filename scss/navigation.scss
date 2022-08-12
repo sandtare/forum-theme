@@ -42,3 +42,10 @@ body:not([class*='category-']) #create-topic {
 	     display:none;
 	     }
   }	     
+
+.category {
+      .badge-category-bg {
+	     display: none;
+	}
+}	
+	      
