@@ -35,6 +35,11 @@
     font-family: supply-regular;
 }
 
+.help-wrap {
+  background-image: url('footer-banner');
+  background-repeat: no-repeat;
+}  
+
 @media (min-width: 992px) {
   .arturia-footer a,
   .arturia-footer h5  {
