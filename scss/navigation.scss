@@ -5,13 +5,12 @@ body:not([class*='category-']) #create-topic {
 #navigation-bar {
     margin: 10px auto 20px;
     font-family: supply-medium;
-}
-
-#navigation-bar > li a.active,
-#navigation-bar > li > a:hover {
-    text-decoration: underline;
-    background-color: inherit;
-    color: inherit;
+    > li a.active,
+    > li > a:hover {
+        text-decoration: underline;
+        background-color: inherit;
+        color: inherit;
+    }
 }
 
 .list-controls .combo-box .combo-box-header {
