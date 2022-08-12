@@ -19,4 +19,7 @@ body:not([class*='category-']) #create-topic {
   
 .select-kit .select-kit-header .selected-name .name {
   font-family: supply-regular;
+  &::first-letter {
+    text-transform: uppercase;
+   }
 }
