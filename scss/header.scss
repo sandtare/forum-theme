@@ -3,6 +3,9 @@
 .d-header {
   background-color: $gray;
   border-left: 12px $base solid;
+  .wrap {
+    margin-left: 0;
+  }  
   #site-text-logo {
      font-family: supply-regular;
      font-size: 14px;
