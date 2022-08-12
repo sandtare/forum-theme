@@ -6,7 +6,7 @@
 .search-banner {
   background-position: 50% 20%;
   &:after {
-    content: ' ';
+    content: 'AFTER';
     backgound-color: $white;
     height: 50px;
     width: 100%;
