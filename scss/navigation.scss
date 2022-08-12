@@ -45,7 +45,7 @@ body:not([class*='category-']) #create-topic {
 
 .category {
       .badge-category-bg {
-	     display: none;
+	     display: none!important;
 	}
 }	
 	      
