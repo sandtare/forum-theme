@@ -17,14 +17,19 @@
   }
 }
 
-.category .search-banner:after {
-  content: '';
-      background-color: #fff;
-      height: 90px;
-      width: 100%;
-      top: 60px;
-      position: absolute
-}  
+.category {
+  .search-banner:after {
+      content: '';
+          background-color: #fff;
+          height: 90px;
+          width: 100%;
+          top: 60px;
+          position: absolute
+    } 
+   #main-outlet {
+     padding-top: 1.5em;
+   }
+}
 
 .global-notice,
 .create-topics-notice {
