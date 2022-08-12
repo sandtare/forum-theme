@@ -66,11 +66,10 @@
         display: none;
       }     
     }
-    .category-list td {
-        padding-top: 0
-   }         
+    .category-list th {
+          padding: 20px 5px;
+      }
+          
  }
 
-.list-cell, .table-heading, .category-list td, .category-list th {
-  padding: 20px 5px;
- }
+ 
