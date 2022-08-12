@@ -6,10 +6,12 @@
 .search-banner {
   background-position: 50% 20%;
   &:after {
-    content: 'AFTER';
-    backgound-color: $white;
-    height: 50px;
+    content: '';
+    background-color: #fff;
+    height: 90px;
     width: 100%;
+    top: 436px;
+    position: absolute
   }
 }
   
