@@ -16,10 +16,13 @@ body {
 
 .list-container {
   background-color: $white;
+  margin-top: 42px;
+  padding: 0 30px;
+}
 }  
 
 #main-outlet-wrapper{
-  max-with: 1200px;
+  max-width: 1200px;
   padding-left: 25px;
   padding-right: 25px;
 }  
