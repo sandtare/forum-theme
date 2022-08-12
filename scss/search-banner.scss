@@ -1,21 +1,23 @@
-.custom-search-banner-wrap {
-  margin-top: 0;
-  padding: 14em 0 8em;
-}
-  
-.search-banner {
-  background-position: 50% 20%;
-  &:after {
-    content: '';
-    background-color: #fff;
-    height: 90px;
-    width: 100%;
-    top: 436px;
-    position: absolute
+.navigation-categories {
+  .custom-search-banner-wrap {
+    margin-top: 0;
+    padding: 14em 0 8em;
   }
-}
-  
-.global-notice,
-.create-topics-notice {
-  display: none;
-}
+
+  .search-banner {
+    background-position: 50% 20%;
+    &:after {
+      content: '';
+      background-color: #fff;
+      height: 90px;
+      width: 100%;
+      top: 436px;
+      position: absolute
+    }
+  }
+
+  .global-notice,
+  .create-topics-notice {
+    display: none;
+  }
+}  
