@@ -97,10 +97,15 @@
           transition: .3s ease-in-out;
        }
     }
+    .help-wrap {
+      background-image: url('footer-banner');
+      background-repeat: no-repeat;
+    } 
 }
 
+/*
 body:not([class*='category-technical-discussions']) .help { 
   display: none; 
 }
-
+*/
 
