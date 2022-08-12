@@ -19,19 +19,19 @@ body:not([class*='category-']) #create-topic {
   
 .select-kit .select-kit-header .selected-name .name {
   font-family: supply-regular;
-  &::before {
+  &::after {
 	border-style: solid;
 	border-width: 0.25em 0.25em 0 0;
 	content: '';
 	display: inline-block;
 	height: 0.45em;
-	eft: 0;
+	left: 0;
 	position: relative;
 	top: 0.15em;
 	transform: rotate(45deg);
 	vertical-align: top;
 	width: 0.45em;
-}
+  }
   &::first-letter {
     text-transform: uppercase;
    }
