@@ -50,5 +50,8 @@ body:not([class*='category-']) #create-topic {
       .select-kit-collection > li:first-child {
 		display: none!important;
       } 
+      .category-breadcrumb > li:first-child:before {
+	      content:'hell';
+	      }
 }	
 	      
