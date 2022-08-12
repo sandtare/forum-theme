@@ -9,3 +9,7 @@
 @import "header-forum";
 @import "header-arturia";
 @import "admin";
+
+body {
+  background-color: $gray-light;
+}
