@@ -16,4 +16,10 @@ body {
 
 #main-outlet {
   background-color: $white;
-}   
+}  
+
+#main-outlet-wrapper{
+  max-with: 1200px;
+  padding-left: 25px;
+  padding-right: 25px;
+}  
