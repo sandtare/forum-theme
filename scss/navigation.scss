@@ -81,7 +81,7 @@ body:not([class*='category-']) #create-topic {
 
 .categories-list {
    &.category {
-      .badge-category-bg,
+      .select-kit-row.category-row .badge-category-bg,
       .category-breadcrumb > li:nth-child(2),
       .category-breadcrumb > li:nth-child(3),
       .select-kit-collection > li:first-child {
