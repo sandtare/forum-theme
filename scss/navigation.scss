@@ -30,8 +30,8 @@ body:not([class*='category-']) #create-topic {
         background-color: inherit;
         color: inherit;
     }
-    &:first-child {
-	display: none    
+    .lastest {
+	display: none;    
     }
  }    
 
