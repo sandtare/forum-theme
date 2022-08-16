@@ -64,17 +64,6 @@ body:not([class*='category-']) #create-topic {
 	     }
   }	     
 
-.categories-list {
-   &.category {
-      .badge-category-bg,
-      .category-breadcrumb > li:nth-child(2),
-      .category-breadcrumb > li:nth-child(3),
-      .select-kit-collection > li:first-child {
-		display: none!important;
-      } 
-   }
-}
-
 .category {
    .select-kit.single-select {
 	.badge-category-bg {
@@ -88,4 +77,15 @@ body:not([class*='category-']) #create-topic {
             height: 12px;
          }
    }	   
-}	      
+}	
+
+.categories-list {
+   &.category {
+      .badge-category-bg,
+      .category-breadcrumb > li:nth-child(2),
+      .category-breadcrumb > li:nth-child(3),
+      .select-kit-collection > li:first-child {
+		display: none!important;
+      } 
+   }
+}
