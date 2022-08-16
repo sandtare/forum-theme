@@ -6,10 +6,12 @@
 </script> 
 -->
 
-<script>
-$(document).ready(function(){
-       $("#navigation-bar").append("<p>New</p>");
-});
+<script type="text/discourse-plugin" version="0.8">
+  api.addNavigationBarItem({
+    name: "link-to-movies-category",
+    displayName: "movies",
+    href: "/c/movies",
+    title: "link title"
+  })
 </script>
-
 
