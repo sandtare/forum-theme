@@ -65,10 +65,6 @@ body:not([class*='category-']) #create-topic {
 	     }
   }	     
 
-.select-kit-row.category-row > li:first-letter {
-	    text-transform: uppercase;
-}
-
 /*** PAGE SOUS-CATEGORIES ***/
 .category {	
    .category-breadcrumb li:first-child  {
