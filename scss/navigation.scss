@@ -82,8 +82,7 @@ body:not([class*='category-']) #create-topic {
 .categories-list {
   .select-kit-row.category-row .badge-category-bg {
 		display: none!important;
-      } 
-  } 	
+      } 	
    &.category {
       .select-kit-row.category-row .badge-category-bg,
       .category-breadcrumb > li:nth-child(2),
