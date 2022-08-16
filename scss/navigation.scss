@@ -64,6 +64,12 @@ body:not([class*='category-']) #create-topic {
 	     }
   }	     
 
+.category-breadcrumb:first-child .category {
+	.select-kit-row.category-row .badge-category-bg {
+		display: none!important;
+      } 	
+ }
+
 .category {
    .select-kit.single-select {
 	.badge-category-bg {
