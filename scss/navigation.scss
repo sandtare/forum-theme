@@ -1,7 +1,9 @@
 @import "colors";
 
 #create-topic {
-  color: $black;
+  span {	
+	  color: $black;
+  }	  
   background-color: $base;
 }
 
