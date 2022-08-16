@@ -6,12 +6,14 @@
 </script> 
 -->
 
+
 <script type="text/discourse-plugin" version="0.8">
-  api.addNavigationBarItem({
-    name: "link-to-movies-category",
-    displayName: "movies",
-    href: "/c/movies",
-    title: "link title"
-  })
+  $( document ).ready(function() {
+    const user = api.getCurrentUser(),
+      username = user.username;
+
+    $('ol.category-breadcrumb').html('Hello there '+username+"!")
+  });
 </script>
+
 
