@@ -75,8 +75,15 @@ body:not([class*='category-']) #create-topic {
    }
 }
 
-.category .select-kit.single-select {
-      .badge-category-bg {
-		display: none!important;
- }
+.category {
+   .select-kit.single-select {
+	.badge-category-bg {
+	    display: none!important;
+	}
+   }	   
+   .select-kit-row.category-row {
+	.badge-category-bg {
+	    display: block!important;
+         }
+   }	   
 }	      
