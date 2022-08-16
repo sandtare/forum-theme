@@ -66,7 +66,7 @@ body:not([class*='category-']) #create-topic {
 
 /*** PAGE SOUS-CATEGORIES ***/
 .category {	
-   .category-breadcrumb:first-child  {
+   .category-breadcrumb li:first-child  {
        .select-kit-row.category-row .badge-category-bg {
             display: none!important;
        } 
