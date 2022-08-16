@@ -1,3 +1,10 @@
+@import "colors";
+
+#create-topic {
+  color: $black;
+  background-color: $base;
+}
+
 body:not([class*='category-']) #create-topic { 
   display: none; 
 }
