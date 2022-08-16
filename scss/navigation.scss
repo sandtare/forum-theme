@@ -65,7 +65,7 @@ body:not([class*='category-']) #create-topic {
 	     }
   }	     
 
-.select-kit-row.category-row:first-child:first-letter {
+.select-kit-row.category-row > li:first-letter {
 	    text-transform: uppercase;
 }
 
