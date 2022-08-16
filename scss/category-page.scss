@@ -1,4 +1,4 @@
-/*body[class*='category-'] { 
+body[class*='category-'] { 
 
   .category-list tbody tr { 
     display: flex;
@@ -14,9 +14,10 @@
       margin-top: 30px;
    }
   
-  .topic-list-bottom {
+  .topic-list-bottom,
+  .latest {
     display: none;
-  }  
+  } 
 }
   
-*/
+
