@@ -21,7 +21,7 @@ body:not([class*='category-']) #create-topic {
 	
 #navigation-bar {
     z-index: 1;
-    margin: 10px auto 20px;
+    margin: 10px 0 20px auto;
     font-family: supply-medium;
     background-color: $white;	
     > li a.active,
