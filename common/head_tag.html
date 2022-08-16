@@ -9,10 +9,7 @@
 
 <script type="text/discourse-plugin" version="0.8">
   $( document ).ready(function() {
-    const user = api.getCurrentUser(),
-      username = user.username;
-
-    $("ol").prepend('<li>All categories</li>');
+    $("ol").prepend('<li><a href="https://dev.forum.arturia.team/"> All categories</a></li>');
   });
 </script>
 
