@@ -75,8 +75,8 @@ body:not([class*='category-']) #create-topic {
    }
 }
 
-.category {
-      .badge-category-bg:first-child {
+.category .select-kit single-select {
+      .badge-category-bg {
 		display: none!important;
  }
 }	      
