@@ -7,9 +7,12 @@
 -->
 
 <script type="text/discourse-plugin" version="0.8">
-  const user = api.getCurrentUser();
-  
-  console.log(user)
+  api.addNavigationBarItem({
+    name: "link-to-movies-category",
+    displayName: "movies",
+    href: "/c/movies",
+    title: "link title"
+  })
 </script>
 
 
