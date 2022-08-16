@@ -102,4 +102,9 @@ body:not([class*='category-']) #create-topic {
    }
 }
 
-
+/*** TAGS ***/	
+.discourse-tag.bullet::before {
+   margin-right: 0;
+   width: 0;
+   height: 0;
+}
