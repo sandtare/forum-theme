@@ -1,16 +1,18 @@
 @import "colors";
 
-#create-topic {
-  span {	
-	  color: $black;
-  }	  
+navigation-controls {
+  z-index: 100;
+}
+
+#create-topic {	
+  color: $black; 
   background-color: $base;
 }
-/*
+
 body:not([class*='category-']) #create-topic { 
   display: none; 
 }
-*/
+
 #navigation-bar {
     margin: 10px auto 20px;
     font-family: supply-medium;
