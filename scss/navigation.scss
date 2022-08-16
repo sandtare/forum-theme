@@ -7,7 +7,7 @@
 #create-topic {	
   color: $black; 
   background-color: $base;
-  .btn .d-icon {
+  &.btn .d-icon {
     border: 1px solid white;
     border-radius: 50%;
     background-color: white;
