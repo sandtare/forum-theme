@@ -20,6 +20,7 @@ body:not([class*='category-']) #create-topic {
 }
 	
 #navigation-bar {
+    z-index: 1;
     margin: 10px auto 20px;
     font-family: supply-medium;
     background-color: $white;	
@@ -29,10 +30,13 @@ body:not([class*='category-']) #create-topic {
         background-color: inherit;
         color: inherit;
     }
+    &:first-child {
+	display: none    
+    }
  }    
 
 .list-controls .combo-box .combo-box-header {
-  border: none;
+   border: none;
 } 
   
 .select-kit .select-kit-header {
