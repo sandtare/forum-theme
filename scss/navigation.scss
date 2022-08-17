@@ -109,3 +109,9 @@ body:not([class*='category-']) #create-topic {
    width: 0;
    height: 0;
 }
+
+.navigation-categories {
+   .search-dropdown {
+	   display:none;
+   }		   
+}	
