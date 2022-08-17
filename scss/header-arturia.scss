@@ -1,6 +1,5 @@
 @import "colors";
 
-
 .arturia-header * {
   box-sizing: border-box; 
  }
@@ -21,11 +20,11 @@
   background-color: #ffffff;
 }
 
-.arturia-header .text-uppercase { 
+.arturia-header .text-uppercase {  
   text-transform: uppercase!important;
 }
 
-.arturia-header .prep::before {  
+.arturia-header .prep::before { 
   content: "_";
 }
 
@@ -35,14 +34,14 @@
   position: relative;
 }
 
-.navbar {
+.arturia-header .navbar {
   list-style: none;
   margin: 0 auto;
   height: 100%;
   position: relative;
 }
 
-.navbar-nav {
+.arturia-header .navbar-nav {
   display: flex;
   display: inline-block;
   height: 50%;
@@ -57,13 +56,13 @@
   position:  absolute;
 }
 
-.navbar-collapse {
+.arturia-header .navbar-collapse {
   display:  none;
 }
 
-.navbar-collapse.open {
+.arturia-header .navbar-collapse.open {
   display: block;
-  background-color: $gray-light;
+  background-color: #f6f6f6;
   bottom: 0;
   height: 100vh;
   left: 0;
@@ -75,8 +74,8 @@
   width: 100vw;
 }
 
-.nav-link {
-  color: $black;
+.arturia-header .nav-link {
+  color: #000;
   font-size: 15px;
   text-decoration: none;
   height: 100%;
@@ -85,34 +84,34 @@
   padding: 0 16px;
 }
 
-.nav-item {
+.arturia-header .nav-item {
   margin-bottom:  50px;
 }
 
-.nav-link:hover {
-  color: $base;
+.arturia-header .nav-link:hover {
+  color: #00FFF0;
 } 
 
-.active {
-   color: $active!important;
+.arturia-header .active {
+   color: #00b1a9!important;
 } 
 
 @media (min-width: 576px) {
   .arturia-header,
-  .navbar-nav {
+  .arturia-header .navbar-nav {
     height: 58.5px;
   }
 
-  .navbar-nav {
+  .arturia-header .navbar-nav {
     display: inherit;
     margin-top: 0;
   }
 
-  .navbar {
+  .arturia-header .navbar {
     flex-flow: row nowrap;
   }
 
-  .navbar-collapse {
+  .arturia-header .navbar-collapse {
     display: flex !important;
     height: 100%;
     overflow: hidden;
@@ -125,17 +124,17 @@
     justify-content: inherit;
   }
 
-  .navbar-collapse {
+  .arturia-header .navbar-collapse {
     display: flex;
     justify-content: center;
   }
 
-  .nav-item {
+  .arturia-header .nav-item {
     margin-bottom: 0;
     height: 100%;
   }
 
-  .nav-link {
+  .arturia-header .nav-link {
     font-size: 11.5px;
     padding-left: 12px;
     padding-right: 12px;
@@ -144,18 +143,18 @@
 
 @media (min-width: 992px) {
   .arturia-header,
-  .navbar-nav {
+  .arturia-header .navbar-nav {
     height: 72px;
   }
 
-  .nav-link {
+  .arturia-header .nav-link {
     font-size: 14px;
   }
 }
 
 
 /********** BURGER ********/
-.navbar-toggler {
+.arturia-header .navbar-toggler {
     display: block;
     height: 15px;
     padding: 0;
@@ -172,7 +171,7 @@
     border: none;
 }
 
-.navbar-toggler span {
+.arturia-header .navbar-toggler span {
     background: #000;
     border-radius: 9px;
     display: block;
@@ -184,25 +183,25 @@
     width: 100%;
 }    
 
-.navbar-toggler span:first-child {
+.arturia-header .navbar-toggler span:first-child {
     top: 0;
 }
 
-.navbar-toggler span:last-child {
+.arturia-header .navbar-toggler span:last-child {
     top: 10px;
     transform-origin: left center;
 }
 
-.navbar-toggler:hover {
+.arturia-header .navbar-toggler:hover {
   cursor: pointer;
 }
 
-.navbar-toggler.open span:first-child {
+.arturia-header .navbar-toggler.open span:first-child {
     top: 5px;
     transform: rotate(45deg);
     left: 0;
 }
-.navbar-toggler.open span:last-child {
+.arturia-header .navbar-toggler.open span:last-child {
     top: 12px;
     transform: rotate(-45deg);
     left: 2px;
@@ -210,13 +209,13 @@
 
 
 /********** LOGO ********/
-.navbar-brand {
+.arturia-header .navbar-brand {
   position:  absolute;
   top: 0;
   left: 0;
 }
 
-.btn {
+.arturia-header .btn {
   padding-left: 1.75rem;
   overflow: hidden;
   position: relative;
@@ -224,7 +223,7 @@
   z-index: 2;
 }
 
-.btn::before {
+.arturia-header .btn::before {
   width: 100%;
   content: "";
   height: 100%;
@@ -233,10 +232,10 @@
   top: 0;
   transition: width .3s ease-in-out,left .15s ease-in-out;
   z-index: -1;
-  background-color: $base;
+  background-color: #00fff0;
 }
 
-.btn::after {
+.arturia-header .btn::after {
   background: #000;
   width: .65rem;
   content: "";
@@ -248,13 +247,13 @@
   z-index: -1;
 }
 
-.btn {
+.arturia-header .btn {
   border: none;
-  color: $black;
+  color: #000;
 }
 
 
-.logo-mobile {
+.arturia-header .logo-mobile {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -263,32 +262,32 @@
     top: 8px;
 }
 
-.logo-container {
+.arturia-header .logo-container {
     margin: 10px;
 }
 
-.logo-mobile img {
+.arturia-header .logo-mobile img {
   height: 23px;
 }
 
-.logo-tablet,
-.logo-desktop {
+.arturia-header .logo-tablet,
+.arturia-header .logo-desktop {
     display: none;
 }
 
 @media (min-width: 576px) {
-    .navbar-toggler {
+    .arturia-header .navbar-toggler {
         display: none;
     }
     
-    .logo-tablet {
+    .arturia-header .logo-tablet {
       display: block;
       height: 39px;
       width: 39px;
       z-index: 1;
     }
 
-    .logo-mobile {
+    .arturia-header .logo-mobile {
       display: none;
     }
 }
@@ -296,42 +295,41 @@
  
 
 @media (min-width: 768px) {
-    .logo-desktop {
+    .arturia-header .logo-desktop {
         display: inline-block;
         height: 58.5px;
         width: 170.6px;
         padding: 11px 0px 10px 23px
     }
     
-    .logo-tablet {
+    .arturia-header .logo-tablet {
         display: none;
     }
 
-    .logo-container {
+    .arturia-header .logo-container {
         margin: 0px;
     }
 
-    .logo-desktop img {
+    .arturia-header .logo-desktop img {
       height: 39px;
       width: 135px;
     } 
 }
 
 @media (min-width: 992px) {
-    .logo-desktop img {
+    .arturia-header .logo-desktop img {
       height: 48px;
       width: 166px;
     } 
 
-    .logo-desktop {
+    .arturia-header .logo-desktop {
         height: 72px;
         width: 210px;
         padding: 14px 16px 14px 28px;
     }
 
-    .logo-desktop::after {
+    .arturia-header .logo-desktop::after {
       background: #000;
       width: .75rem;
     }   
 }    
-
