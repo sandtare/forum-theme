@@ -1,9 +1,9 @@
 @import "colors";
 
+
 .arturia-header * {
   box-sizing: border-box; 
  }
-
 
 .arturia-header ul {
   margin-left:  0!important;
@@ -44,11 +44,13 @@
   margin: 0 auto;
   height: 100%;
   position: relative;
+  height: 38px;
 }
 
 .arturia-header .navbar-nav {
   display: flex;
   display: inline-block;
+  height: 50%;
   margin-top: 50px;
   transform: translateX(0);
   transition: transform .5s ease-in-out;
@@ -58,7 +60,6 @@
   list-style: none;
   margin-bottom: 0;
   position:  absolute;
-   height: 38px;
 }
 
 .arturia-header .navbar-collapse {
@@ -338,3 +339,5 @@
       width: .75rem;
     }   
 }    
+
+
