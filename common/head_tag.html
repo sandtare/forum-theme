@@ -1,10 +1,13 @@
-<!--
+
 <script type=text/javascript>
-    (document).ready(function(){
-        $("#navigation-bar .bookmarks a").replaceWith(<a href="/bookmarks" class="">Followed</a>);
-    });
+     $(document).ready(function(){
+             $(".navbar-toggler").click(function(){
+              $(".navbar-toggler").toggleClass("open");  
+              $(".navbar-collapse").toggleClass("open");
+            });
+        });
 </script> 
--->
+
 
 <script type="text/discourse-plugin" version="0.8">
   
