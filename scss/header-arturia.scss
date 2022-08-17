@@ -178,6 +178,7 @@
     line-height: 1;
     background-color: transparent;
     border: none;
+    z-inder: 10002;
 }
 
 .arturia-header .navbar-toggler span {
@@ -209,13 +210,11 @@
     top: 5px;
     transform: rotate(45deg);
     left: 0;
-    z-inder: 10001;
 }
 .arturia-header .navbar-toggler.open span:last-child {
     top: 12px;
     transform: rotate(-45deg);
     left: 2px;
-    z-inder: 10001;
 }
 
 
@@ -344,4 +343,6 @@
       width: .75rem;
     }   
 }    
+
+
 
