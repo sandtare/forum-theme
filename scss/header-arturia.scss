@@ -1,7 +1,5 @@
 @import "colors";
 
-
-
 .arturia-header * {
   box-sizing: border-box; 
  }
@@ -78,6 +76,7 @@
   right: 0;
   top: 0;
   width: 100vw;
+  z-index: 100;
 }
 
 .arturia-header .nav-link {
