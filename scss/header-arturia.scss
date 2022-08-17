@@ -1,6 +1,5 @@
 @import "colors";
 
-.
 .arturia-header * {
   box-sizing: border-box; 
  }
@@ -210,13 +209,13 @@
     top: 5px;
     transform: rotate(45deg);
     left: 0;
-    z-inder: 1002;
+    z-inder: 10001;
 }
 .arturia-header .navbar-toggler.open span:last-child {
     top: 12px;
     transform: rotate(-45deg);
     left: 2px;
-    z-inder: 1002;
+    z-inder: 10001;
 }
 
 
