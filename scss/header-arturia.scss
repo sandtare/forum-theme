@@ -1,5 +1,6 @@
 @import "colors";
 
+.
 .arturia-header * {
   box-sizing: border-box; 
  }
@@ -76,7 +77,7 @@
   right: 0;
   top: 0;
   width: 100vw;
-  z-index: 100;
+  z-index: 10001;
 }
 
 .arturia-header .nav-link {
@@ -110,7 +111,7 @@
   .arturia-header .navbar {
   height: 100%;
   }
-  
+
   .arturia-header .navbar-nav {
     display: inherit;
     margin-top: 0;
@@ -209,11 +210,13 @@
     top: 5px;
     transform: rotate(45deg);
     left: 0;
+    z-inder: 1002;
 }
 .arturia-header .navbar-toggler.open span:last-child {
     top: 12px;
     transform: rotate(-45deg);
     left: 2px;
+    z-inder: 1002;
 }
 
 
