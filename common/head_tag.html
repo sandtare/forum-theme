@@ -14,18 +14,11 @@
 
 <script type=text/javascript>
      $(document).ready(function(){
-             $("#cat-title").replaceWith("ok");  
+             var divContent = $('.badge-category').text();
+             $("#cat-title").replaceWith(divContent);  
         });
 </script> 
 
-
-<script type=text/javascript>
-  $(document).ready(function(){
-      var divContent = $('#cat-title').text();
-      alert(divContent);
-    });
-  });
-</script> 
      
 <script type="text/discourse-plugin" version="0.8">
 
