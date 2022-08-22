@@ -6,13 +6,11 @@
               $(".navbar-collapse").toggleClass("open");
             });
         });
-     function intervertirCellule(ligne1, cellule1, ligne2, cellule2)
+     function intervertirCellule(ligne1, cellule3, ligne2, cellule2)
      {
-          var contenu1 = document.getElementsByClassName("category-list").rows[ligne1].cells[cellule1].innerHTML;
-          var contenu2 = document.getElementsByClassName("category-list").rows[ligne2].cells[cellule2].innerHTML;
-
-          document.getElementsByClassName("category-list").rows[ligne1].cells[cellule1].innerHTML = contenu2;
-          document.getElementsByClassName("category-list").rows[ligne2].cells[cellule2].innerHTML = contenu1
+          var contenu1 = document.getElementsByClassName("latest").rows[ligne1].cells[cellule3].innerHTML;
+          document.getElementsByClassName("category-list").rows[ligne1].cells[cellule1].innerHTML = contenu1;
+          
      }
 </script> 
 
