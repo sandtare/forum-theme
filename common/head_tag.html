@@ -1,3 +1,6 @@
+<script type="text/x-handlebars" data-template-name="/connectors/discovery-above/plugin-outlet-component">
+     <div id="cat-title" style="background: white; margin-top: 50px; padding: 50px 0;">Title</div>
+</script>
 
 <script type=text/javascript>
      $(document).ready(function(){
@@ -8,17 +11,15 @@
         });
 </script> 
 
-<script type="text/x-handlebars" data-template-name="/connectors/discovery-above/plugin-outlet-component">
-     <div id="cat-title" style="background: white; margin-top: 50px; padding: 50px 0;">Titre</div>
-</script>
+
+<script type=text/javascript>
+     $(document).ready(function(){
+             $("#cat-title").addClass("ok");  
+        });
+</script> 
 
 <script type="text/discourse-plugin" version="0.8">
-const container = Discourse.__container__;
-const controller = container.lookup('controller:navigation/category');
 
-api.onPageChange((url, title) => {
-  console.log(controller.get("category.id");
-});
 </script>
 
 
