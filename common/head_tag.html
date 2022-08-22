@@ -9,8 +9,13 @@
 </script> 
 
 <script type="text/x-handlebars" data-template-name="/connectors/discovery-above/plugin-outlet-component">
-<div class="outlet" style="background:red">discovery-above</div>
+     <div id="cat-title" style="background:red">discovery-above</div>
 </script>
+
+<script type=text/javascript>
+        var title = document.getElementsByClassName("category-name")[0];
+        document.getElementById('cat-title').innerHTML = title;
+</script> 
 
 
 
