@@ -19,7 +19,9 @@
   }
   .category-title-contents {
     padding: 0 20px;
-    font-family: supply-regular;
+    h1 {
+      font-family: supply-regular;
+    }  
     .category-title-description {
       color: $gray;
     }   
