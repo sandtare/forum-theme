@@ -11,6 +11,9 @@
      font-family: supply-regular;
      font-size: 14px;
      font-weight: 400;
+     &:before {
+       content:'';
+    }  
   }  
 }  
 
