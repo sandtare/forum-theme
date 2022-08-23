@@ -6,9 +6,6 @@
    }
 }
 
-.category-header div[class^="category-title-header"] .category-title-contents {
-  padding: 0 20px;
-}   
     
 .category-header-widget {
   margin-top: 50px;
@@ -20,6 +17,13 @@
     border-top: none !important;
     border-bottom: none !important;
   }
+  .category-title-contents {
+    padding: 0 20px;
+    font-family: supply-regular;
+    .category-title-description {
+      color: $gray;
+    }   
+  }   
   .parent-box-link {
     display: none;
   }  
