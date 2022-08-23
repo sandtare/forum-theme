@@ -1,11 +1,18 @@
 @import "colors";
 
+.categories-list {
+  .category-header-widget {
+    .category-title-name:before { 
+       content: "_";
+     }
+   }   
+}  
+  
 .categories-list.navigation-categories {
   .category-header-widget {
     display: none;
    }
 }
-
     
 .category-header-widget {
   margin-top: 50px;
