@@ -1,20 +1,6 @@
 @import "colors";
 
-.categories-list {
-  .category-header-widget {
-    .category-title-name:before { 
-       content: "_";
-        font-family: supply-regular;
-     }
-   }   
-}  
-  
-.categories-list.navigation-categories {
-  .category-header-widget {
-    display: none;
-   }
-}
-    
+   
 .category-header-widget {
   margin-top: 50px;
   margin-bottom: 0;
@@ -37,4 +23,20 @@
   .parent-box-link {
     display: none;
   }  
+}
+
+.categories-list {
+  .category-header-widget {
+    .category-title-name:before { 
+       content: "_";
+        font-family: supply-regular;
+     }
+    border-left: none;
+   }   
+}  
+  
+.categories-list.navigation-categories {
+  .category-header-widget {
+    display: none;
+   }
 }
