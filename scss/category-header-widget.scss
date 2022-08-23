@@ -5,7 +5,10 @@
     display: none;
    }
 }
-   
+
+.category-header div[class^="category-title-header"] .category-title-contents {
+  padding: 0 20px;
+}   
     
 .category-header-widget {
   margin-top: 50px;
