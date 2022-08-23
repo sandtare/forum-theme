@@ -27,9 +27,8 @@
 
 .categories-list {
   .category-header-widget {
-    .category-title-name:before { 
+    .category-title-name h1:before { 
        content: "_";
-        font-family: supply-regular;
      }
      .category-title-header {
          border-left: none!important;
