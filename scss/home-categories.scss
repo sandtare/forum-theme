@@ -16,7 +16,7 @@
     }
 
     tbody tr {
-        width: 48%;
+        width: 100%;
         display: flex;
         &:nth-last-child(-n+2) {
             border-bottom: none;
@@ -26,6 +26,7 @@
     td.latest,
     td.featured-topic,
     th.topics,
+    td.topics,
     th.latest,
     th.featured-topic {
         display: none;
@@ -86,6 +87,22 @@
   padding: 0 10px!important;   
  }
 
+
+
+@media (min-width: 576px) {
+  td.topics {
+    display : inherit;
+   }
+ }  
+  
+@media (min-width: 992px) {
+  .navigation-categories { 
+       tbody tr {
+          width: 50%;
+      }
+    }  
+ }  
+  
 @media (min-width: 1180px) {
   .list-container {
     padding: 0 30px!important;   
