@@ -3,19 +3,26 @@
     margin-top: 0;
     padding: 14em 0 8em;
   }
-
   .search-banner {
     background-position: 50% 20%;
-    &:after {
-      content: '';
-      background-color: #fff;
-      height: 90px;
-      width: 100%;
-      top: 436px;
-      position: absolute
-    }
   }
 }
+
+@media (min-width: 1180px) {
+    .navigation-categories {
+      .custom-search-banner-wrap {
+        &:after {
+          content: '';
+          background-color: #fff;
+          height: 90px;
+          width: 100%;
+          top: 436px;
+          position: absolute;
+        }
+     }     
+  }
+}
+ 
 
 .category {
   .search-banner:after {
