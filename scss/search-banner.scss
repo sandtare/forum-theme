@@ -8,24 +8,23 @@
   }
 }
 
+
+.category {  
+   #main-outlet {
+     padding-top: 1.5em;
+   }
+}
+
 @media (min-width: 1180px) {
-    .navigation-categories {
-      .custom-search-banner-wrap {
-        .search-banner:after {
+    .navigation-categories .search-banner:after {
           content: '';
           background-color: #fff;
           height: 90px;
           width: 100%;
           top: 436px;
           position: absolute;
-        }
-     }     
-  }
-}
- 
-
-.category {
-  .search-banner:after {
+    }   
+  .category .search-banner:after {
       content: '';
           background-color: #fff;
           height: 90px;
@@ -33,10 +32,8 @@
           top: 60px;
           position: absolute
     } 
-   #main-outlet {
-     padding-top: 1.5em;
-   }
 }
+ 
 
 .global-notice,
 .create-topics-notice {
