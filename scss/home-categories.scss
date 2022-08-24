@@ -46,8 +46,12 @@
         &:after {
             content: ' topics';  
         }     
-    }    
-
+    }  
+    .category-name { 
+        white-space: inherit;
+        text-overflow: inherit;
+     }
+  
     .parent-category {
       overflow:hidden;
       &:after{
@@ -63,7 +67,6 @@
           font-weight: 400;
           font-size: 1.8em;
           margin-top: 30px;
-          white-space: inherit;
           &:before {
               content:'_'
           }        
