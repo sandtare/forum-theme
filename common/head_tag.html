@@ -7,11 +7,10 @@
            $(".category-breadcrumb").prepend('<div class="added">This is added div </div>');     
         });
 
-     const allCategories = document.createElement("li");
+     const allCategories = document.createElement("div");
      const text = document.createTextNode("All categories");
      allCategories.appendChild(text);
 
-     const navList = document.getElementsByClassName("category-breadcrumb");
-     navList.insertBefore(allCategories, navList.children[0]);
+     console.log(allCategories);
 </script>
 
