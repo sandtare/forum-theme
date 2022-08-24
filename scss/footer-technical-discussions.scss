@@ -2,6 +2,9 @@
 @import "colors";
     
 .help {
+    .wrap {
+        max-width: 1200px;
+      } 
      padding-bottom: 40px;
     .help-txt {
          padding-left: 30px;
