@@ -83,11 +83,6 @@
    }    
  }
 
-.list-container {
-  padding: 0 10px!important;   
- }
-
-
 
 @media (min-width: 576px) {
   .navigation-categories {
@@ -99,17 +94,14 @@
   
 @media (min-width: 992px) {
   .navigation-categories { 
-       tbody tr {
+      tbody tr {
           width: 50%;
       }
+     td.topics {
+        width : 20%;
     }  
  }  
-  
-@media (min-width: 1180px) {
-  .list-container {
-    padding: 0 30px!important;   
-   }
-}    
+    
  
 
  
