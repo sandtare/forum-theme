@@ -6,14 +6,12 @@
             });
            $(".category-breadcrumb").prepend('<div class="added">This is added div </div>');     
         });
-</script> 
 
+     const allCategories = document.createElement("li");
+     const text = document.createTextNode("All categories");
+     allCategories.appendChild(text);
 
-<script type=text/javascript>
-     const nav = document.getElementsByClassName("category-breadcrumb");
-     const home = document.createElement("div");
-     home.classList.add("all-categories-link");
-     home.textContent = "All categories";
-     nav.appendChild(home);
+     const list = document.getElementById("category-breadcrumb");
+     list.insertBefore(allCategories, list.children[0]);
+</script>
 
-</script>     
