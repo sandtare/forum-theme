@@ -90,9 +90,11 @@
 
 
 @media (min-width: 576px) {
-  td.topics {
-    display : inherit;
-   }
+  .navigation-categories {
+      td.topics {
+      display : block;
+     }
+   } 
  }  
   
 @media (min-width: 992px) {
