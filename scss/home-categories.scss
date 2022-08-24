@@ -6,7 +6,7 @@
     tbody {
         border-top : none;
         display: flex;
-        flex-wrap: inherit;
+        flex-wrap: wrap;
         .category {
             flex: 1;
         }
@@ -62,7 +62,7 @@
           font-weight: 400;
           font-size: 1.8em;
           margin-top: 30px;
-          white-space: wrap;
+          white-space: inherit;
           &:before {
               content:'_'
           }        
