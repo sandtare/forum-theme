@@ -11,7 +11,7 @@
      const text = document.createTextNode("All categories");
      allCategories.appendChild(text);
 
-     const navList = document.getElementById("category-breadcrumb");
+     const navList = document.getElementsByClassName("category-breadcrumb");
      navList.insertBefore(allCategories, navList.children[0]);
 </script>
 
