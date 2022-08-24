@@ -9,10 +9,10 @@
 </script> 
 
 
-<script>
+<script type=text/javascript>
      const nav = document.getElementByClassName("category-breadcrumb")[0];
      const home = document.createElement("li");
      home.classList.add("all-categories-link");
      home.textContent = "All categories";
-     nav.appendChild(home);
+     nav.prependChild(home);
 </script>     
