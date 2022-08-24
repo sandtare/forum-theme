@@ -8,10 +8,9 @@
         });
 
      const allCategories = document.createElement("div");
-     const text = document.createTextNode("All categories");
-     allCategories.appendChild(text);
+     allCategories.innerText = 'All categories';
      
-     const navList = document.getElementsByClassName("category-breadcrumb");
-     navList.insertBefore(allCategories);
+     const navList = document.querySelector('.category-breadcrumb');
+     navList.parentNode.insertBefore(allCategories, navList);
 </script>
 
