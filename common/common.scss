@@ -19,11 +19,17 @@ body {
 .list-container {
   background-color: $white;
   margin: 42px 0;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
+@media (min-width: 1180px) {
+  .list-container {
+    padding: 0 30px;   
+   }
+}  
+
 #main-outlet-wrapper{
-  max-width: 1200px;
+  max-width: 1440px;
   padding-left: 25px;
   padding-right: 25px;
 } 
@@ -36,7 +42,7 @@ h1 {
 
 
 
-
+/* Category title */
 div[class^="category-title-header"] {
     display: none;
 }
