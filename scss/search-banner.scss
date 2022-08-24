@@ -1,3 +1,5 @@
+@import 'colors'
+  
 .navigation-categories {
   .custom-search-banner-wrap {
     margin-top: 0;
@@ -7,12 +9,15 @@
     background-position: 50% 20%;
   }
 }
-
-
 .category {  
    #main-outlet {
      padding-top: 1.5em;
    }
+}
+
+.navigation-container {
+  background: $white;
+  padding: 10px 10px 0px 10px;
 }
 
 @media (min-width: 1180px) {
