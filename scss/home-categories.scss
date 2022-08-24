@@ -82,4 +82,15 @@
    }    
  }
 
+.list-container {
+  padding: 0 10px;   
+ }
+
+@media (min-width: 1180px) {
+  .list-container {
+    padding: 0 30px;   
+   }
+}    
+ 
+
  
