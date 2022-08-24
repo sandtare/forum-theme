@@ -15,10 +15,12 @@
    }
 }
 
-.navigation-container {
-  background: $white;
-  padding: 10px 10px 0px 10px;
-}
+@media (max-width: 1180px)
+  .navigation-container {
+    background: $white;
+    padding: 10px 10px 0px 10px;
+  }
+ }
 
 @media (min-width: 1180px) {
     .navigation-categories .search-banner:after {
