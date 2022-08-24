@@ -1,10 +1,13 @@
 @import "fonts";
 @import "colors";
+  
+@media (min-width: 1250px) {
+    .wrap {
+      max-width: 1250px;
+    } 
+} 
     
 .help {
-    .wrap {
-        max-width: 1200px;
-      } 
      padding-bottom: 40px;
     .help-txt {
          padding-left: 30px;
