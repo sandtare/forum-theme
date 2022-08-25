@@ -1,9 +1,22 @@
 @import "colors";
 
-.topic-list .title {
-  color: $black!important;
-}  
+.topic-list { 
+  .title {
+    color: $black!important;
+  }  
+  .topic-icon-container {
+    display: none;
+  }  
+  tr:nth-child(odd) {
+    background-color: $gray-light;
+  }    
+  tr:nth-child(even) {
+    background-color: $white;
+  }
 
-.topic-icon-container {
-  display: none;
-}  
+
+
+
+
+
+
