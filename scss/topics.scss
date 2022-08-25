@@ -7,14 +7,14 @@
   .topic-icon-container {
     display: none;
   } 
-  .topic-list-header tr {
-     background-color: $white;
-  }
   tr:nth-child(odd) {
     background-color: $gray-light;
   }    
   tr:nth-child(even) {
     background-color: $white;
+  }
+   .topic-list-header tr {
+     background-color: $white;
   }
 }
 
