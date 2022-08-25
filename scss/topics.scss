@@ -6,7 +6,10 @@
   }  
   .topic-icon-container {
     display: none;
-  }  
+  } 
+  .topic-list-header {
+     background-color: $white;
+  }
   tr:nth-child(odd) {
     background-color: $gray-light;
   }    
