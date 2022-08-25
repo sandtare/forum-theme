@@ -1,13 +1,6 @@
 body[class*='category-'] { 
 
-  /*
-  .category-list tbody tr { 
-    display: flex;
-    width: 200%;
-    padding: 20px 10px;
-  }
-  */
-  
+
   .category-title-name {
       overflow:hidden;
       &:after{
@@ -34,7 +27,7 @@ body[class*='category-'] {
     margin-top: 0;
   }  
   
-  .latest a {
+  .category-list .latest a {
     color: #068DD0;
     }
 }
