@@ -95,8 +95,8 @@ body:not([class*='category-']) #create-topic {
    /*** PAGE CATEGORIES ***/	
    &.category {
       .select-kit-row.category-row .badge-category-bg,
-      .category-breadcrumb > li:nth-child(2),
-      .category-breadcrumb > li:nth-child(3)/*,
+     /* .category-breadcrumb > li:nth-child(2),
+      .category-breadcrumb > li:nth-child(3),
       .select-kit-collection > li:first-child*/ {
 		display: none!important;
       } 
