@@ -8,6 +8,10 @@
     }    
     #topic-title .fancy-title:before {
          content: '_';
-         font-family: supply-regular;
      }
+    #topic-title h1 a,
+    .widget-link .topic-link {
+     font-family: supply-regular;
+    }
+     
 } 
