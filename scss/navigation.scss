@@ -132,7 +132,7 @@ body:not([class*='category-']) #create-topic {
 
 .category:not([class*="archetype-"]),
 .categories-list.category {
-	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"]:first-letter {
-	    text-transform: uppercase;
+	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
+	    color: red;
 	  }
   }	
