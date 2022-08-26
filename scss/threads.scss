@@ -9,12 +9,12 @@
     #topic-title {
          .fancy-title:before {
             content: '_';
-            h1 a {
-            font-family: supply-regular;     
-           .widget-link.topic-link {
-               font-family: supply-regular;
-         
-            }
+         }     
+         h1 a {
+            font-family: supply-regular; 
+         }
+         .widget-link.topic-link {
+               font-family: supply-regular;      
          }
      }
  }
