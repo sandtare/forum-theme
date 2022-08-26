@@ -33,9 +33,12 @@ body {
   max-width: 1300px;
   padding-left: 25px;
   padding-right: 25px;
-  z-index: 1;
   background-color: $white;
 } 
+
+#main-outlet {
+    z-index: 1;
+}   
 
 h1 {
   padding-right: 20px;
