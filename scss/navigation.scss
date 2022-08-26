@@ -128,4 +128,11 @@ body:not([class*='category-']) #create-topic {
    .search-dropdown {
 	   display:none;
    }		   
-}	
+}
+
+.category:not([class*="archetype-"]),
+.categories-list .category {
+	.select-kit-collection li:first-letter {
+	    text-transform: uppercase;
+	  }
+  }	
