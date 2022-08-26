@@ -66,13 +66,14 @@ body:not([class*='category-']) #create-topic {
 		  }
 		  &::first-letter {
 		    text-transform: uppercase;
-		   }
-	     }
-	     .caret-icon {
-		     display:none;
-	     }
-	}
+		  }
+	   }
+	   .caret-icon {
+		  display:none;
+	   }
+     }
 }
+
 .category-input .selected-name .name. {
 	font-family: inherit;
 }
