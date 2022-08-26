@@ -131,7 +131,7 @@ body:not([class*='category-']) #create-topic {
 }
 
 .category:not([class*="archetype-"]),
-.categories-list .category {
+.categories-list.category {
 	.select-kit-collection li:first-letter {
 	    text-transform: uppercase;
 	  }
