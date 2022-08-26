@@ -6,12 +6,13 @@
      .search-banner::after {
           background-color: transparent!important;
     }    
-    #topic-title .fancy-title:before {
+    #topic-title {
+         .fancy-title:before {
          content: '_';
+         h1 a {
+              .widget-link.topic-link span {
+               font-family: supply-regular;
+              }
+         }
      }
-    #topic-title h1 a,
-    .widget-link.topic-link span {
-     font-family: supply-regular;
-    }
-     
-} 
+ }
