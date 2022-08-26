@@ -6,7 +6,7 @@
      .search-banner::after {
           background-color: transparent!important;
     }    
-    .topic-title h1:before {
+    .topic-title h1 a:before {
          content: '_';
      }
 } 
