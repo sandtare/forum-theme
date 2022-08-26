@@ -1,7 +1,4 @@
 [class*="archetype-"]  {
-     .regular {
-          background-color: $white;
-       }
      .search-banner::after {
           background-color: transparent!important;
     }    
@@ -18,9 +15,11 @@
       }
      #topic-title {
           padding: 50px 30px;
+          background-color: $white;
       }    
      .posts {
            padding: 0 30px;
+          background-color: $white;
       }   
      
  }
