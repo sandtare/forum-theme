@@ -31,6 +31,7 @@
           "header_background": "212821",
           "header_primary": "ffffff",
           "highlight": "7e9280",
+          "highlight-medium": "818181",
           "danger": "f8745c",
           "success": "41e254",
           "love": "fa6c8d"
