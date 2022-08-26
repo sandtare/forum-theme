@@ -101,8 +101,9 @@ body:not([class*='category-']) #create-topic {
 }
 
 /*** PAGE ACCUEIL ***/
-.categories-list {
-   
+.categories-list:not(.category) {
+    .select-kit-row.category-row .badge-category-bg {
+	display: none!important;
 }	
 
 /*** TAGS ***/	
