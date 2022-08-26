@@ -41,6 +41,7 @@ body:not([class*='category-']) #create-topic {
     } 
   
 .category:not([class*="archetype-"]),
+.category:not(.composer-fields)
 .categories-list,
 .categories-list .category {
    .select-kit.single-select.is-expanded .select-kit-header:not(.btn), 
