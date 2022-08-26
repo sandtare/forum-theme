@@ -39,8 +39,11 @@ body:not([class*='category-']) #create-topic {
 .list-controls .combo-box .combo-box-header {
 	 border: none;
     } 
-   
-.select-kit .select-kit-header {
+  
+.category,
+.categories-list,
+.categories-list .category {
+   .select-kit .select-kit-header {
 	 .selected-name .name {
 		  font-family: supply-regular;
 		  &::after {
@@ -64,7 +67,7 @@ body:not([class*='category-']) #create-topic {
 		     display:none;
 	     }
 	}
-	}
+     }
 }
 
 
