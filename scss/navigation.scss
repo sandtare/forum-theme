@@ -120,6 +120,10 @@ body:not([class*='category-']) #create-topic {
    }		   
 }
 
+.select-kit-collection {
+	background-color: $gray-light;	
+}
+
 .category:not([class*="archetype-"]),
 .categories-list.category {
 	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
