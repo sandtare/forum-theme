@@ -40,7 +40,7 @@ body:not([class*='category-']) #create-topic {
 	 border: none;
     } 
   
-.category,
+.category:not([class*="archetype-"]),
 .categories-list,
 .categories-list .category {
    .select-kit .select-kit-header {
