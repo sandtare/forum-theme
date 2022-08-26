@@ -129,7 +129,7 @@ body:not([class*='category-']) #create-topic {
 }
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
-  background: $gray;
+  background: $gray-dark;
 }
 
 .category:not([class*="archetype-"]),
