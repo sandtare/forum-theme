@@ -68,13 +68,13 @@ body:not([class*='category-']) #create-topic {
 		    text-transform: uppercase;
 		  }
 	   }
-	    &:hover .selected-name .name::after  {
-		transform: rotate(135deg);
-	   }
 	   .caret-icon {
 		  display:none;
 	   }
      }
+     .select-kit.single-select.is-expanded .selected-name .name::after  {
+	transform: rotate(135deg);
+    }
 }
 
 .category-input .name {
