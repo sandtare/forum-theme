@@ -1,8 +1,7 @@
 [class*="archetype-"]  {
      .regular {
           background-color: $white;
-          padding-left: 30px;
-          padding-right: 30px;
+          padding: 30px;
        }
      .search-banner::after {
           background-color: transparent!important;
