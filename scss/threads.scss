@@ -1,7 +1,6 @@
 [class*="archetype-"]  {
      .regular {
           background-color: $white;
-          padding: 50px 30px;
        }
      .search-banner::after {
           background-color: transparent!important;
@@ -17,4 +16,7 @@
      .widget-link.topic-link {
             font-family: supply-regular;      
       }
+     .posts {
+           padding: 0 30px;
+      }    
  }
