@@ -135,7 +135,9 @@ body:not([class*='category-']) #create-topic {
 	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
 	    text-transform: uppercase;
 	  }
-	.select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"] {
+	.select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"],
+	.select-kit.combo-box.tag-drop .select-kit-row[data-value="no-tags"] {
 		display: none;
-	  }	
+	  }
+
   }	
