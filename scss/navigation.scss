@@ -46,8 +46,8 @@ body:not([class*='category-']) #create-topic {
    .select-kit.single-select.is-expanded .select-kit-header:not(.btn), 
    .select-kit.single-select .select-kit-header:not(.btn):focus, 
    .select-kit.single-select .select-kit-header:not(.btn):active {
-	   outline: none:
-    },		   
+	   outline: none;
+    }	   
     .select-kit .select-kit-header {
 	 .selected-name .name {
 		  font-family: supply-regular;
