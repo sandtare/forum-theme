@@ -19,8 +19,12 @@
           background-color: $white;
       }    
      .posts {
-          padding: 0 30px 50px;
+          padding: 0 30px;
           background-color: $white;
       }   
-     
+     #topic-footer-buttons {
+          max-width: 100%;
+          padding: 0 30px;
+          background-color: $white;
+      }
  }
