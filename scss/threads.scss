@@ -18,7 +18,7 @@
           margin-bottom: 0;
           background-color: $white;
       }    
-     .posts,
+     .posts:not(.posts-map),
      .topic-above-footer-buttons-outlet {
           padding: 0 30px;
           margin-bottom: 0;
