@@ -135,4 +135,7 @@ body:not([class*='category-']) #create-topic {
 	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
 	    text-transform: uppercase;
 	  }
+	.select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"] {
+		display: none;
+	  }	
   }	
