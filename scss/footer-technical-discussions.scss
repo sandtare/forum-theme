@@ -113,10 +113,25 @@
           padding: 50px 25px;
     } 
   .social div {
-        height: 50px;
-        width: 50px;
+        height: 15px;
+        width: 15px;
         &.instagram {
             background-image: url($instagram-icon);
+            background-repeat: no-repeat;
+            background-size: 100%;
+         } 
+        &.facebook {
+            background-image: url($facebook-icon);
+            background-repeat: no-repeat;
+            background-size: 100%;
+         } 
+        &.twitter {
+            background-image: url($twitter-icon);
+            background-repeat: no-repeat;
+            background-size: 100%;
+         } 
+        &.youtube {
+            background-image: url($youtube-icon);
             background-repeat: no-repeat;
             background-size: 100%;
          } 
