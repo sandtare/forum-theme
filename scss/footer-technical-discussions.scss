@@ -7,7 +7,8 @@
     } 
 } 
     
-.help {
+.help,
+.tuned {
      padding-bottom: 40px;
     .help-txt {
          padding-left: 30px;
@@ -96,6 +97,14 @@
     }
     .help-bg {
           background-image: url($footer-banner);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-x: 100%;
+          margin: 0 -30px;
+          padding: 50px 25px;
+    } 
+    .tuned-bg {
+          background-image: url($footer-banner-social);
           background-repeat: no-repeat;
           background-size: cover;
           background-position-x: 100%;
