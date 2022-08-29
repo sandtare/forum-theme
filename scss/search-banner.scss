@@ -23,8 +23,7 @@
  }
 
 @media (min-width: 1180px) {
-    .navigation-categories .search-banner:after,
-    .navigation-topics .search-banner:after{
+    .navigation-categories .search-banner:after {
           content: '';
           background-color: #fff;
           height: 90px;
@@ -32,7 +31,8 @@
           top: 436px;
           position: absolute;
     }   
-  .category .search-banner:after {
+   .category .search-banner:after,
+   .navigation-topics .search-banner:after {
       content: '';
           background-color: #fff;
           height: 90px;
