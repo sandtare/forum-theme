@@ -154,11 +154,12 @@
  }
 
 
-body[class*='category-'] .help { 
+body[class*='category-']:not(.category-technical-discussions) .help { 
   display: none; 
 }
 
-body.navigation-categories .tuned {
+body.navigation-categories .tuned,
+body.category-technical-discussions .tuned {
   display: none;
 }
 
