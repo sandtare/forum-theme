@@ -31,7 +31,8 @@ body:not([class*='category-']) #create-topic {
         background-color: inherit;
         color: inherit;
     }
-    .latest {
+    .latest,
+    .categories {
 	display: none;    
     }
   }	
