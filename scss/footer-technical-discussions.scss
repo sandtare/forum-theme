@@ -115,7 +115,7 @@
   .social div {
         height: 50px;
         width: 50px;
-        .instagram {
+        &.instagram {
             background-image: url($instagram-icon);
             background-repeat: no-repeat;
             background-size: 100%;
