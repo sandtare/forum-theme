@@ -12,14 +12,12 @@
      }
   } 
   h3 {
-    border-bottom : 1px solid $gray-dark;
+    border-bottom: 1px solid $gray-dark;
+    padding-right: 20px;
     &:before {
       content: '_';
     }   
   } 
-  .top-sub-section {
-      width: 100%;
-  }
   .stats-title {
       text-transform: inherit;
       font-size: 1.3rem;
