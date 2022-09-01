@@ -6,7 +6,8 @@
   a {
     color: $blue;
   }
-  table a {
+  table a,
+  .badge-group-list a {
     color: $black;
   } 
  .nav-pills > li > a {
