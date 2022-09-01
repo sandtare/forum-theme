@@ -10,7 +10,7 @@
       padding: 10px 15px;
       &.active,
       &:hover {
-          color: $black;
+        color: $black;
         background-color: $base;
      }
   } 
@@ -28,11 +28,11 @@
   }
   .more {
       text-decoration: underline;
+      color: $black;
   }
   .top-sub-section {
       width: 49%;
       margin-top: 1.5rem;
-      color: $black;
   }
 }  
   
