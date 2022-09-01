@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script type=text/javascript>
      $(document).ready(function(){
              $(".navbar-toggler").click(function(){
@@ -6,5 +5,11 @@
               $(".navbar-collapse").toggleClass("open");
             });
         });
+</script>
+
+<script type=text/javascript>
+      const bookmark = document.getElementsByClassName('navigation-topics>discovery-above-outlet')
+      bookmark.classList.add("bookmark-title")
+      bookmark.textContent = "Followed"
 </script>
 
