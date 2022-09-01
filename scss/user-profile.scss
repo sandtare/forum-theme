@@ -6,6 +6,9 @@
   a {
     color: $blue;
   }
+  table a {
+    color: $black;
+  } 
  .nav-pills > li > a {
       padding: 10px 15px;
       &.active,
