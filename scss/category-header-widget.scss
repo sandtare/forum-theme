@@ -39,8 +39,9 @@
    
 .categories-list,
 .category {  
-   .top-title {
-    display: none!important;
+   .top-title,
+   .followed-title {
+       display: none!important;
    }
 }  
   
