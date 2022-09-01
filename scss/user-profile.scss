@@ -18,12 +18,14 @@
         background-color: $base;
      }
   } 
-  h3:not(.badge-info-item h3) {
+  h3 {
     border-bottom: 1px solid $gray-dark;
     margin-right: 20px;
     &:before {
       content: '_';
-    }   
+    } 
+   .badge-info-item h3 {
+     margin-bottom: none;
   } 
   .stats-title {
       text-transform: inherit;
