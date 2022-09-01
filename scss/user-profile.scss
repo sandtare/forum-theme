@@ -3,6 +3,9 @@
 .user-main {
   background-color: $white;
   padding: 50px 30px;
+  a {
+    color: $blue;
+  }
  .nav-pills > li > a {
       padding: 10px 15px;
       &.active,
