@@ -119,6 +119,15 @@ body:not([class*='category-']) #create-topic {
    height: 0;
 }
 
+/*** BOOKMARK TOP ***/
+.navigation-topics {	
+   .category-breadcrumb li:first-child  {
+       .select-kit-row.category-row .badge-category-bg {
+            display: none!important;
+       } 
+    } 	
+} 	
+
 .navigation-categories {
    .search-dropdown {
 	   display:none;
