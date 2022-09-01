@@ -24,3 +24,7 @@
 img.avatar {
   border-radius: 15%;
 }
+
+.unread-high-priority-notifications.badge-notification[href] {
+  color: $black;
+}
