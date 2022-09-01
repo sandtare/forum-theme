@@ -3,9 +3,12 @@
 .user-main {
   background-color: $white;
   padding: 50px 30px;
-  .nav-pills > li a.active,
-  .nav-pills > li a:hover {
-    color: $black;
-  }
+ .nav-pills > li > a {
+      padding: 10px 15px;
+      &.active,
+      &:hover {
+          color: $black;
+     }
+  }    
 }  
   
