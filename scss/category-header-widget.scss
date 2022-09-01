@@ -36,9 +36,12 @@
    }   
    
    
- div[class^="category-title-header"]:not(.top) {
+.categories-list,
+.category,
+.categories-list.category {  
+   .top {
     display: none;
- }
+   }
 }  
   
 .categories-list.navigation-categories {
