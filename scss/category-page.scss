@@ -34,11 +34,13 @@ body[class*='category-'] {
       tbody {
         display: flex;
         flex-wrap: wrap;
+        border-top: none;
       }
     tr {
       width: 50%;
       display: flex;
       flex-wrap: wrap;
+      border-bottom: none;
       td.category {
         width: 85%;
       }  
