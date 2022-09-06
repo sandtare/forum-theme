@@ -51,8 +51,12 @@ body[class*='category-'] {
         .featured-topic {
           padding-left: 0;
         }
-      }  
+      } 
+      td.topics .value:after {
+        content: 'topics";
+        color: $gray;   
+      }   
     }
- }  
-  } 
+  }  
+} 
 
