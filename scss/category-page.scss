@@ -36,7 +36,9 @@ body[class*='category-'] {
         flex-wrap: wrap;
       }
     tr {
-      width: 50%
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
  }  
