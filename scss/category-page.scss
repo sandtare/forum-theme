@@ -30,10 +30,13 @@ body[class*='category-'] {
     color: #068DD0;
     }
   
-  tbody {
+  tbody.categories-only-category {
     display: flex;
     flex-wrap: wrap;
   }
+  tr {
+    width: 50%;
+  }  
 }
   
 
