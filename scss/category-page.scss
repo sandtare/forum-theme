@@ -39,6 +39,9 @@ body[class*='category-'] {
       width: 50%;
       display: flex;
       flex-wrap: wrap;
+      td.category {
+        width: 85%;
+      }  
     }
   }
  }  
