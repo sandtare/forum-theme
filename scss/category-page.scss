@@ -54,7 +54,7 @@ body[class*='category-'] {
       } 
       td.topics .value:after {
         content: ' topics';
-        color: $gray-dark;   
+        color: var(--primary-med-or-secondary-high);   
       }   
     }
   }  
