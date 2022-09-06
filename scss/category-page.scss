@@ -29,6 +29,11 @@ body[class*='category-'] {
   .category-list .latest a {
     color: #068DD0;
     }
+  
+  tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
   
 
