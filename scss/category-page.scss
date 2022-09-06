@@ -53,8 +53,8 @@ body[class*='category-'] {
         }
       } 
       td.topics .value:after {
-        content: 'topics';
-        color: $gray;   
+        content: ' topics';
+        color: $gray-dark;   
       }   
     }
   }  
