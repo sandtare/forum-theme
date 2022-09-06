@@ -48,9 +48,11 @@ body[class*='category-'] {
       }  
       td.latest {
         padding-left: 0!important;
+        .featured-topic {
+          padding-left: 0;
+        }
       }  
     }
-  }
  }  
   
 
