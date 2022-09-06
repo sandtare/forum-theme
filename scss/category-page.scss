@@ -30,12 +30,15 @@ body[class*='category-'] {
     color: #068DD0;
     }
   
-  tbody.categories-only-category {
-    display: flex;
-    flex-wrap: wrap;
+  table.category-list {
+      tbody {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    tr {
+      width: 50%
+    }
   }
-  
-   }
-  
+ }  
   
 
