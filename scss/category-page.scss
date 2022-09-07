@@ -64,7 +64,8 @@ body[class*='category-'] {
   body[class*="category-"] table.category-list tr {
     width: 100%;
   }
-  .category-list .category-name {
+  .category-list .category-name,
+  .category-list .featured-topic .title {
     white-space: inherit;
     text-overflow: inherit;
   }
