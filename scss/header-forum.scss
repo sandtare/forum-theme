@@ -8,9 +8,10 @@
       max-width: 1530px!important;
   }  
   #site-text-logo {
-     height: 1em;
+     height: 1em!important;
      &:after {
-        content: ' Forums';
+       content: ' Forums';
+       color: $black;
        font-family: supply-regular;
        font-size: 14px;
        font-weight: 400;
