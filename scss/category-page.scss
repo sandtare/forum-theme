@@ -60,3 +60,12 @@ body[class*='category-'] {
   }  
 } 
 
+@media (max-width: 768px) {
+  body[class*="category-"] table.category-list tr {
+    width: 100%;
+  }
+  .category-list .category-name {
+    white-space: inherit;
+    text-overflow: inherit;
+  }
+}
