@@ -8,12 +8,13 @@
       max-width: 1530px!important;
   }  
   #site-text-logo {
-     font-family: supply-regular;
-     font-size: 14px;
-     font-weight: 400;
-     &:before {
-       content: url("/assets/home-icon.png")
-    }  
+     height: 1em;
+     &:after {
+        content: ' Forums';
+       font-family: supply-regular;
+       font-size: 14px;
+       font-weight: 400;
+     }
   }  
 }  
 
