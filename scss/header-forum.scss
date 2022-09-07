@@ -11,7 +11,12 @@
        font-family: supply-regular;
        font-size: 14px;
        font-weight: 400;
-       top: 0;
+       &:before {
+          content:url(https://medias.arturia.net/images/newsletters/social-icons/facebook.png);
+          position:relative; 
+          left:-3px;
+          top:10px;
+    }
   }  
 } 
 
