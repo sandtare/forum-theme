@@ -70,4 +70,7 @@ body[class*='category-'] {
     white-space: inherit;
     text-overflow: inherit;
   }
+   table.category-list tbody {
+        padding: 0;
+     }
 }
