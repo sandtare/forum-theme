@@ -154,7 +154,7 @@
  }
 
 
-body[class*='category-']:not(.category-technical-discussions) .help { 
+body:not(.category-technical-discussions) .help { 
   display: none; 
 }
 
