@@ -53,6 +53,7 @@ body[class*='category-'] {
       }  
       td.latest {
         padding-left: 0!important;
+        max-width: 100%;
         .featured-topic {
           padding-left: 0;
         }
