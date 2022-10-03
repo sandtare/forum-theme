@@ -25,19 +25,18 @@ body[class*='category-'] {
   .list-container {
     margin-top: 0;
   }  
-  
-  .category-list .latest a {
-    color: #068DD0;
-    }
-  
+
   table.category-list {
-      tbody {
+     tbody {
         display: flex;
         flex-wrap: wrap;
         border-top: none;
         padding: 0 15px;
-      }
-    tr {
+        @media (max-width: 768px) {
+            padding: 0 10px!important;
+       }  
+     }
+     tr {
       width: 50%;
       display: flex;
       flex-wrap: wrap;
@@ -46,36 +45,40 @@ body[class*='category-'] {
       &:nth-child(odd) {
           padding-right: 5%;
       } 
-       &:nth-child(even) {
+      &:nth-child(even) {
           padding-left: 5%;
       } 
       @media (max-width: 768px) {
-        width: 100%;
-        padding-right: 0!important;
-        padding-left: 0!important;
+          width: 100%;
+          padding-right: 0!important;
+          padding-left: 0!important;
       }
       td.category {
-        width: 85%;
-        padding-top: 0;
+          width: 85%;
+          padding-top: 0;
       }  
       td.latest {
-        padding-left: 0!important;
-        max-width: 100%;
-        .featured-topic {
-          padding-left: 0;
+          padding-left: 0!important;
+          max-width: 100%;
+          .featured-topic {
+              padding-left: 0;
+        }
+        a {
+          color: $blue;
         }
       } 
       td.topics {
-        font-size: 0.8em;
-        width: 15%;
-        .value:after {
-          content: ' topics';
-          color: var(--primary-med-or-secondary-high);  
-         } 
+          font-size: 0.8em;
+          width: 15%;
+          .value:after {
+              content: ' topics';
+              color: var(--primary-med-or-secondary-high);  
+           } 
       }   
     }
   }  
-  .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at {
+  .featured-topic a.last-posted-at, 
+  .category-list .featured-topic a.last-posted-at {
      color: var(--primary-med-or-secondary-high)
   }
 } 
@@ -86,7 +89,4 @@ body[class*='category-'] {
     white-space: inherit;
     text-overflow: inherit;
   }
-   table.category-list tbody {
-        padding: 0 10px!important;
-     }
 }
