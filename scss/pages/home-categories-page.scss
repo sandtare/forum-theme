@@ -42,8 +42,13 @@
         font-size: 0.8rem!important;
         &:after {
             content: ' topics';  
-        }     
-    }  
+        }  
+     }  
+  
+     .topics {
+        padding-right: 20px";    
+    }
+  
     .category-name { 
         white-space: inherit;
         text-overflow: inherit;
