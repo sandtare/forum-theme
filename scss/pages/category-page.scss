@@ -68,6 +68,9 @@ body[class*='category-'] {
       }   
     }
   }  
+  .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at {
+  color: $gray
+  }
 } 
 
 @media (max-width: 768px) {
