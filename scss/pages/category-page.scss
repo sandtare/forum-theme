@@ -47,7 +47,9 @@ body[class*='category-'] {
       flex-wrap: wrap;
       border-bottom: none;
       margin-top: 35px;
-      padding-right: 25px;
+      &:nth-child(odd) {
+          padding-right: 50px;
+      }  
       @media (max-width: 768px) {
         width: 100%;
       }
