@@ -45,10 +45,6 @@
         }  
      }  
   
-     .topics {
-        padding-right: 20px;    
-    }
-  
     .category-name { 
         white-space: inherit;
         text-overflow: inherit;
@@ -94,6 +90,7 @@
       .category-list td.topics {
         display: block;
         width : 20%;
+        padding-right: 20px;
     } 
    } 
  }  
