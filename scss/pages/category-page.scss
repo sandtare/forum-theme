@@ -48,7 +48,7 @@ body[class*='category-'] {
       border-bottom: none;
       margin-top: 35px;
       &:nth-child(odd) {
-          padding-right: 50px;
+          padding-right: 5%;
       }  
       @media (max-width: 768px) {
         width: 100%;
