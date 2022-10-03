@@ -13,6 +13,7 @@
 @import "threads";
 @import "user-profile";
 @import "admin/admin-interface";
+@import "components-plugins/reorder-categories"
 
 body {
   background-color: $gray-light;
