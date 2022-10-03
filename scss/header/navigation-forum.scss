@@ -1,13 +1,5 @@
 @import "variables/colors";
 
-.navigation-controls,
-.category-breadcrumb {
-  	z-index: 1;
-	li:first-child .selected-name .name { 	
-		text-transform: uppercase;
- 	}
-}
-
 #create-topic {	
     color: $black; 
     background-color: $base;
@@ -110,6 +102,11 @@ body:not([class*='category-']) #create-topic {
     .select-kit-row.category-row .badge-category-bg {
 	display: none!important;
     }
+   .category-breadcrumb {
+	li:first-child .selected-name .name { 	
+		text-transform: uppercase;
+ 	}
+   }	   
 }	
 
 /*** TAGS ***/	
@@ -158,3 +155,9 @@ body:not([class*='category-']) #create-topic {
 	  }
 
   }	
+
+
+.navigation-controls,
+.category-breadcrumb {
+  	z-index: 1;
+}
