@@ -4,7 +4,7 @@
   background-color: $gray;
   border-left: 12px $base solid;
   height: 3em;
-  box-shadow: 0;
+  box-shadow: inherit;
   .wrap {
       margin-left: 10px;
       max-width: 1530px!important;
