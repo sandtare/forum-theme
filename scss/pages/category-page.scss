@@ -48,6 +48,9 @@ body[class*='category-'] {
       border-bottom: none;
       margin-top: 35px;
       padding-right: 25px;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       td.category {
         width: 85%;
         padding-top: 0;
@@ -69,14 +72,10 @@ body[class*='category-'] {
     }
   }  
   .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at {
-  color: $gray
+     color: var(--primary-med-or-secondary-high)
   }
 } 
-
-@media (max-width: 768px) {
-  body[class*="category-"] table.category-list tr {
-    width: 100%;
-  }
+   
   .category-list .category-name,
   .category-list .featured-topic .title {
     white-space: inherit;
