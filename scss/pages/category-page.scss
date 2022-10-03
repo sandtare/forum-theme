@@ -55,6 +55,8 @@ body[class*='category-'] {
       } 
       @media (max-width: 768px) {
         width: 100%;
+        padding-right: 0;
+        padding-left: 0;
       }
       td.category {
         width: 85%;
