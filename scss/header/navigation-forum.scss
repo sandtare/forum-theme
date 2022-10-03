@@ -3,6 +3,9 @@
 .navigation-controls,
 .category-breadcrumb {
   	z-index: 1;
+	li:first-child .selected-name .name { 	
+		text-transform: uppercase;
+ 	}
 }
 
 #create-topic {	
@@ -43,7 +46,7 @@ body:not([class*='category-']) #create-topic {
 
 .category:not([class*="archetype-"]),
 .categories-list,
-.categories-list .category,
+.categories-list .category,	
 .navigation-topics {
    .select-kit.single-select.is-expanded .select-kit-header:not(.btn), 
    .select-kit.single-select .select-kit-header:not(.btn):focus, 
@@ -52,10 +55,7 @@ body:not([class*='category-']) #create-topic {
     }	   
     .select-kit .select-kit-header {	 
 	 .selected-name .name {
-		  font-family: supply-regular;
-		  &:first-child { 	
-		  	text-transform: uppercase;
-		  }	  
+		  font-family: supply-regular;  
 		  &::after {
 			border-style: solid;
 			border-width: 0.15em 0.15em 0 0;
