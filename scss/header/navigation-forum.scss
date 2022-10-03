@@ -2,22 +2,22 @@
 
 .navigation-controls,
 .category-breadcrumb {
-  z-index: 1;
+  	z-index: 1;
 }
 
 #create-topic {	
-  color: $black; 
-  background-color: $base;
-  &.btn .d-icon {
-    border: 1px solid white;
-    border-radius: 50%;
-    background-color: white;
-    padding: 2px 2px 2px 1px;
+    color: $black; 
+    background-color: $base;
+    &.btn .d-icon {
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: white;
+	padding: 2px 2px 2px 1px;
   }
 }
 
 body:not([class*='category-']) #create-topic { 
-  display: none; 
+    display: none; 
 }
 	
 #navigation-bar {
@@ -53,6 +53,7 @@ body:not([class*='category-']) #create-topic {
     .select-kit .select-kit-header {	 
 	 .selected-name .name {
 		  font-family: supply-regular;
+		  text-transform: uppercase;
 		  &::after {
 			border-style: solid;
 			border-width: 0.15em 0.15em 0 0;
@@ -65,9 +66,6 @@ body:not([class*='category-']) #create-topic {
 			transform: rotate(45deg);
 			vertical-align: top;
 			width: 0.45em;
-		  }
-		  &::first-letter {
-		    text-transform: uppercase;
 		  }
 	   }
 	   .caret-icon {
