@@ -48,7 +48,6 @@ body[class*='category-'] {
       border-bottom: none;
       margin-top: 35px;
       padding-right: 25px;
-      padding-left: 10px;
       td.category {
         width: 85%;
         padding-top: 0;
@@ -60,9 +59,12 @@ body[class*='category-'] {
           padding-left: 0;
         }
       } 
-      td.topics .value:after {
-        content: ' topics';
-        color: var(--primary-med-or-secondary-high);   
+      td.topics .value {
+        font-size: 0.8em;
+        &:after {
+          content: ' topics';
+          color: var(--primary-med-or-secondary-high);  
+         } 
       }   
     }
   }  
