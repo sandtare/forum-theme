@@ -1,5 +1,11 @@
 .reorder-categories {
      tbody {
         display: block;
-    }    
+        tr {
+             display: block;
+        }     
+    }
+    table td {
+         width: 100%;
+    }     
 }
