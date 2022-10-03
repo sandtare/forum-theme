@@ -66,6 +66,7 @@ body[class*='category-'] {
       } 
       td.topics {
         font-size: 0.8em;
+        width: 15%;
         .value:after {
           content: ' topics';
           color: var(--primary-med-or-secondary-high);  
