@@ -5,16 +5,14 @@
 @import "pages/category-page";
 @import "footer/footer-sus-sections";
 @import "footer/footer-arturia";
-@import "breadcrumb";
 @import "header/header-forum";
 @import "header/header-arturia";
-@import "admin";
-@import "reorder-categories";
+@import "admin/reorder-categories";
 @import "category-header-widget";
 @import "pages/topics";
 @import "threads";
 @import "user-profile";
-@import "admin-interface";
+@import "admin/admin-interface";
 
 body {
   background-color: $gray-light;
