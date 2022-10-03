@@ -59,9 +59,9 @@ body[class*='category-'] {
           padding-left: 0;
         }
       } 
-      td.topics .value {
+      td.topics {
         font-size: 0.8em;
-        &:after {
+        .value:after {
           content: ' topics';
           color: var(--primary-med-or-secondary-high);  
          } 
