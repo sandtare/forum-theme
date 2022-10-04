@@ -4,10 +4,15 @@
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });
+     });  
+   
+     $(".tags-page .select-kit-row").click(function() {
+          location.reload(true);
+      });
+     
+      $(document).ready(function(){
           $(".tags-page .discovery-above-outlet span").append($('.tags-page .selected-name .name').text());
-          $(".tags-page .select-kit-row").click(function() {
-               location.reload(true);
-           });
-       });    
+     }); 
+         
 </script>
 
