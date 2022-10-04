@@ -7,7 +7,9 @@
      });  
    
      $(".tags-page .select-kit-row").click(function() {
-          location.reload();
+          setTimeout(function() {
+             location.reload(true);
+           }, 5000);
       });
      
       $(document).ready(function(){
