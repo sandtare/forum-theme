@@ -73,8 +73,7 @@
      .username.moderator {
           .svg-icon-title {
                &:after {
-                    content: url('http://medias.arturia.net/images/logo-black.svg');
-                    width: 30px;
+                    content: url($footer-banner);
                }
           }     
      }
