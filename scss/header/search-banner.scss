@@ -24,7 +24,8 @@
  }
 
 @media (min-width: 1180px) {
-    .navigation-categories .search-banner:after {
+    .navigation-categories .search-banner:after,
+    .tags-page .search-banner:after {
           content: '';
           background-color: #fff;
           height: 90px;
