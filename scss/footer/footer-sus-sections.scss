@@ -74,7 +74,11 @@
         .col-md-4 {
             flex: 0 0 33.33%;
             max-width: 33.33%;
-         }       
+         } 
+       .col-md-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+         }
      } 
         
     .btn {
