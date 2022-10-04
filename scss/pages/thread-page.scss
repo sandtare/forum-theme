@@ -64,7 +64,7 @@
      }
 
      .names span {
-          overflow: inherit;
+          overflow: initial;
           a {
                font-family: supply-regular;
           }
@@ -73,7 +73,7 @@
      .username.moderator {
           .svg-icon-title {
                &:after {
-                    content: url($footer-banner);
+                    content: url('http://medias.arturia.net/images/logo-black.svg');
                }
           }     
      }
