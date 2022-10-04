@@ -6,7 +6,8 @@
            });
         });
      if(document.URL.indexOf("/bookmarks") >= 0){ 
-console.log('Hello')
-}
+          var bookmarks = document.querySelectorAll('.discovery-above-outlet > span');
+          bookmarks.innerHTML += 'Bookmarks';
+     }
 </script>
 
