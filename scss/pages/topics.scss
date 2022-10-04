@@ -1,5 +1,9 @@
 @import "variables/colors";
 
+.badge-wrapper.bullet .badge-category-bg {
+  width: 5px;
+}  
+
 .topic-list { 
   .title {
     color: $black!important;
