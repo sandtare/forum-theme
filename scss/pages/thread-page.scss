@@ -73,6 +73,9 @@
      .username.moderator {
           .svg-icon-title {
                position: relative;
+               .fa {
+                    color: transparent;
+               }     
                &:after {
                     content: url("http://medias.arturia.net/images/logo-black.svg");
                     position: absolute;
