@@ -85,7 +85,13 @@
                }
           }     
      }
-     .topic-meta-data .names {
-          display: block;
+     .topic-meta-data {
+          align-items: start;
+          .user-title {
+               font-family: supply-light;
+          }      
+          .names {
+               display: block;
+          }     
      }     
  }
