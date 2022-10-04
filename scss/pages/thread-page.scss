@@ -62,10 +62,15 @@
      .discourse-tag.bullet {
           align-items: first baseline;
      }
-     .names span a {
-          font-family: supply-regular;
-     }
+
+     .names span {
+          overflow: hidden;
+          a {
+               font-family: supply-regular;
+          }
+     }    
+     
      .svg-icon-title:after {
-          content: 'A';
+          content: url('http://medias.arturia.net/images/logo-black.svg');
      }
  }
