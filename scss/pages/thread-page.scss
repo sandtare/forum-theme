@@ -34,7 +34,14 @@
           .buttons .btn  { 
                background-color: $white;
                border-left: 0;
-          }    
+          }  
+          section {
+               border: none;
+          }  
+          .map,
+          .topic-map-expanded {
+               border-top: 1px solid var(--primary-low)
+          }          
      } 
      .topic-avatar {
           padding-top: 30px;
