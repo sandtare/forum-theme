@@ -1,18 +1,10 @@
 [class*="archetype-"]  {
      .search-banner::after {
           background-color: transparent!important;
-    }    
-   /* #topic-title {
-         .fancy-title:before {
-            content: '_';
-         }     
-         h1 a {
-            font-family: supply-regular; 
-         } 
-     } 
-     .widget-link.topic-link {
-            font-family: supply-regular;      
-      }*/
+     }    
+     .badge-wrapper {
+          display: none;
+     }     
      #topic-title {
           padding: 50px 30px;
           margin-bottom: 0;
