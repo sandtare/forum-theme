@@ -1,5 +1,9 @@
 @import "variables/colors";
 
+summary {
+    background: $white;
+}
+
 #create-topic {	
     color: $black; 
     background-color: $base;
