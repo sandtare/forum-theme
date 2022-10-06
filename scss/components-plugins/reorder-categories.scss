@@ -1,0 +1,15 @@
+.reorder-categories {
+     body {
+       backgroundcolor: transparent;
+    }
+    tbody {
+        display: block;
+        tr {
+             display: block;
+             width: 100%;
+        }     
+    }
+    table td {
+         width: 100%;
+    }     
+}
