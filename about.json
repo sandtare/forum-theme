@@ -18,7 +18,7 @@
     "color_schemes": {
         "light": {
           "primary": "222222",
-          "secondary": "ffffff",
+          "secondary": "f8f8f8",
           "tertiary": "222222",
           "quaternary": "00b1a9",
           "quaternary-low": "#c0dedc",
