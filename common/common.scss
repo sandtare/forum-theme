@@ -15,6 +15,7 @@
 @import "admin/admin-interface";
 @import "components-plugins/reorder-categories";
 
+
 body {
   background-color: $gray-light;
 }
@@ -44,6 +45,12 @@ h1 {
   padding-right: 20px;
 }  
 
+@media (prefers-color-scheme: dark) {
+      html {
+        background-color: #000000;
+      }
+ } 
 
+  
 
 
