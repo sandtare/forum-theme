@@ -15,10 +15,17 @@
 @import "components-plugins/reorder-categories";
 @import "admin/reorder-categories";
 
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: $gray-light;
+  }
+}  
 
-body {
-  background-color: $gray-light;
-}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+  }
+} 
 
 .list-container {
   background-color: $white;
