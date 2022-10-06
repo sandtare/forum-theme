@@ -1,7 +1,4 @@
 .reorder-categories {
-     body {
-       backgroundcolor: transparent;
-    }
     tbody {
         display: block;
         tr {
@@ -13,3 +10,7 @@
          width: 100%;
     }     
 }
+
+     body {
+       backgroundcolor: transparent;
+    }
