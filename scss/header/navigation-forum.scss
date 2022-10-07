@@ -7,6 +7,10 @@ summary {
     } 	    
 }
 
+.nav-pills > li {
+    background: var(--header_background)!important;
+}
+
 #create-topic {	
     color: $black; 
     background-color: $base;
