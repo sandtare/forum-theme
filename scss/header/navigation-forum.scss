@@ -30,7 +30,7 @@ body:not([class*='category-']) #create-topic {
     z-index: 1;
     margin: 10px 0 20px auto;
     font-family: supply-medium;
-    background-color: $white;	
+    background-color: var(--header_background);	
     > li a.active,
     > li > a:hover {
         text-decoration: underline;
@@ -148,7 +148,7 @@ body:not([class*='category-']) #create-topic {
 }
 
 .select-kit-collection {
-	background-color: $gray-light;	
+	background-color: var(--primary-50);	
 }
 
 .select-kit.is-expanded .select-kit-body {
@@ -157,7 +157,7 @@ body:not([class*='category-']) #create-topic {
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
 .select-kit .select-kit-row.is-highlighted {
-   background-color: $gray-highlight;
+   background-color: var(--header_background);
 }
 
 .category:not([class*="archetype-"]),
