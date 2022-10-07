@@ -7,6 +7,9 @@
 .user-main {
   background-color: var(--header_background);
   padding: 50px 30px;
+  .about {
+    var(--header_background);
+  }  
   .top-section a {
     color: $blue;
   }
