@@ -21,7 +21,7 @@
       padding: 10px 15px;
       &.active,
       &:hover {
-        color: var(--header_primary);
+        color: $black;
         background-color: $base;
      }
   } 
