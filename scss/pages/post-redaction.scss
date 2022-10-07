@@ -1,5 +1,4 @@
 #reply-control .save-or-cancel .cancel:hover, 
 #reply-control .save-or-cancel .cancel:focus {
-  outline: none;
-  color: var(--success-hover);
+  color: var(--success-hover)!important;
 }
