@@ -1,7 +1,11 @@
 @import "variables/colors";
   
+.user-content {
+  background-color: var(--header_background);
+}
+  
 .user-main {
-  background-color: $white;
+  background-color: var(--header_background);
   padding: 50px 30px;
   .top-section a {
     color: $blue;
@@ -47,8 +51,5 @@
    }   
 }  
 
-.user-content {
-  background-color: var(--header_background);
-}
-  
+
   
