@@ -4,7 +4,6 @@
     }
  }
 
-
 body[class*='category-'] {
 
   .category-title-name {
@@ -15,7 +14,7 @@ body[class*='category-'] {
           width:100%; 
           height:100%;
           margin-right:-100%;
-          border-bottom:1px solid #000;
+          border-bottom:1px solid var(--tertiary);
       }
     }
 
