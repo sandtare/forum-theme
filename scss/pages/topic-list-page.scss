@@ -10,16 +10,16 @@
 
 .topic-list { 
   .title {
-    color: $black!important;
+    color: var(--primary)!important;
   }  
   .topic-icon-container {
     display: none;
   } 
   tr:nth-child(odd) {
-    background-color: $gray-light;
+    background-color: var(--secondary);
   }    
   tr:nth-child(even) {
-    background-color: $white;
+    background-color: var(--header_background);
   }
    .topic-list-header tr {
      background-color: $white;
