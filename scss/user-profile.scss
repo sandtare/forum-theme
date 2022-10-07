@@ -55,6 +55,9 @@
   .btn .d-icon {
        color: $black;  
   }  
+  .badge-group-list .btn {
+      var(--primary-low-mid);
+   }
 }  
 
 
