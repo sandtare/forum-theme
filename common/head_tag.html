@@ -4,10 +4,11 @@
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });  
+          if(location.pathname=="/bookmarks") {
+               var disco = document.getElementsByClassName("discovery-above-outlet");  
+               console.log(disco);
+          }     
      }); 
-     if(location.pathname=="/bookmarks") {
-          var disco = document.getElementsByClassName("discovery-above-outlet");  
-          console.log(disco);
-     }     
+     
 </script>
 
