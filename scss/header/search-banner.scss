@@ -8,6 +8,9 @@
   .search-banner {
     background-position: 50% 20%;
   }
+  input[type="text"] {
+    color: $gray;
+    background-color: $white;
 }
 .category,
 .navigation-topics {  
