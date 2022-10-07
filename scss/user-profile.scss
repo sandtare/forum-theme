@@ -24,7 +24,10 @@
         color: $black;
         background-color: $base;
      }
-  } 
+  .badge-group-list .btn {
+      var(--primary-low-mid);
+   } 
+} 
   h3 {
     border-bottom: 1px solid $gray-dark;
     margin-right: 20px;
@@ -55,9 +58,6 @@
   .btn .d-icon {
        color: $black;  
   }  
-  .badge-group-list .btn {
-      var(--primary-low-mid);
-   }
 }  
 
 
