@@ -7,7 +7,7 @@
 .category-header-widget {
   margin-top: 50px;
   margin-bottom: 0;
-  background-color: $white;
+  background-color: var(--header_background);
   padding: 50px 30px 20px 30px;
   .category-title-header {
     border-right: none !important;
