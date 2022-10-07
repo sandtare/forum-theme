@@ -52,13 +52,12 @@
      background: $base;
      color: $black;
    } 
-  .btn {
-      .badge-group-list {
-          background: var(--primary);
-      }  
-      .d-icon {
-          color: $black;
-      }    
+  
+  .badge-group-list .btn {
+      background: var(--primary);
+  }  
+  .btn .d-icon {
+       color: $black;  
   }  
 }  
 
