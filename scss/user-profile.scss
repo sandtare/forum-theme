@@ -15,13 +15,13 @@
   }
   table a,
   .badge-group-list a {
-      color: $black!important;
+      color: var(--header_primary)!important;
   } 
  .nav-pills > li > a {
       padding: 10px 15px;
       &.active,
       &:hover {
-        color: $black;
+        color: var(--header_primary);
         background-color: $base;
      }
   } 
@@ -42,7 +42,7 @@
   }
   .more {
       text-decoration: underline;
-      color: $black!important;
+      color: var(--header_primary)!important;
   }
   .top-sub-section {
       width: 49%;
