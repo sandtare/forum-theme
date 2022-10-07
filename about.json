@@ -27,15 +27,14 @@
           "highlight": "d4efd8",
           "danger": "f8745c",
           "success": "09fff0",
-          "hate": "aaaaaa",
-          "essai": "fa6c8d"
+          "hate": "aaaaaa"
         },
         "dark": {
           "primary": "c4cfc5",
           "secondary": "000000",
           "tertiary": "88af8e",
           "quaternary": "88af8e",
-          "header_background": "212821",
+          "header_background": "141414",
           "header_primary": "ffffff",
           "highlight": "7e9280",
           "highlight-medium": "818181",
