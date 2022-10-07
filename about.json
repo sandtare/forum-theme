@@ -31,6 +31,7 @@
         },
         "dark": {
           "primary": "f8f8f8",
+          "primary-high": "ededed",
           "secondary": "000000",
           "tertiary": "dfdfdf",
           "quaternary": "54c3fb",
@@ -39,9 +40,8 @@
           "highlight": "7e9280",
           "highlight-medium": "818181",
           "danger": "f8745c",
-          "success": "00b1a9",
-          "love": "fa6c8d",
-          "primary-high": "ededed"  
+          "success": "09fff0",
+          "love": "fa6c8d"
         }
     }
 }
