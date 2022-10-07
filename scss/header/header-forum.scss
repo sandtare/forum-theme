@@ -13,6 +13,7 @@
        font-family: supply-regular;
        font-size: 14px;
        font-weight: 400;
+       color: $black;
        &:before {
           content:url($home-icon);
           position:relative; 
