@@ -8,14 +8,14 @@
   background-color: var(--header_background);
   padding: 50px 30px;
   .about .details {
-    background: var(--header_background);
+      background: var(--header_background)!important;
   }  
   .top-section a {
-    color: $blue;
+      color: $blue;
   }
   table a,
   .badge-group-list a {
-    color: $black!important;
+      color: $black!important;
   } 
  .nav-pills > li > a {
       padding: 10px 15px;
