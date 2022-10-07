@@ -52,8 +52,11 @@
      background: $base;
      color: $black;
    } 
-  .btn .d-icon {
-    color: $black;
+  .btn {
+      background: var(--primary);
+      .d-icon {
+          color: $black;
+      }    
   }  
 }  
 
