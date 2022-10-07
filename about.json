@@ -25,7 +25,7 @@
           "header_background": "ffffff",
           "header_primary": "333333",
           "highlight": "d4efd8",
-          "danger": "f8745c",
+          "danger": "e83e8c",
           "success": "00b1a9",
           "hate": "aaaaaa"  
         },
@@ -39,7 +39,7 @@
           "header_primary": "ffffff",
           "highlight": "7e9280",
           "highlight-medium": "818181",
-          "danger": "f8745c",
+          "danger": "e83e8c",
           "success": "09fff0",
           "love": "fa6c8d"
         }
