@@ -5,6 +5,12 @@
   border-left: 12px $base solid;
   height: 3em;
   box-shadow: inherit;
+  .extra-info-wrapper .topic-link {
+      color: $gray-dark;
+  }  
+  .extra-info-wrapper .badge-wrapper.bullet span.badge-category {
+      color: $gray-highlight;
+  }  
   .wrap {
       margin-left: 10px;
       max-width: 1530px!important;
