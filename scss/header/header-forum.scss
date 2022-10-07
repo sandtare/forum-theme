@@ -5,6 +5,9 @@
   border-left: 12px $base solid;
   height: 3em;
   box-shadow: inherit;
+  .unread-high-priority-notifications {
+      background: $base;
+  }  
   .extra-info-wrapper .topic-link {
       color: $black;
   }  
