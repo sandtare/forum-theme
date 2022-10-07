@@ -1,9 +1,9 @@
 @import "variables/colors";
 
 summary {
-    background: $white!important;
+    background: var(--header_background)!important;
     &.btn-icon {
-	 background: $gray!important;  
+	 background: var(--secondary)!important;  
     } 	    
 }
 
