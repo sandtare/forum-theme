@@ -2,8 +2,11 @@
   
 .admin-interface {
   #main-outlet-wrapper #main-outlet {
-    background-color: $white;
-    margin: 20px 0;
-    padding: 30px;
+      background-color: var(--header_background);
+      margin: 20px 0;
+      padding: 30px;
+  }
+  .boxed.white {
+      background-color: var(--header_background);
   }
 }
