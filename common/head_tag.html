@@ -14,10 +14,8 @@
            $(".navbar-toggler").click(function(){
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
-           });  
-          var disco = document.querySelector(".bookmarks .discovery-above-outlet span");  
-          disco.innerHTML += "Followed Topics"; 
-          console.log("OKkkkkkkk");
+           });
+          $(".bookmarks .discovery-above-outlet span").append(" <b>Followed Topics</b>.");
      }); 
      
 </script>
