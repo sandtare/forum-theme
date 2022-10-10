@@ -1,3 +1,14 @@
+<script type="text/discourse-plugin" version="0.8">
+     api.onPageChange((url) => {
+       if(window.location.pathname == "/bookmarks") {
+         document.querySelector("body").classList.add("bookmarks");
+       }
+       else {
+         document.querySelector("body").classList.remove("bookmarks");
+       }
+     })
+</script>
+
 <script type=text/javascript>
      $(document).ready(function(){
            $(".navbar-toggler").click(function(){
@@ -5,10 +16,9 @@
               $(".navbar-collapse").toggleClass("open");
            });  
           if(location.pathname=="/bookmarks") {
-               var disco = document.querySelector(".discovery-above-outlet span");  
+               var disco = document.querySelector(".bookmarks .discovery-above-outlet span");  
                disco.innerHTML += "Followed Topics";
           }     
      }); 
      
 </script>
-
