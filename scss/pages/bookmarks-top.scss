@@ -11,7 +11,7 @@
     .discovery-above-outlet span:after {
         content: "Top Topics";
     }
-    table.category-list {
+    &.categories-list.category .category-list {
         display: none;
     }   
 }
