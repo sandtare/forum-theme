@@ -6,7 +6,7 @@
             height: 2.2em;
             position: relative;
             display: block;
-            &:after {
+            &:before {
                 font-family: supply-regular;
                 font-size: 2em; 
                 position: absolute;
@@ -14,7 +14,7 @@
                 padding: 0 20px;
                 background-color: var(--header_background);
             } 
-            &:before {
+            &:after {
                 content: '';
                 display: inline-block;
                 width: 100%;
