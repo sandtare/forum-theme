@@ -13,6 +13,7 @@
                 top: -6px;
                 padding: 0 20px;
                 background-color: var(--header_background);
+                z-index: 1;
             } 
             &:after {
                 content: '';
@@ -22,7 +23,7 @@
                 margin-right: -100%;
                 border-bottom: 1px solid var(--tertiary);
                 position: absolute;
-                top: -3px;
+                top: 25px;
             }    
         }
     }
