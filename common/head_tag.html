@@ -7,6 +7,14 @@
          document.querySelector("body").classList.remove("bookmarks");
        }
      })
+     api.onPageChange((url) => {
+       if(window.location.pathname == "/top") {
+         document.querySelector("body").classList.add("top");
+       }
+       else {
+         document.querySelector("body").classList.remove("top");
+       }
+     })
 </script>
 
 <script type=text/javascript>
