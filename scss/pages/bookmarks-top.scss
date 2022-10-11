@@ -10,8 +10,9 @@
                 font-family: supply-regular;
                 font-size: 2em; 
                 position: absolute;
-                left: 20px;
                 top: -6px;
+                padding: 0 20px;
+                background-color: var(--header_background);
             } 
             &:after {
                 content: '';
@@ -20,6 +21,8 @@
                 height: 100%;
                 margin-right: -100%;
                 border-bottom: 1px solid var(--tertiary);
+                position: absolute;
+                top: -6px;
             }    
         }
     }
