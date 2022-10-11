@@ -1,7 +1,17 @@
-.bookmarks .discovery-above-outlet span:after {
-    content: "Followed Topics";
-}
+.bookmarks {
+    .discovery-above-outlet span:after {
+        content: "Followed Topics";
+    }
+    table.category-list {
+        display: none;
+    }    
+}    
 
-.top .discovery-above-outlet span:after {
-    content: "Top Topics";
+.top {
+    .discovery-above-outlet span:after {
+        content: "Top Topics";
+    }
+    table.category-list {
+        display: none;
+    }   
 }
