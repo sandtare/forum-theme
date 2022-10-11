@@ -1,7 +1,7 @@
 @import "variables/colors";
 
 .d-header {
-  background-color: $gray;
+  background-color: var(--header_background);
   border-left: 12px $base solid;
   height: 3em;
   box-shadow: inherit;
@@ -22,7 +22,6 @@
        font-family: supply-regular;
        font-size: 14px;
        font-weight: 400;
-       color: $black;
        &:before {
           content:url($home-icon);
           position:relative; 
@@ -31,10 +30,6 @@
         }
   }  
 } 
-
-.d-header-icons .d-icon {
-  color: $primary;
-}
 
 img.avatar {
   border-radius: 15%;
