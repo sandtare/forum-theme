@@ -10,10 +10,10 @@
         "footer-banner": "assets/pilot.png",
         "footer-banner-social": "assets/spacex.png",
         "home-icon": "assets/home-icon3.png",
-        "facebook-icon": "assets/facebook.png",
-        "instagram-icon": "assets/instagram.png",
-        "twitter-icon": "assets/twitter.png",
-        "youtube-icon": "assets/youtube.png"
+        "facebook-icon": "assets/facebook.svg",
+        "instagram-icon": "assets/instagram.svg",
+        "twitter-icon": "assets/twitter.svg",
+        "youtube-icon": "assets/youtube.svg"
    },
     "color_schemes": {
         "light": {
