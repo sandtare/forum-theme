@@ -3,9 +3,9 @@
     .discovery-above-outlet {
         & > div {
             border-left: 10px solid #B0FFF9;
+            position: relative;
         }     
         span {
-            position: relative;
             &:before {
                 font-family: supply-regular;
                 font-size: 2em; 
