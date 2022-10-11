@@ -2,7 +2,6 @@
 .top {
     .discovery-above-outlet {
         & > div {
-            border-left: 10px solid #B0FFF9;
             position: relative;
         }     
         span {
@@ -12,6 +11,7 @@
                 left: 20px;
                 position: absolute;
                 left: 20px;
+                border-left: 10px solid #B0FFF9;
             }     
         }
     }
