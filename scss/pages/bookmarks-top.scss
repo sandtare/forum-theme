@@ -1,9 +1,6 @@
 .bookmarks,
 .top {
-    .discovery-above-outlet {
-        & > div {
-            position: relative;
-        }     
+    .discovery-above-outlet {  
         span {
             border-left: 10px solid $base;
             height: 2.2em;
