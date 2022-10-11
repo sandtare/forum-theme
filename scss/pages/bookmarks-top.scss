@@ -1,3 +1,7 @@
 .bookmarks .discovery-above-outlet span:after {
     content: "Followed Topics";
-}  
+}
+
+.top .discovery-above-outlet span:after {
+    content: "Top Topics";
+}
