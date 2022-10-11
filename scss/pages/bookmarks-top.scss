@@ -7,9 +7,10 @@
         span {
             position: relative;
             &:before {
-            font-family: supply-regular;
-            font-size: 2em; 
-            left: 20px;
+                font-family: supply-regular;
+                font-size: 2em; 
+                left: 20px;
+            }     
         }
     }
     table.category-list {
