@@ -107,7 +107,12 @@
    display: none;
  }  
 
-.category-list td {
-    color: var(--primary-400);
+.category-list {
+    td {
+        color: var(--primary-400);
+    }
+    tbody .category {
+        border-left-size: 10px;
+    }
 }   
  
