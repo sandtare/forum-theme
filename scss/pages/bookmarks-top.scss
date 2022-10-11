@@ -10,6 +10,7 @@
 .top {
     .discovery-above-outlet span:after {
         content: "Top Topics";
+        font-family: supply-regular;
     }
     &.categories-list.category .category-list {
         display: none;
