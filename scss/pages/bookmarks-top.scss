@@ -1,18 +1,24 @@
-.bookmarks {
-    .discovery-above-outlet span:after {
-        content: "Followed Topics";
+.bookmarks,
+.top {
+    .discovery-above-outlet {
+        & > div {
+            border-left: 10px solid #B0FFF9;
+        }     
+        span:before {
+            font-family: supply-regular;
+            font-size: 2em;
+            } 
+        }
     }
     table.category-list {
         display: none;
     }    
 }    
 
-.top {
-    .discovery-above-outlet span:after {
-        content: "Top Topics";
-        font-family: supply-regular;
-    }
-    &.categories-list.category .category-list {
-        display: none;
-    }   
+.top .discovery-above-outlet span:before {
+     content: "Top Topics";
+}
+
+.bookmarks .discovery-above-outlet span:before {
+     content: "Followed Topics";
 }
