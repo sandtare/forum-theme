@@ -27,14 +27,17 @@
           position:relative; 
           left: -5px;
           top: 3px;
-        }
+       }
+   } 
+  .d-header-icons .d-icon {
+      color: var(--header_primary);
   }  
 } 
 
 img.avatar {
-  border-radius: 15%;
+    border-radius: 15%;
 }
 
 .unread-high-priority-notifications.badge-notification[href] {
-  color: $black;
+    color: $black;
 }
