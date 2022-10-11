@@ -3,10 +3,12 @@
     .discovery-above-outlet {
         & > div {
             border-left: 10px solid #B0FFF9;
+       
         }     
         span:before {
             font-family: supply-regular;
             font-size: 2em; 
+            left: 20px;
         }
     }
     table.category-list {
