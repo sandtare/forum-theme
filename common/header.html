@@ -60,14 +60,4 @@
   {{mount-widget widget="category-header-widget"}}
 </script>
 
-<script type="text/discourse-plugin" version="0.8">
-    api.onPageChange(() =>{
-        follTopics();
-    });
-    
-    function follTopics() {
-         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
-          foll.innerHTML = "Followed";
-    }
-</script>
 
