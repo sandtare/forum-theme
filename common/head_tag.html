@@ -23,6 +23,7 @@
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });
-          $(".nav-item_bookmarks a").append("<p>followed</p>")
+          var fol = document.querySelector(".nav-item_bookmarks a");
+          fol.innerHTML = "Followed";
      }); 
 </script>
