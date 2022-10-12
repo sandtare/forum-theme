@@ -17,7 +17,6 @@
                 top: -6px;
                 padding: 0 20px;
                 background-color: var(--header_background);
-                z-index: 1;
             } 
             &:after {
                 content: '';
@@ -28,6 +27,7 @@
                 border-bottom: 1px solid var(--tertiary);
                 position: absolute;
                 top: 25px;
+                z-index: -1;
             }    
         }
     }
