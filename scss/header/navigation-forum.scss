@@ -178,6 +178,9 @@ body:not([class*='category-']) #create-topic {
   	z-index: 1;
 }
 
+.nav-pills>li:nth-last-child(2)>a {
+	display: none;
+}
 .nav-pills>li:nth-last-child(2)>a:after {
-	content: "Follow";
+	content: "Top";
 }
