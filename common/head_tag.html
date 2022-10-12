@@ -8,7 +8,7 @@
        }
      })
      api.onPageChange((url) => {
-       if(window.location.pathname == "/top") {
+       if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("body").classList.add("body-top");
        }
        else {
