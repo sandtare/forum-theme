@@ -2,7 +2,6 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("body").classList.add("body-bookmarks");
-         document.getElementsByClassName(".discovery-above-outlet")[0].innerHTML = "Followed Topics";
        }
        else {
          document.querySelector("body").classList.remove("body-bookmarks");
