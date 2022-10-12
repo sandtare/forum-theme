@@ -19,7 +19,7 @@
     api.onPageChange(() =>{
         followNav();
         followTitle();
-        console.log("Hello");
+        deleteTable();
     });
     function followNav() {
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
@@ -27,9 +27,7 @@
     };
     function followTitle() {
           if(location.pathname=="/bookmarks") {
-               var follTitle = document.querySelector("div.discovery-above-outlet h1");  
-               follTitle.innerHTML =+ "Followed Topics";
-               console.log(follTitle);
+               console.log('Hello');
            };
     };       
 </script>
