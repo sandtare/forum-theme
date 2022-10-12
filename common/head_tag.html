@@ -1,8 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
      api.onPageChange((url) => {
-       if(window.location.pathname == "/bookmarks") {
+       if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("body").classList.add("body-bookmarks");
-         document.querySelector("table.category-list").remove();
        }
        else {
          document.querySelector("body").classList.remove("body-bookmarks");
