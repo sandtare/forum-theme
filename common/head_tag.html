@@ -2,12 +2,13 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("body").classList.add("body-bookmarks");
-         document.getElementsByClassName(".category-header-widget").innerHTML = "Followed Topics";
+         var a = document.querySelector("div.category-header-widget span");
+         a.innerHTML = "Followed Topics";
        }
        else {
          document.querySelector("body").classList.remove("body-bookmarks");
        }
-     })
+     });
      api.onPageChange((url) => {
        if (window.location.href.indexOf("top") > -1) {
          document.querySelector("body").classList.add("body-top");
