@@ -17,13 +17,9 @@
      });
      
     api.onPageChange(() =>{
-        followNav();
         followTitle();
     });
-    function followNav() {
-         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
-         foll.innerHTML = "Followed";
-    };
+    
     function followTitle() {
           if(location.pathname=="/bookmarks") {
                console.log('Hello');
