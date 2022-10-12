@@ -18,11 +18,18 @@
      
     api.onPageChange(() =>{
         followNav();
+        followTitle();
     });
     function followNav() {
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
          foll.innerHTML = "Followed";
-    }
+    };
+    function followTitle() {
+          if(location.pathname=="/bookmarks") {
+               var disco = document.querySelector(".body-bookmarks .discovery-above-outlet h1");  
+               disco.innerHTML += "Followed Topics";
+           };
+    };       
 </script>
 
 <script type=text/javascript>
