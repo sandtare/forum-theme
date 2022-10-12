@@ -177,3 +177,7 @@ body:not([class*='category-']) #create-topic {
 .category-breadcrumb {
   	z-index: 1;
 }
+
+.nav-pills>li:nth-last-child(2)>a:after {
+	content: "Follow";
+}
