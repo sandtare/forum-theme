@@ -61,14 +61,13 @@
 </script>
 
 <script type="text/discourse-plugin" version="0.8">
-     $(document).ready(function(){
-           var fol = document.querySelector("ul.nav-pills li.bookmarks a");  
-           fol.innerHTML = "Followed";
-     }); 
-
-    api.decorateWidget("my-widget:after", (helper) => {
-        helper.widget.appEvents.on("page:changed", () => {
-          helper.widget.scheduleRerender();
-        })
+    api.onPageChange(() =>{
+        follTopics();
     });
+    
+    function follTopics() {
+         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
+          foll.innerHTML = "Followed";
+    }
 </script>
+
