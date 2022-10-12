@@ -60,9 +60,15 @@
   {{mount-widget widget="category-header-widget"}}
 </script>
 
-<script type=text/javascript>
+<script type="text/discourse-plugin" version="0.8">
      $(document).ready(function(){
            var fol = document.querySelector("ul.nav-pills li.bookmarks a");  
            fol.innerHTML = "Followed";
      }); 
+
+    api.decorateWidget("my-widget:after", (helper) => {
+        helper.widget.appEvents.on("page:changed", () => {
+          helper.widget.scheduleRerender();
+        })
+    });
 </script>
