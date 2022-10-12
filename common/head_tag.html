@@ -17,12 +17,11 @@
      });
      
     api.onPageChange(() =>{
-        follTopics();
+        followNav();
     });
-    
-    function follTopics() {
+    function followNav() {
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
-          foll.innerHTML = "Followed";
+         foll.innerHTML = "Followed";
     }
 </script>
 
