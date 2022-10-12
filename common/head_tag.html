@@ -1,18 +1,18 @@
 <script type="text/discourse-plugin" version="0.8">
      api.onPageChange((url) => {
        if(window.location.pathname == "/bookmarks") {
-         document.querySelector("body").classList.add("bookmarks");
+         document.querySelector("body").classList.add("body-bookmarks");
        }
        else {
-         document.querySelector("body").classList.remove("bookmarks");
+         document.querySelector("body").classList.remove("body-bookmarks");
        }
      })
      api.onPageChange((url) => {
        if(window.location.pathname == "/top") {
-         document.querySelector("body").classList.add("top");
+         document.querySelector("body").classList.add("body-top");
        }
        else {
-         document.querySelector("body").classList.remove("top");
+         document.querySelector("body").classList.remove("body-top");
        }
      })
 </script>
@@ -23,6 +23,6 @@
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });
+          
      }); 
-     
 </script>
