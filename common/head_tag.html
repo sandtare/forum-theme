@@ -1,20 +1,18 @@
 <script type="text/discourse-plugin" version="0.8">
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
-         document.querySelector("body").classList.add("body-bookmarks");
-         var a = document.querySelector("div.category-header-widget span");
-         a.innerHTML = "Followed Topics";
+         document.querySelector("body").classList.add("body-bookmarks bookmarks-page");
        }
        else {
-         document.querySelector("body").classList.remove("body-bookmarks");
+         document.querySelector("body").classList.remove("body-bookmarks bookmarks-page");
        }
      });
      api.onPageChange((url) => {
        if (window.location.href.indexOf("top") > -1) {
-         document.querySelector("body").classList.add("body-top");
+         document.querySelector("body").classList.add("body-top top-page");
        }
        else {
-         document.querySelector("body").classList.remove("body-top");
+         document.querySelector("body").classList.remove("body-top top-page");
        }
      });
      
