@@ -14,7 +14,16 @@
        else {
          document.querySelector("body").classList.remove("body-top");
        }
-     })
+     });
+     
+    api.onPageChange(() =>{
+        follTopics();
+    });
+    
+    function follTopics() {
+         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
+          foll.innerHTML = "Followed";
+    }
 </script>
 
 <script type=text/javascript>
