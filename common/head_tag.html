@@ -2,6 +2,10 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("body").classList.add("body-bookmarks");
+         document.querySelector("ul.nav-pills li.bookmarks a").innerHTML =+ "Followed";
+         const book = document.querySelector("ul.nav-pills li.bookmarks a");
+         let foll = "<p>Followed</p>";
+         book.insertAdjacentHTML("beforeend", foll);
        }
        else {
          document.querySelector("body").classList.remove("body-bookmarks");
@@ -16,12 +20,7 @@
        }
      });
      
-    api.onPageChange(() =>{
-        followNav();
-    });
-    function followNav() {
-         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
-         foll.innerHTML = "Followed";
+   
     };    
 </script>
 
