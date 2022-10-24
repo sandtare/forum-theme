@@ -7,7 +7,11 @@
   box-shadow: inherit;
   .unread-high-priority-notifications {
       background: $base;
-  }  
+  } 
+  #site-logo {
+    height: 1.3em;
+    margin: 0 10px 0 0;
+  }   
   .wrap {
       margin-left: 10px;
       max-width: 1530px!important;
