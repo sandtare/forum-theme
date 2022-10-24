@@ -35,3 +35,14 @@ img.avatar {
 .unread-high-priority-notifications.badge-notification[href] {
     color: $black;
 }
+
+.d-header .title::after {
+    padding-left: 20px;
+    font-size: 1.5em;
+    color:  #333;
+    content: "Forums";
+}
+.archetype-regular #main.no-text .d-header .title::after,
+.archetype-private_message #main.no-text .d-header .title::after  {
+    display:none;
+}
