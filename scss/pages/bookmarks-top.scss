@@ -3,7 +3,7 @@
     .list-container {
         margin-top: 0;
         padding-top: 42px;
-    }    
+    }   
     .discovery-above-outlet {  
         span {
             border-left: 10px solid $base;
@@ -37,6 +37,7 @@
     }    
 }   
 
+.body-bookmarks.category .discovery-above-outlet span:before,
 .display-none {
     display: none
 }   
