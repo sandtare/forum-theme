@@ -38,10 +38,14 @@
 }   
 
 .body-bookmarks.category .discovery-above-outlet span:before,
+.body-bookmarks.category .discovery-above-outlet span:after,
 .display-none {
     display: none
 }   
 
+.body-bookmarks.category .discovery-above-outlet span {
+    border-left: none;
+} 
 
 /*
 .body-top .discovery-above-outlet span:before {
