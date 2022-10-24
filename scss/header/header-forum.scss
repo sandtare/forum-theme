@@ -26,7 +26,12 @@
   .d-header-icons .d-icon {
       color: var(--header_primary);
   }  
+  .title::after {
+      color: var(--header_primary);
+      content: "Forums";
+    }
 } 
+
 
 img.avatar {
     border-radius: 15%;
