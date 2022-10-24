@@ -11,6 +11,7 @@
             position: relative;
             display: block;
           &:before {
+                content: 'Followed';
                 font-family: supply-regular;
                 font-size: 2em; 
                 position: absolute;
