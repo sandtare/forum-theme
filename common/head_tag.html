@@ -1,14 +1,8 @@
 <script type="text/discourse-plugin" version="0.8">
-     api.onPageChange((url) => {
-       if(window.location.pathname == "/bookmarks") {
-         document.querySelector("body").classList.add("body-bookmarks");
-       }
-       else {
-         document.querySelector("body").classList.remove("body-bookmarks");
-       }
-     });
+
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
+          document.querySelector("body").classList.add("body-bookmarks");
           document.querySelector("table.category-list").classList.add("display-none");
        }
        else {
