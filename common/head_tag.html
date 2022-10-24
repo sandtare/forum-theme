@@ -10,11 +10,11 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
          document.querySelector("table.category-list").classList.add("display-none");
-         document.document.getElementById("main-outlet").classList.add("body-bookmarks");
+         document.querySelector("body").classList.add("body-bookmarks");
        }
        else {
          document.querySelector("table.category-list").classList.remove("display-none");
-         document.document.getElementById("main-outlet").classList.remove("body-bookmarks");
+         document.querySelector("body").classList.remove("body-bookmarks");
        }
     });   
     api.onPageChange(() =>{
