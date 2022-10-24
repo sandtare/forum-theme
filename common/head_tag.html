@@ -9,8 +9,7 @@
      });
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
-
-         document.querySelector("body").classList.add("body-bookmarks");
+          document.querySelector("table.category-list").classList.add("display-none");
        }
        else {
          document.querySelector("table.category-list").classList.remove("display-none");
