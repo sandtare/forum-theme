@@ -15,7 +15,7 @@
                 font-family: supply-regular;
                 font-size: 2em; 
                 position: absolute;
-                top: -6px;
+                top: 0;
                 padding: 0 20px;
                 background-color: var(--header_background);
             } 
@@ -27,7 +27,7 @@
                 margin-right: -100%;
                 border-bottom: 1px solid var(--tertiary);
                 position: absolute;
-                top: 25px;
+                top: 31px;
                 z-index: -1;
             }  
         }
