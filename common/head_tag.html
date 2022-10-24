@@ -9,12 +9,13 @@
          foll.innerHTML = "Followed";
     };  
     
+    
      /* Change All into All sections */
     api.onPageChange(() =>{
         allSections();
     });
     function allSections() {
-         var all = document.querySelector("div.select-kit-selected-name span.name");  
+         var all = document.querySelector("li:nth-child(2) div.select-kit-selected-name span.name");  
          all.innerHTML = "ALL SECTIONS";
     };  
     
@@ -39,6 +40,7 @@
           document.querySelector("body").classList.remove("body-top");
        }
     });
+    
     
     /* Replace icons */
     api.replaceIcon('home', 'home-icon');
