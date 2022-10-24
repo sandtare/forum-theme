@@ -1,3 +1,7 @@
+.display-none {
+    display: none
+} 
+
 .body-bookmarks,
 .body-top {
     .list-container {
@@ -10,8 +14,7 @@
             height: 3em;
             position: relative;
             display: block;
-          &:before {
-                content: 'Followed topics';
+            &:before {
                 font-family: supply-regular;
                 font-size: 2em; 
                 position: absolute;
@@ -37,38 +40,38 @@
     }    
 }   
 
-.body-bookmarks.category .discovery-above-outlet span:before,
-.body-bookmarks.category .discovery-above-outlet span:after,
-.display-none {
-    display: none
-}   
+.body-bookmarks.category {
+    .discovery-above-outlet {
+        &.category-header-widget {
+            padding-bottom: 45px;
+        }    
+        span {
+            border-left: none;
+            &:before,
+            &:after {
+                display: none;
+            } 
+            h1:after {
+                content: 'Followed topics';
+                font-family: supply-regular;
+                font-size: 0.8em; 
+                position: absolute;
+                top: 2em;
+                left: 0;
+                padding: 0 20px;
+            }
+            .category-title-description {
+                display: none
+            }
+        }
+    }  
+}     
 
-.body-bookmarks.category .discovery-above-outlet span {
-    border-left: none;
-} 
 
-.body-bookmarks.category .discovery-above-outlet span h1:after {
-    content: 'Followed topics';
-    font-family: supply-regular;
-    font-size: 0.8em; 
-    position: absolute;
-    top: 2em;
-    left: 0;
-    padding: 0 20px;
+.body-bookmarks .discovery-above-outlet span:before {
+     content: "Followed topics";
 }
 
-.body-bookmarks.category .discovery-above-outlet span .category-title-description {
-    display: none
-}
-
-.body-bookmarks.category .discovery-above-outlet.category-header-widget {
-    padding-bottom: 45px;
-}    
-/*
 .body-top .discovery-above-outlet span:before {
      content: "Top";
 }
-
-.body-bookmarks .discovery-above-outlet span:before {
-     content: "Followed";
-}*/
