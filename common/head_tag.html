@@ -1,12 +1,6 @@
 <script type="text/discourse-plugin" version="0.8">
-     api.onPageChange((url) => {
-       if (window.location.href.indexOf("bookmarks") > -1) {
-          document.querySelector("body").classList.add("body-bookmarks");
-       }
-       else {
-          document.querySelector("body").classList.remove("body-bookmarks");
-       }
-    });   
+
+     /* Change Bookmarks into Followed */
     api.onPageChange(() =>{
         followNav();
     });
@@ -14,15 +8,33 @@
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
          foll.innerHTML = "Followed";
     };  
-
+    
+    
+    /* Add class to the body when click on the Followed link */
      api.onPageChange((url) => {
+       if (window.location.href.indexOf("bookmarks") > -1) {
+          document.querySelector("body").classList.add("body-bookmarks");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-bookmarks");
+       }
+    }); 
+    
+    
+    /* Add class to the body when click on the Top link */
+    api.onPageChange((url) => {
        if (window.location.href.indexOf("top") > -1) {
           document.querySelector("body").classList.add("body-top");
        }
        else {
           document.querySelector("body").classList.remove("body-top");
        }
-    });  
+    });
+    
+    /* Replace icons */
+    api.replaceIcon('d-icon-home', 'home-icon');
+    
+    
 </script>
 
 <script type=text/javascript>
@@ -33,4 +45,8 @@
            });
      }); 
 </script>
+
+
+
+
 
