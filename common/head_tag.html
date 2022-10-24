@@ -35,13 +35,11 @@
     api.replaceIcon('home', 'home-icon');
     
      /* Text beside home icon */
-     api.decorateWidget("home-logo:after", helper => {
-       const titleVisible = helper.attrs.minimized;
-       const headerText = "Forums"; 
-
-       if (!titleVisible) {
-         return api.h('a.header-text', headerText);
-       }
+     api.decorateWidget('home-logo:after', helper => {
+         const showExtraInfo = helper.attrs.minimized;
+             if(!showExtraInfo) {
+                 return helper.h('a.home-text', {href:'https://dev.forum.arturia.team'}, 'Forums');
+             }
      });
 </script>
 
