@@ -12,16 +12,11 @@
       margin-left: 10px;
       max-width: 1530px!important;
   }  
-  #site-text-logo {
+  .header-text {
        font-family: supply-regular;
        font-size: 14px;
        font-weight: 400;
-       &:before {
-          content:url($home-icon);
-          position:relative; 
-          left: -5px;
-          top: 3px;
-       }
+       color: var(--header_primary);
    } 
   .d-header-icons .d-icon {
       color: var(--header_primary);
