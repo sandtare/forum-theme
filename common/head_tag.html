@@ -37,6 +37,17 @@
     
 </script>
 
+<script type="text/discourse-plugin" version="0.8">
+api.decorateWidget("home-logo:after", helper => {
+  const titleVisible = helper.attrs.minimized;
+  const headerText = "Text you want to add"; 
+
+  if (!titleVisible) {
+    return api.h("span.header-text", headerText);
+  }
+});
+</script>
+
 <script type=text/javascript>
      $(document).ready(function(){
            $(".navbar-toggler").click(function(){
