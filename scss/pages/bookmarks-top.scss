@@ -53,22 +53,17 @@
                     left: 0;
                     padding: 0 20px;
                 }
-                .category-title-description {
-                    display: none
-                }
             }
         }  
     }     
 }    
 
 
-.body-bookmarks .discovery-above-outlet span:before,
-.body-bookmarks.category span h1:after {
+.body-bookmarks .discovery-above-outlet span:before {
      content: "Followed topics";
 }
 
-.body-top .discovery-above-outlet span:before,
-.body-top.category span h1:after {
+.body-top .discovery-above-outlet span:before {
      content: "Top topics";
 }
 
