@@ -2,8 +2,7 @@
     display: none
 } 
 
-.body-bookmarks,
-.body-top {
+.body-bookmarks {
     .list-container {
         margin-top: 0;
         padding-top: 42px;
@@ -38,34 +37,33 @@
     table.category-list {
         display: none;
     }    
-}   
-
-.body-bookmarks.category {
-    .discovery-above-outlet {
-        &.category-header-widget {
-            padding-bottom: 45px;
-        }    
-        span {
-            border-left: none;
-            &:before,
-            &:after {
-                display: none;
-            } 
-            h1:after {
-                content: 'Followed topics';
-                font-family: supply-regular;
-                font-size: 0.8em; 
-                position: absolute;
-                top: 2em;
-                left: 0;
-                padding: 0 20px;
+    &.category {
+        .discovery-above-outlet {
+            &.category-header-widget {
+                padding-bottom: 45px;
+            }    
+            span {
+                border-left: none;
+                &:before,
+                &:after {
+                    display: none;
+                } 
+                h1:after {
+                    content: 'Followed topics';
+                    font-family: supply-regular;
+                    font-size: 0.8em; 
+                    position: absolute;
+                    top: 2em;
+                    left: 0;
+                    padding: 0 20px;
+                }
+                .category-title-description {
+                    display: none
+                }
             }
-            .category-title-description {
-                display: none
-            }
-        }
-    }  
-}     
+        }  
+    }     
+}    
 
 
 .body-bookmarks .discovery-above-outlet span:before {
