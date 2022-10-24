@@ -12,17 +12,14 @@
       margin-left: 10px;
       max-width: 1530px!important;
   }  
-  #site-text-logo {
-     font-family: supply-regular;
-     font-size: 14px;
-     font-weight: 400;
-     &::after {
-        padding-left: 20px;
-        font-size: 1.5em;
-        color: var(--header_primary);
-        content: "Forums";
-      }
-   } 
+  #site-logo:after {
+      padding-left: 20px;
+      color: var(--header_primary);
+      content: "Forums";
+      font-family: supply-regular;
+      font-size: 14px;
+      font-weight: 400;
+   }
   .d-header-icons .d-icon {
       color: var(--header_primary);
   }  
