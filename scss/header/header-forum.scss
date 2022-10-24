@@ -12,24 +12,21 @@
       margin-left: 10px;
       max-width: 1530px!important;
   }  
-  #site-logo:after {
-      padding-left: 20px;
-      color: var(--header_primary);
-      content: "Forums";
-      font-family: supply-regular;
-      font-size: 14px;
-      font-weight: 400;
-   }
+  #site-text-logo {
+       font-family: supply-regular;
+       font-size: 14px;
+       font-weight: 400;
+       &:before {
+          content:url($home-icon);
+          position:relative; 
+          left: -5px;
+          top: 3px;
+       }
+   } 
   .d-header-icons .d-icon {
       color: var(--header_primary);
   }  
-
 } 
-
-.archetype-regular #main.no-text .d-header .title::after,
-.archetype-private_message #main.no-text .d-header .title::after {
-    display:none;
-}
 
 img.avatar {
     border-radius: 15%;
@@ -38,4 +35,3 @@ img.avatar {
 .unread-high-priority-notifications.badge-notification[href] {
     color: $black;
 }
-
