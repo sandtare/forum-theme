@@ -2,7 +2,7 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
           document.querySelector("body").classList.add("body-bookmarks");
-          document.querySelector("h1").insertAdjacentHTML("afterend",
+          document.querySelector(".category-title-name h1").insertAdjacentHTML("afterend",
                 "<h1>Followed Topics</h1>");
        }
        else {
