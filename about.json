@@ -13,7 +13,7 @@
         "facebook-icon": "assets/facebook.svg",
         "instagram-icon": "assets/instagram.svg",
         "twitter-icon": "assets/twitter.svg",
-        "youtube-icon": "assets/youtube.svg"
+        "youtube-icon": "assets/youtube.svg",
         "icons-sprite": "assets/custom-icons.svg"
    },
     "color_schemes": {
