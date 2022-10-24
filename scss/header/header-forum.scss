@@ -26,12 +26,18 @@
   .d-header-icons .d-icon {
       color: var(--header_primary);
   }  
-  .title::after {
-      color: var(--header_primary);
-      content: "Forums";
-    }
+ .title::after {
+    padding-left: 20px;
+    font-size: 1.5em;
+    color: var(--header_primary);
+    content: "Forums";
+  }
 } 
 
+.archetype-regular #main.no-text .d-header .title::after,
+.archetype-private_message #main.no-text .d-header .title::after {
+    display:none;
+}
 
 img.avatar {
     border-radius: 15%;
