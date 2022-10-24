@@ -10,7 +10,7 @@
             height: 2.2em;
             position: relative;
             display: block;
-          &:before {
+          & category-title-header:before {
                 content: 'Followed';
                 font-family: supply-regular;
                 font-size: 2em; 
@@ -19,7 +19,7 @@
                 padding: 0 20px;
                 background-color: var(--header_background);
             } 
-            &:after {
+            & category-title-header:after {
                 content: '';
                 display: inline-block;
                 width: 100%;
