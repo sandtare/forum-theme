@@ -48,12 +48,17 @@
 } 
 
 .body-bookmarks.category .discovery-above-outlet span h1:after {
-     content: 'Followed topics';
-                font-family: supply-regular;
-                font-size: 2em; 
-                position: absolute;
-                top: 0;
-                padding: 0 20px;
+    content: 'Followed topics';
+    font-family: supply-regular;
+    font-size: 0.8em; 
+    position: absolute;
+    top: 1em;
+    left: 0:
+    padding: 0 20px;
+}
+
+.body-bookmarks.category .discovery-above-outlet span .category-title-description {
+    display: none
 }
 
 /*
