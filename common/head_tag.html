@@ -2,11 +2,9 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("bookmarks") > -1) {
           document.querySelector("body").classList.add("body-bookmarks");
-          /*document.querySelector("table.category-list").classList.add("display-none");*/
        }
        else {
           document.querySelector("body").classList.remove("body-bookmarks");
-          /*document.querySelector("table.category-list").classList.remove("display-none");*/
        }
     });   
     api.onPageChange(() =>{
@@ -20,11 +18,9 @@
      api.onPageChange((url) => {
        if (window.location.href.indexOf("top") > -1) {
           document.querySelector("body").classList.add("body-top");
-          document.querySelector("table.category-list").classList.add("display-none");
        }
        else {
           document.querySelector("body").classList.remove("body-top");
-          document.querySelector("table.category-list").classList.remove("display-none");
        }
     });   */
 </script>
