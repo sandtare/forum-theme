@@ -34,18 +34,15 @@
     /* Replace icons */
     api.replaceIcon('home', 'home-icon');
     
-    
-</script>
+     /* Text beside home icon */
+     api.decorateWidget("home-logo:after", helper => {
+       const titleVisible = helper.attrs.minimized;
+       const headerText = "Text you want to add"; 
 
-<script type="text/discourse-plugin" version="0.8">
-api.decorateWidget("home-logo:after", helper => {
-  const titleVisible = helper.attrs.minimized;
-  const headerText = "Text you want to add"; 
-
-  if (!titleVisible) {
-    return api.h("span.header-text", headerText);
-  }
-});
+       if (!titleVisible) {
+         return api.h("span.header-text", headerText);
+       }
+     });
 </script>
 
 <script type=text/javascript>
