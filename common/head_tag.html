@@ -9,6 +9,15 @@
          foll.innerHTML = "Followed";
     };  
     
+     /* Change All into All sections */
+    api.onPageChange(() =>{
+        allSections();
+    });
+    function allSections() {
+         var all = document.querySelector("ul.select-kit-collection li:first-child");  
+         all.innerHTML = "ALL SECTIONS";
+    };  
+    
     
     /* Add class to the body when click on the Followed link */
      api.onPageChange((url) => {
