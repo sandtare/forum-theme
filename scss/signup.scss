@@ -1,4 +1,12 @@
-#simple-container .account-created .activation-controls button {
-  margin-bottom: 10px;
-}
+#simple-container .account-created {
+    .activation-controls button {
+        margin-bottom: 10px;
+    }
   
+  .ac-page {
+      border-radius: 0;
+      box-shadow: 0 0 0;
+      border-top: 12px solid var(--tertiary);
+    }
+}  
+
