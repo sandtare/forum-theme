@@ -12,8 +12,12 @@
   .nav-pills {
       background-color: var(--primary-low)!important;
       & > li button.active,
-      & > li a.active{
+      & > li a.active {
         background-color: var(--success);
+      }
+      & > li button:hover,
+      & > li a:hover {
+        background-color: var(--primary);
       }
   }
 }
