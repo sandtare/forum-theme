@@ -11,5 +11,9 @@
   }
   .nav-pills {
       background-color: var(--primary-low)!important;
+      & > li button.active {
+        background-color: var(--success);
+      }
   }
 }
+
