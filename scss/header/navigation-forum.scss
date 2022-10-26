@@ -118,7 +118,7 @@ body:not([class*='category-']) #create-topic {
 	display: none!important;
     }
    .category-breadcrumb {
-	li:first-child .selected-name .name { 	
+	li .selected-name .name { 	
 		text-transform: uppercase;
 		font-family: supply-medium;
  	}
