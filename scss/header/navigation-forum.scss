@@ -91,7 +91,7 @@ body:not([class*='category-']) #create-topic {
 }
 
 
-/*** PAGE SOUS-CATEGORIES ***/
+/*** PAGE SECTIONS ***/
 .category {	
    .category-breadcrumb li:first-child  {
        .select-kit-row.category-row .badge-category-bg {
@@ -132,7 +132,7 @@ body:not([class*='category-']) #create-topic {
    height: 0;
 }
 
-/*** BOOKMARK TOP ***/
+/*** BOOKMARKS/FOLLOWED TOP ***/
 .navigation-topics {	
    .category-breadcrumb li:first-child  {
        .select-kit-row.category-row .badge-category-bg {
