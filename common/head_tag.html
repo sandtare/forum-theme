@@ -54,15 +54,18 @@
 
 <script type=text/javascript>
      $(document).ready(function(){
+          
+           /* Responsive menu */
            $(".navbar-toggler").click(function(){
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });
-          $(window).scroll(function(){
+          
+           /* Forums beside home icon */
+           $(window).scroll(function(){
                checkScroll()
-             }); 
-
-          function checkScroll() {
+           }); 
+           function checkScroll() {
                var y = $(window).scrollTop();		
                if (y > 55) {
                      document.getElementById("main").classList.add('no-text');
@@ -71,6 +74,7 @@
                  }
           }
           checkScroll();
+          
           var all = document.querySelector("body.categories-list.category li:nth-child(2) div.select-kit-selected-name span.name");  
          all.innerHTML = "ALL SECTIONS ";
       });
