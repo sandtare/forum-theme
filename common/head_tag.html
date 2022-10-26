@@ -1,21 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
 
     
-    api.onPageChange(() =>{
-        /* Change Bookmarks into Followed */
-        followNav();
-        
-        /* Change All into All sections */
-        allSections();
-    });
-    function followNav() {
-         var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
-         foll.innerHTML = "Followed";
-    };  
-    function allSections() {
-         var all = document.querySelector("body.categories-list.category li:nth-child(2) div.select-kit-selected-name span.name");  
-         all.innerHTML = "ALL SECTIONS ";
-    };  
+ 
     
     
     /* Add class to the body when click on the Followed link */
