@@ -1,19 +1,17 @@
 <script type="text/discourse-plugin" version="0.8">
 
-     /* Change Bookmarks into Followed */
+    
     api.onPageChange(() =>{
+        /* Change Bookmarks into Followed */
         followNav();
+        
+        /* Change All into All sections */
+        allSections();
     });
     function followNav() {
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
          foll.innerHTML = "Followed";
     };  
-    
-    
-     /* Change All into All sections */
-    api.onPageChange(() =>{
-        allSections();
-    });
     function allSections() {
          var all = document.querySelector("body.categories-list.category li:nth-child(2) div.select-kit-selected-name span.name");  
          all.innerHTML = "ALL SECTIONS ";
