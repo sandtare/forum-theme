@@ -185,3 +185,6 @@ body:not([class*='category-']) #create-topic {
   	z-index: 1;
 }
 
+.badge-wrapper.bullet span.badge-category {
+  color: var(--primary);
+}
