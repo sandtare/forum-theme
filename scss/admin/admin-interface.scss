@@ -10,7 +10,6 @@
       background-color: var(--header_background);
   }
   .nav-pills {
-      background-color: var(--primary-low-mid)!important;
       padding: 10px;
       & > li button.active,
       & > li a.active {
@@ -19,7 +18,10 @@
       & > li button:hover,
       & > li a:hover {
         color: var(--primary);
-      }
+     }
+    &:first-child {
+        background-color: var(--primary-low-mid)!important;
+    }   
   }
 }
 
