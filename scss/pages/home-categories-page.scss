@@ -81,7 +81,10 @@
     }       
    .category-list tr {    
       border-bottom: none; 
-   }    
+   }  
+   .alert {
+     display: none;
+   } 
  }
 
 
@@ -103,9 +106,6 @@
    }  
  }  
     
- .alert {
-   display: none;
- }  
 
 .category-list {
     td {
