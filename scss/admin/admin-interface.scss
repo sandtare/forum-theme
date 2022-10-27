@@ -10,7 +10,7 @@
       background-color: var(--header_background);
   }
   .nav-pills {
-      background-color: var(--primary-low);
+      background-color: var(--primary-low)!important;
       padding: 10px;
       & > li button.active,
       & > li a.active {
