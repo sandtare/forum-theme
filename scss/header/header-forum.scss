@@ -25,13 +25,6 @@
   .d-header-icons .d-icon {
       color: var(--header_primary);
   }
-  &:after {
-    content: '';
-    background-color: var(--header_background);
-    height: 90px;
-    width: 100%;
-    position: absolute
- } 
 } 
 
 img.avatar {
@@ -41,3 +34,14 @@ img.avatar {
 .unread-high-priority-notifications.badge-notification[href] {
     color: $black;
 }
+
+.category,
+.categories-list {
+  header:after {
+      content: '';
+      background-color: var(--header_background);
+      height: 90px;
+      width: 100%;
+      position: absolute;
+   } 
+}   
