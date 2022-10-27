@@ -184,6 +184,8 @@ body:not([class*='category-']) #create-topic {
 
 .select-kit-selected-name[data-name="all categories"],
 .select-kit-selected-name[data-name="all tags"] {
-	text-transformation: uppercase;
+	.name {
+		text-transformation: uppercase;
+	}
 }	
 	
