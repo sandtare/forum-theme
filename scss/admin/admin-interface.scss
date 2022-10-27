@@ -10,7 +10,7 @@
       background-color: var(--header_background);
   }
   .nav-pills {
-      background-color: var(--primary-low)!important;
+      background-color: var(--primary-100)!important;
       padding: 10px;
       & > li button.active,
       & > li a.active {
@@ -24,7 +24,7 @@
 }
 
 .admin-interface .admin-main-nav .nav-pills {
-    background-color: var(--primary-low-mid)!important;
+    background-color: var(--primary-low)!important;
  }   
   
 
