@@ -60,7 +60,7 @@
   }  
 }  
 
-.user-summary-page h3:before,{
+.user-summary-page h3:not(.location-and-website):before,{
       content: '_';
     } 
   
