@@ -182,3 +182,10 @@ body:not([class*='category-']) #create-topic {
 .badge-wrapper.bullet span.badge-category {
   color: var(--primary);
 }
+
+.navigation-container {
+	background-color: var(--header_background);	
+	padding: 12px 20px 0 20px;
+}	
+	
+	
