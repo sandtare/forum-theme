@@ -24,7 +24,14 @@
    } 
   .d-header-icons .d-icon {
       color: var(--header_primary);
-  }  
+  }
+  &:afte r{
+      content: '';
+      background-color: var(--header_background);
+      height: 90px;
+      width: 100%;
+      position: absolute
+    } 
 } 
 
 img.avatar {
