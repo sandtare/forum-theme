@@ -34,7 +34,7 @@
   h3 {
     border-bottom: 1px solid $gray-dark;
     margin-right: 20px;
-    &:before {
+    &:not(.primary-textual):before {
       content: '_';
     } 
   }  
