@@ -160,9 +160,9 @@ body:not([class*='category-']) #create-topic {
 .select-kit .select-kit-row.is-highlighted {
    background-color: var(--tertiary-low);
 }
-
+/*
 .category:not([class*="archetype-"]),
-.categories-list.category {
+.categories-list.category {*/
 	.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
 	    text-transform: uppercase;
 	  }
@@ -171,7 +171,7 @@ body:not([class*='category-']) #create-topic {
 		display: none;
 	  }
 
-  }	
+ /* }	*/
 
 
 .navigation-controls,
