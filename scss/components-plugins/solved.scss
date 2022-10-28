@@ -1,0 +1,6 @@
+@import "variables/colors";
+
+.fa.solved,
+.fa.accepted {
+      color: var(--success)!important; 
+ }
