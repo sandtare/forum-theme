@@ -31,7 +31,7 @@
         background-color: $base;
      }
   } 
-  h3 {
+  h3:last-child {
     border-bottom: 1px solid $gray-dark;
     margin-right: 20px;
   }  
@@ -60,7 +60,8 @@
   }  
 }  
 
-.user-summary-page h3:not(.location-and-website):before {
+.user-summary-page h3:not(.location-and-website):before,
+.user-summary-page h3:not(.featured-topic):before {
       content: '_';
  } 
 
