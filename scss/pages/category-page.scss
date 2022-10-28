@@ -1,4 +1,9 @@
- .categories-list.category {
+  .fa.d-icon-far-check-square.solved,
+  .fa.d-icon-far-check-square.accepted {
+      color: var(--success)!important; 
+  }
+
+.categories-list.category {
       .category-list {
         margin-bottom: 50px;
     }
