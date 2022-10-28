@@ -17,7 +17,11 @@ body[class*='category-'] {
           border-bottom:1px solid var(--tertiary);
       }
     }
-
+ 
+   .d-icon-far-check-square.solved {
+      color: green; 
+  }
+ 
   .top-lists,
   .category-list thead,
   .category-logo { 
