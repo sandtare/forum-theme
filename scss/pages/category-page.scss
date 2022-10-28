@@ -17,12 +17,7 @@ body[class*='category-'] {
           border-bottom:1px solid var(--tertiary);
       }
     }
- 
-   .fa.d-icon-far-check-square.solved,
-   .fa.d-icon-far-check-square.accepted {
-      color: var(--success)!important; 
-  }
- 
+  
   .top-lists,
   .category-list thead,
   .category-logo { 
