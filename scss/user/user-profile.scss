@@ -60,8 +60,7 @@
   }  
 }  
 
-.user-summary-page h3:not(.location-and-website):before,
-.user-summary-page h3:not(.featured-topic):before {
+.user-summary-page h3:not(.location-and-website):not(.featured-topic):before {
       content: '_';
  } 
 
