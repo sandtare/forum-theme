@@ -52,6 +52,9 @@
       }  
      .topic-category {
           margin-top: 5px;
+          a:first-child .badge-category-bg {
+               display: none;
+         }       
      } 
      
      .container.posts .topic-navigation {
