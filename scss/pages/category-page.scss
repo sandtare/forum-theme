@@ -18,7 +18,8 @@ body[class*='category-'] {
       }
     }
  
-   .d-icon-far-check-square.solved {
+   .fa.d-icon-far-check-square.solved,
+   .fa.d-icon-far-check-square.accepted {
       color: var(--success); 
   }
  
