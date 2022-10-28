@@ -3,6 +3,6 @@
   color: var(--success-hover)!important;
 }
 
-.category-status > span .badge-category-bg {
+.category-status span:first-child .badge-category-bg {
   display: none !important;
 }  
