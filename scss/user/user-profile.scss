@@ -75,3 +75,7 @@
     text-decoration: none!important;
     color: var(--quaternary);
 } 
+
+.primary-textual h3:last-child {
+    border-bottom: var(--primary-700);
+}  
