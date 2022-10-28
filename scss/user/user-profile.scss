@@ -37,6 +37,9 @@
   }  
   .badge-info-item h3 {
      border-bottom: none!important;
+     &:before {
+       content: '';
+    } 
   } 
   .stats-title {
       text-transform: inherit;
