@@ -31,10 +31,6 @@
         background-color: $base;
      }
   } 
-  h3:last-child {
-    border-bottom: 1px solid $gray-dark;
-    margin-right: 20px;
-  }  
   .badge-info-item h3 {
      border-bottom: none;
   } 
@@ -64,6 +60,10 @@
       content: '_';
  } 
 
+ .primary-textual h3:last-child {
+    border-bottom: 1px solid $gray-dark;
+    margin-right: 20px;
+  }  
 
 .user-profile-website a {
     text-decoration: none!important;
