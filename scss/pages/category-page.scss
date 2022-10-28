@@ -19,7 +19,7 @@ body[class*='category-'] {
     }
  
    .d-icon-far-check-square.solved {
-      color: green; 
+      color: var(--success); 
   }
  
   .top-lists,
