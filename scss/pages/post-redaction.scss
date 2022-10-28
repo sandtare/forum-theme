@@ -2,3 +2,7 @@
 #reply-control .save-or-cancel .cancel:focus {
   color: var(--success-hover)!important;
 }
+
+.category-status span:first-child .badge-category-bg {
+  display: none;
+}  
