@@ -1,7 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
 
+     /* Change "Bookmarks" into "Followed" */
      api.onPageChange(() =>{
-        /* Change "Bookmarks" into "Followed" */
         followNav();
      });
      function followNav() {
@@ -33,6 +33,7 @@
     
     /* Replace icons */
     api.replaceIcon('home', 'home-icon');
+    api.replaceIcon('shield-alt', 'arturia-icon');
     
     
      /* Add text beside home icon */
