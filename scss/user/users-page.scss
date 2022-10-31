@@ -1,9 +1,10 @@
 .users-page,
 .badges-page,
 .groups-page,
-.tags-page {
-  #main-outlet-wrapper {
-    background-color: var(--header_background);
-    margin: 50px auto;
-  }
+.tags-page,
+.docked {
+    #main-outlet-wrapper {
+        background-color: var(--header_background);
+        margin: 50px auto;
+    }
 }  
