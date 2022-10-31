@@ -32,7 +32,7 @@
     
     /* Add class to the body when click on the "Latest" link */
     api.onPageChange((url) => {
-       if (window.location.href.indexOf("top") > -1) {
+       if (window.location.href.indexOf("latest") > -1) {
           document.querySelector("body").classList.add("body-latest");
        }
        else {
@@ -42,7 +42,7 @@
     
      /* Add class to the body when click on the "New" link */
     api.onPageChange((url) => {
-       if (window.location.href.indexOf("top") > -1) {
+       if (window.location.href.indexOf("new") > -1) {
           document.querySelector("body").classList.add("body-new");
        }
        else {
@@ -50,9 +50,9 @@
        }
     });
     
-    /* Add class to the body when click on the "New" link */
+    /* Add class to the body when click on the "Unread" link */
     api.onPageChange((url) => {
-       if (window.location.href.indexOf("top") > -1) {
+       if (window.location.href.indexOf("unread") > -1) {
           document.querySelector("body").classList.add("body-unread");
        }
        else {
