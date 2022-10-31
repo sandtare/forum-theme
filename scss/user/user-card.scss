@@ -1,5 +1,6 @@
 .user-card  {
-    border: 5px solid var(--primary);
+    border: 1px solid var(--primary);
+    border-top: 10px;
     box-shadow: 0 0 0;
     .metadata {
         border-bottom: 1px var(--primary-low-mid) solid;
