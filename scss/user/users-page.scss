@@ -1,4 +1,7 @@
-.users-page {
+.users-page,
+.badges-page,
+.group-page,
+.tags-page {
   #main-outlet-wrapper {
     background-color: var(--header_background);
     margin: 50px auto;
