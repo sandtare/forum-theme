@@ -29,8 +29,11 @@
 
 
 .group {
-      background-color: var(--header_background);
-     .user-content-wrapper {
+     background-color: var(--header_background);
+    .group-details-container {
+        background-color: var(--header_background);
+    }
+    .user-content-wrapper {
         padding: 0 15px;
     }
 }
