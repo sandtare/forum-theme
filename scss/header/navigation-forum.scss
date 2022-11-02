@@ -80,11 +80,10 @@ body:not([class*='category-']) #create-topic {
 	   .caret-icon {
 		  display:none;
 	   }
-	   .composer-fields {
-		 .selected-name:not([title="(select an option)"]) .name {
-			 left: -5px;
-		}		   
-	 }	 
+	   .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after, 
+	   .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after {
+		 left: -5px;
+	} 
      }
      .select-kit.single-select.is-expanded .selected-name .name::after  {
 	transform: rotate(135deg);
@@ -195,7 +194,3 @@ body:not([class*='category-']) #create-topic {
 	}
 }	
 
-.category:not([class*="archetype-"])  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after, 
-.categories-list  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after {
-		 left: -5px;
-}	
