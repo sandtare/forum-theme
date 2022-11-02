@@ -23,8 +23,12 @@
   }
 }
 
-.admin-interface .admin-main-nav .nav-pills {
-    background-color: var(--primary-low)!important;
- }   
+.admin-interface .admin-main-nav,
+.about-page,
+.static-faq {
+    .nav-pills {
+        background-color: var(--primary-low)!important;
+     }   
+ }    
   
 
