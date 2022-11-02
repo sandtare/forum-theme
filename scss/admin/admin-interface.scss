@@ -25,13 +25,17 @@
 
 .admin-interface .admin-main-nav,
 .about-page,
-.static-faq {
+.static-faq,
+.static-privacy {
     .nav-pills {
         background-color: var(--primary-low)!important;
      }   
  }  
 
- .static-faq .nav-pills li {
-   margin-top: 8px;
- }   
+.static-faq,
+.static-privacy {
+    .nav-pills li {
+       margin-top: 8px;
+     }   
+}   
 
