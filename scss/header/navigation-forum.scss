@@ -194,4 +194,8 @@ body:not([class*='category-']) #create-topic {
 		text-transform: uppercase;
 	}
 }	
-	
+
+.category:not([class*="archetype-"])  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after, 
+.categories-list  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after {
+		 left: -5px;
+}	
