@@ -27,14 +27,11 @@
         background-color: var(--primary-low)!important; 
  }  
 
-.staff {
-  .user-content-wrapper,
-  .group-details-container {
+
+.group {
       background-color: var(--header_background);
-  }
-  
-  .user-content-wrapper {
-      padding: 0 15px;
-  }
+     .user-content-wrapper {
+        padding: 0 15px;
+    }
 }
 
