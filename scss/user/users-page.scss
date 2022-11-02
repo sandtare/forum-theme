@@ -20,18 +20,16 @@
 
 .about-page,
 .static-faq,
+.static-tos,
 .static-privacy {
     .nav-pills {
         background-color: var(--primary-low)!important;
+        li {
+             margin-top: 8px;
+        }  
      }   
  }  
 
-.static-faq,
-.static-tos,
-.static-privacy {
-    .nav-pills li {
-       margin-top: 8px;
-     }   
-}   
+ 
 
     
