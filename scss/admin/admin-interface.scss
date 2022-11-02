@@ -27,4 +27,13 @@
         background-color: var(--primary-low)!important; 
  }  
 
+.staff {
+  .group-admins {
+      background-color: var(--header_background);
+  }
+  
+  .user-content-wrapper {
+      padding: 0 15px;
+  }
+}
 
