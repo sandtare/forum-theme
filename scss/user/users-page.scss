@@ -4,6 +4,8 @@
 .tags-page,
 .about-page,
 .static-faq,
+.static-tos,
+.static-privacy,
 .body-moderators {
     #main-outlet-wrapper {
         background-color: var(--header_background);
@@ -15,5 +17,21 @@
     }    
 } 
 
+
+.about-page,
+.static-faq,
+.static-privacy {
+    .nav-pills {
+        background-color: var(--primary-low)!important;
+     }   
+ }  
+
+.static-faq,
+.static-tos,
+.static-privacy {
+    .nav-pills li {
+       margin-top: 8px;
+     }   
+}   
 
     
