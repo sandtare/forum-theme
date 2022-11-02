@@ -57,7 +57,7 @@ body:not([class*='category-']) #create-topic {
    .select-kit.single-select .select-kit-header:not(.btn):active {
 	   outline: none;
     }	   
-    .select-kit .select-kit-header {	 
+    .select-kit .select-kit-header { 
 	 .selected-name:not([title="(select an option)"]) .name {
 		  font-family: supply-regular;
 		  &::after {
@@ -80,6 +80,11 @@ body:not([class*='category-']) #create-topic {
 	   .caret-icon {
 		  display:none;
 	   }
+	   .composer-fields {
+		 .selected-name:not([title="(select an option)"]) .name {
+			 left: -5px;
+		}		   
+	 }	 
      }
      .select-kit.single-select.is-expanded .selected-name .name::after  {
 	transform: rotate(135deg);
