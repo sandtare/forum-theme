@@ -190,3 +190,6 @@ body:not([class*='category-']) #create-topic {
 	}
 }	
 
+div:not(.date-time-configuration) .selected-name:not([title="(select an option)"]) .name {
+	font-family: supply-regular;
+}
