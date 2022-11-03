@@ -42,6 +42,7 @@
 .badge-notification.new-topic::before {
     background: var(--success);
 }  
-.new-posts {
-  color:: var(--success);
+.category-list .topics .badge-notification, 
+.category-list .category .badge-notification {
+  color: var(--success);
 }  
