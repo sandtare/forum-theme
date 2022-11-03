@@ -40,7 +40,7 @@
 }  
 
 .badge-notification.new-topic::before {
-    background: var(--success);
+    background: $base;
 }  
 
 .category-list .topics .badge-notification, 
