@@ -41,6 +41,8 @@
 
 .badge-notification.new-topic::before {
     background: $base;
+    height: 10px;
+    width: 10px;
 }  
 
 .category-list .topics .badge-notification, 
