@@ -191,7 +191,7 @@ body:not([class*='category-']) #create-topic {
 }	
 
 div.poll-ui-builder .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name {
-	font-family: supply-regular;
+	font-family: supply-regular!important;
 }
 
 div.date-time-configuration .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name {
