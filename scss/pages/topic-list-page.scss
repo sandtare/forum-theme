@@ -61,4 +61,10 @@
 
 .badge-notification.unread-posts {
   background-color: $base;
+  color: $black;
 }  
+
+.topic-list .badge-notification {
+  top: -1px;
+  left: 7px;
+} 
