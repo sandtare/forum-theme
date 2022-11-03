@@ -40,7 +40,8 @@
 }  
 
 .badge-notification.new-topic::before {
-    background: $base;
+    background: var(--success);
 }  
-
-
+.new-posts {
+  color:: var(--success);
+}  
