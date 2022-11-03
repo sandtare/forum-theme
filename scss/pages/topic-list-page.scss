@@ -39,7 +39,8 @@
     }
 }  
 
-
-
+.badge-notification.new-topic::before {
+    background: $base;
+}  
 
 
