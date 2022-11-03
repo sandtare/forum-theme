@@ -1,4 +1,9 @@
 div.poll .poll-show-breakdown {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
   
+
+div.date-time-configuration .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name,
+div.poll-ui-builder .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name {
+	  font-family: inherit!important;
+}
