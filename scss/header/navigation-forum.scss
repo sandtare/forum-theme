@@ -190,6 +190,10 @@ body:not([class*='category-']) #create-topic {
 	}
 }	
 
+div.poll-ui-builder .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name {
+	font-family: supply-regular;
+}
+
 div.date-time-configuration .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name {
 	font-family: inherit!important;
 }
