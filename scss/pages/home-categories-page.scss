@@ -2,7 +2,7 @@
 @import "variables/fonts";
   
 .navigation-categories {
-    
+   
     tbody {
         border-top : none;
         display: flex;
@@ -114,5 +114,8 @@
     tbody .category {
         border-left-width: 10px;
     }
+   .topics .badge-notification {
+        border-radius: 2px;
+   }   
 }   
  
