@@ -11,4 +11,8 @@ a.mention,
 .archetype-private_message .post-notice {
   border-radius: 0;
 } 
+
+.moderator .regular > .cooked {
+  background-color: var(--danger-low)
+}  
   
