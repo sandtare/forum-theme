@@ -1,8 +1,6 @@
 .reviewable-flagged-post .select-kit .select-kit-header {
-    border: 1px solid var(--primary-low-mid);
+    background: var(--primary-medium);
+    color: var(--secondary);
 }  
 
-.reviewable-action-dropdown .btn:hover {
-     background: var(--primary)!important;
-     border: 1px solid var(--primary);
-}   
+ 
