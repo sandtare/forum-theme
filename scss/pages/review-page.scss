@@ -2,7 +2,7 @@
     color: var(--primary);
     background-color: var(--primary-low)!important;
     &:hover {
-        background: var(--primary-medium);
+        background-color: var(--primary-medium)!important;
         color: var(--secondary);
     }
 }  
