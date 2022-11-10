@@ -13,7 +13,8 @@
 }
 
 .user-flag-percentage .percentage-label.disagreed,
-.user-flag-percentage .percentage-label.disagreed + .d-icon {
+.user-flag-percentage .percentage-label.disagreed + .d-icon,
+.reviewable .status span.rejected {
   color: var(--success);
 }
 
