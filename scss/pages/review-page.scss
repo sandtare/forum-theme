@@ -9,8 +9,7 @@
 
 .user-flag-percentage .percentage-label.agreed,
 .user-flag-percentage .percentage-label.agreed + .d-icon,
-.user-flag-percentage .percentage-label.approved,
-.user-flag-percentage .percentage-label.approved + .d-icon{
+.reviewable .status span.approved {
   color: var(--danger);
 }
 
