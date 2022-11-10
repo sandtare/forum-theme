@@ -11,3 +11,9 @@
 .user-flag-percentage .percentage-label.agreed + .d-icon {
   color: var(--danger);
 }
+
+.user-flag-percentage .percentage-label.disagreed,
+.user-flag-percentage .percentage-label.disagreed + .d-icon {
+  color: var(--success);
+}
+
