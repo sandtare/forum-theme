@@ -58,7 +58,7 @@ body:not([class*='category-']) #create-topic {
 	   outline: none;
     }	   
     .select-kit .select-kit-header { 
-	 .selected-name:not([title="(select an option)"]):not([title="(no category)")] .name {
+	 .selected-name:not([title="(select an option)"]):not([title="(no category)"]) .name {
 		  font-family: supply-regular;
 		  &::after {
 			border-style: solid;
