@@ -23,9 +23,9 @@
   }
   .select-kit .select-kit-header { 
      .selected-name .name {
-        font-family: inherit;
+        font-family: inherit!important;
         .category-name {
-          font-family: inherit;
+          font-family: inherit!important;
        }  
      }  
   }
