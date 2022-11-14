@@ -21,12 +21,15 @@
         color: var(--primary);
      }      
   }
-}
-
-.admin-interface .admin-main-nav .nav-pills {
+  .select-kit .select-kit-header { 
+     .selected-name .name {
+        font-family: initial;
+     }  
+  }
+  .admin-main-nav .nav-pills {
         background-color: var(--primary-low)!important; 
- }  
-
+  }  
+}
 
 .group {
      background-color: var(--header_background);
