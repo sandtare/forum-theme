@@ -23,7 +23,10 @@
   }
   .select-kit .select-kit-header { 
      .selected-name .name {
-        font-family: initial;
+        font-family: inherit;
+        span {
+          font-family: inherit;
+       }  
      }  
   }
   .admin-main-nav .nav-pills {
