@@ -1,13 +1,17 @@
 #reply-control .save-or-cancel .cancel:hover, 
 #reply-control .save-or-cancel .cancel:focus {
-  color: var(--success-hover)!important;
+  	color: var(--success-hover)!important;
 }
 
 .category-status span:first-child .badge-category-bg {
-  display: none !important;
+  	display: none !important;
 }  
 
 .category:not([class*="archetype-"])  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after, 
 .categories-list  .composer-fields .select-kit .select-kit-header .selected-name:not([title="(select an option)"]) .name::after {
-		 left: -5px;
+	left: -5px;
+}
+
+.btn-primary {
+	background: var(--primary-high)
 }	
