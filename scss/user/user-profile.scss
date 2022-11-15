@@ -55,10 +55,10 @@
       margin-top: 1.5rem;
   }
   .btn-primary:hover {
-      color: var(--primary);
-      background: var(--primary-low-mid);
+      background: var(--primary-medium);
+      color: var(--secondary);
       .d-icon {
-        color: var(--primary);
+        color: var(--secondary);
     }  
   } 
 }  
