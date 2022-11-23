@@ -17,11 +17,13 @@
 @import "user/user-card";
 @import "user/users-page";
 @import "admin/admin-interface";
+@import "admin/category-setting-page";
 @import "admin/reorder-categories";
 @import "pages/post-redaction";
 @import "pages/bookmarks-top";
 @import "signup";
 @import "components-plugins/poll";
+
 
 .list-container {
   background-color: var(--header_background);
