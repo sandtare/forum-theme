@@ -192,7 +192,8 @@ body:not([class*='category-']) #create-topic {
 
 
 .discourse-no-touch .btn:hover {
-	background: var(--primary-medium) !important;
+	background: var(--primary-medium)!important;
+	color: var(--secondary)!important;
 }	
 
 
