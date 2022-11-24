@@ -1,10 +1,19 @@
 @import "variables/colors";
 
+
+.discourse-no-touch .btn:hover {
+	background: var(--primary-medium)!important;
+	color: var(--secondary)!important;
+}	
+
 summary {
     background: var(--header_background)!important;
     &.btn-icon {
 	 background: var(--secondary)!important;  
     } 	    
+}
+.edit-category.btn (
+	background: var(--secondary)!important;  
 }
 
 .nav-pills {
@@ -190,11 +199,6 @@ body:not([class*='category-']) #create-topic {
 	}
 }
 
-
-.discourse-no-touch .btn:hover {
-	background: var(--primary-medium)!important;
-	color: var(--secondary)!important;
-}	
 
 
 
