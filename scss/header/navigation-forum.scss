@@ -188,6 +188,11 @@ body:not([class*='category-']) #create-topic {
 	.name {
 		text-transform: uppercase;
 	}
+}
+
+
+.discourse-no-touch .btn:hover {
+	background: var(--primary-medium) !important;
 }	
 
 
