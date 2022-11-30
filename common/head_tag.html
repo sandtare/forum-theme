@@ -70,6 +70,16 @@
        }
     });
     
+    
+     /* Add class to the body when go on the "Tag group" page */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("tag_groups") > -1) {
+          document.querySelector("body").classList.add("tag-groups");
+       }
+       else {
+          document.querySelector("body").classList.remove("tag-groups");
+       }
+    });
      
     
     /* Replace icons */
