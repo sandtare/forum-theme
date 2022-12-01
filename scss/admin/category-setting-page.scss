@@ -20,7 +20,7 @@ div.edit-category {
   color: var (--quaternary);
  }
 
-.category-breadcrumb:first-child .badge-category-bg {
+.category-breadcrumb li:first-child .badge-category-bg {
   display: none;
 }  
 
