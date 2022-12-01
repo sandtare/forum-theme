@@ -47,9 +47,13 @@ body:not([class*='category-']) #create-topic {
         background-color: inherit;
         color: inherit;
     }
-    .latest,
-    .categories {
-	display: none;    
+    .nav-item {
+	&_votes,
+	&_my_votes,
+	&_latest,
+    	&_categories {
+		display: none;    
+	}	
     }
   }	
  
