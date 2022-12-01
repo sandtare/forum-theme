@@ -18,5 +18,9 @@ div.edit-category {
 
 .category-allowed-tag-groups a {
   color: var (--quaternary);
- } 
+ }
+
+.category-breadcrumb > li .badge-category-bg {
+  display: none;
+}  
 
