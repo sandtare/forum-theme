@@ -22,3 +22,9 @@
 .btn.refresh:active {
     background: var(--primary-medium)important;
 }
+
+.select-kit.single-select.is-disabled .select-kit-header,
+.btn-primary[disabled]:not(.is-loading){
+  opacity: 0.8;
+}
+ 
