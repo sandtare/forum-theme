@@ -164,7 +164,10 @@ body:not([class*='category-']) #create-topic {
   box-shadow: 0 4px 4px rgba(0,0,0,0.2);
 }
 
-.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hove {
+   background-color: var(--tertiary-medium);
+}
+
 .select-kit .select-kit-row.is-highlighted {
    background-color: var(--tertiary-low);
 }
