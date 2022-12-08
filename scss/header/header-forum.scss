@@ -35,3 +35,12 @@ img.avatar {
     color: $black;
 }
 
+
+.search-menu .search-link:focus, 
+.search-menu .search-link:hover .topic-title {
+  color: var(--secondary)
+}  
+
+.menu-panel {
+  background-color: var(--header_background)
+}
