@@ -37,8 +37,14 @@ img.avatar {
 
 
 .search-menu .search-link:focus, 
-.search-menu .search-link:hover .topic-title {
-  color: var(--secondary)
+.search-menu .search-link:hover {
+    .topic-title,
+    .category-name,
+    .discourse-tag,
+    .blurb,
+    .search-link .blurb .search-highlight {
+       color: var(--secondary)
+   }
 }  
 
 .menu-panel {
