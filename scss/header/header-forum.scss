@@ -35,9 +35,9 @@ img.avatar {
     color: $black;
 }
 
-
 .search-menu .search-link:focus, 
 .search-menu .search-link:hover {
+    background-color: var(--tertiary);
     .topic-title,
     .category-name,
     .discourse-tag,
