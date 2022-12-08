@@ -166,6 +166,7 @@ body:not([class*='category-']) #create-topic {
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
    background-color: var(--tertiary-medium);
+   color: var(--header_background)	
 }
 
 .select-kit .select-kit-row.is-highlighted {
