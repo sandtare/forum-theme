@@ -4,4 +4,13 @@
 .search-container .search-filters,
 .menu-panel {
   background-color: var(--header_background)
-}    
+}
+
+.search-container .search-header {
+  padding: 1rem 8%;
+}
+
+.search-container .search-filters .search-advanced-filters .search-advanced-options {
+  padding: 0.6rem;
+}
+  
