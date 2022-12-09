@@ -168,7 +168,8 @@ body:not([class*='category-']) #create-topic {
    background-color: var(--tertiary-medium);
    color: var(--header_background);
    span,
-   div {
+   div,
+   li {
 	color: var(--header_background);
    }	   
 }
