@@ -1,3 +1,12 @@
-.tag-sort-options {
+.tag-sort-options,
+.tags-page .discovery-above-outlet {
   display: none;
 }  
+
+.tag-info {
+  background-color:  var(--header_background)
+}  
+
+.tags-page .list-container {
+  margin-top: 50px;
+ } 
