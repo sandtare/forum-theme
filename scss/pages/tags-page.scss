@@ -7,6 +7,11 @@
   background-color:  var(--header_background)
 }  
 
-.tags-page .list-container {
-  padding-top: 50px;
- } 
+.tags-page (
+  #main-outlet {
+      background-color: var(--header_background);
+  }  
+  .list-container {
+      padding-top: 50px;
+  } 
+} 
