@@ -3,9 +3,7 @@
   display: none;
 }  
 
-.tag-info {
-  background-color:  var(--header_background)
-}  
+ 
 
 .tags-page {
   .all-tag-lists {
@@ -32,7 +30,10 @@
       padding-top: 50px;
   } 
   
-  .tag-info .discourse-tag.bullet {
-    padding-bottom: 10px;
-  }   
+  .tag-info {
+    background-color:  var(--header_background);
+    margin-bottom: 0;
+    .discourse-tag.bullet {
+        padding-bottom: 10px;
+      }  
 } 
