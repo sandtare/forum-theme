@@ -64,7 +64,7 @@
 }  
 
 .user-summary-page {
-    div:not(.user-profile-names) h3:before {
+    div:not(.primary-textual) h3:before {
       content: '_';
    } 
 } 
