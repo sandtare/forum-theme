@@ -63,8 +63,7 @@
   } 
 }  
 
-.user-summary-page {
-    div:not(.primary-textual) h3:before {
+.user-summary-page .user-content-wrapper h3:before  {
       content: '_';
    } 
 } 
