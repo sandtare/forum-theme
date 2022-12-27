@@ -35,6 +35,9 @@
     border-bottom: 1px solid $gray-dark;
     margin-right: 20px;
   }  
+ .user-profile-names h3 {
+   border:none;
+  }
   .badge-info-item h3 {
      border-bottom: none!important;
      &:before {
