@@ -59,8 +59,11 @@
             }
         }  
     }     
-}    
+}  
 
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header:hover. span {
+    color: var(--header_background);
+}     
 
 .body-bookmarks .discovery-above-outlet span:before {
      content: "Followed topics";
