@@ -1,6 +1,3 @@
-.avatar-choice {
-  #gravatar,
-  label[for="Refresh your Gravatar"] {
-    display: none
-   }  
+.avatar-choice:nth-child(2) {
+    display: none  
 }    
