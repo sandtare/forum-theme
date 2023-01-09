@@ -1,13 +1,13 @@
 <script type="text/discourse-plugin" version="0.8">
 
-     /* Change "Bookmarks" into "Followed" */
+     /* Change "Bookmarks" into "Followed" 
      api.onPageChange(() =>{
         followNav();
      });
      function followNav() {
          var foll = document.querySelector("ul.nav-pills li.bookmarks a");  
          foll.innerHTML = "Followed";
-     };  
+     }; */ 
 
     /* Add class to the body when click on the "Followed" link */
      api.onPageChange((url) => {
