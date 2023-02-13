@@ -101,3 +101,6 @@
      width: 85%;
      max-width: 100%
 }     
+.popup-menu .btn:focus .d-icon, .popup-menu .btn:hover .d-icon {
+     color: var(--header_background)
+ }           
