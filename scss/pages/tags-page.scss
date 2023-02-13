@@ -41,7 +41,6 @@
       padding: 20px
   }
 } 
-
-.select-kit .select-kit-row .discourse-tag:hover {
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover .discourse-tag {
     color: var(--header_background)
 }  
