@@ -103,4 +103,11 @@
 }     
 .popup-menu .btn:focus .d-icon, .popup-menu .btn:hover .d-icon {
      color: var(--header_background)
- }           
+ }     
+
+.topic-post.voting-post button {
+  &.like-count,
+  &.toggle-like {
+    display: block;
+  }
+}
