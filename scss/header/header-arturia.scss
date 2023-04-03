@@ -1,49 +1,16 @@
 @import "variables/colors";
 
-.arturia-header * {
-  box-sizing: border-box; 
- }
-
-.arturia-header ul {
-  margin-left:  0!important;
-} 
-
 /********** FONTS ********/
 @font-face {
   font-family: supply-medium;
   src: url(fonts/supply-medium.woff2); 
 }
 
-.arturia-header {
-  font-family: supply-medium;
-}
 
 
-/**********  HELPERS ********/
-.arturia-header.bg-white {
-  background-color: #ffffff;
-}
-
-.arturia-header .text-uppercase {  
-  text-transform: uppercase!important;
-}
-
-.arturia-header .prep::before { 
-  content: "_";
-}
 
 
 /********** NAVIGATION ********/
-.arturia-header {
-  position: relative;
-}
-
-.arturia-header .navbar {
-  list-style: none;
-  margin: 0 auto;
-  position: relative;
-  height: 38px;
-}
 
 .arturia-header .navbar-nav {
   display: flex;
@@ -347,4 +314,3 @@
       width: .75rem;
     }   
 }    
-
