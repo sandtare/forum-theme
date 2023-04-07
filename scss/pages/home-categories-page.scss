@@ -1,6 +1,9 @@
 @import "variables/colors";
 @import "variables/fonts";
   
+body {
+ font-family: $supply-light
+}  
 .navigation-categories {
     .category-list:last-child {
        display: none;
